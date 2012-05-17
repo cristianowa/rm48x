@@ -1,6 +1,7 @@
 #include "sci_print.h"
 #include "sci_receive.h"
 #include "debug.h"
+#define DUMP_COLUMNS 4
 
 void debug_print(uint8_t *id,uint8_t *text)
 {
@@ -11,23 +12,29 @@ void debug_print(uint8_t *id,uint8_t *text)
 void dump_memory(void *start,int size)
 {
   int *ptr;
-  int i;  
+  int i,j;  
   ptr = (int *)start;
   print_line("----------------------------------------");
   print_line("---MEMORY DUMP--------------------------");
   print_line("----------------------------------------");
   print("base address : ");print_hex((int)ptr);print_line("");
-  print_line("");print_line("address :: offset :: content");
+  print_line("");
+  print_line("address    :: offset     :: content    |        address    :: offset     :: content    |        address    :: offset     :: content    |        address    :: offset     :: content    |");
   //convert size in bytes to int
-  for(i = 0;i<size/4;i++)
+  for(i = 0;i<size/4;i+=DUMP_COLUMNS)
       {
-       print_hex((int)ptr);
-       print(" :: ");
-       print_hex((int)ptr-(int)start);
-       print(" :: ");
-       print_hex(*ptr);
-       print_line(""); 
-       ptr++;
+       for(j = 0;j < DUMP_COLUMNS;j++)
+       {
+          print_hex((int)ptr);
+          print(" :: ");
+          print_hex((int)ptr-(int)start);
+          print(" :: ");
+          print_hex(*ptr);
+          print(" | \t");
+          ptr++;
+       }
+
+       print_line("");        
       }
   print_line("----------------------------------------");  
 }

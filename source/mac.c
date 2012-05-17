@@ -84,9 +84,10 @@ int initialize_CPPI()
   curr_txbd = (void*) tx_buffer;
    while(num_bd--) {
     curr_txbd->next = curr_txbd + 1;
+    curr_txbd->bufptr = 0;
+    curr_txbd->bufoff_len = 0;
     curr_txbd->flags_pktlen = 0;
     curr_txbd = curr_txbd->next;
-    print_hex((int)curr_txbd->next); print(" - ");
   } 
     
     rx_buffer =  (volatile mac_rx_bd_t*)(EMAC_CTRL_RAM_BASE + SIZE_EMAC_CTRL_RAM/2);
@@ -255,10 +256,7 @@ int macInit()
           
           print_line("");
           #ifdef __MAC_DEBUG__
-         dump_memory_promt("dump EMAC registers ? ",EMAC_BASE,163*sizeof(int));
-         dump_memory_promt("dump MDIO registers ? ",MDIO_BASE,14*sizeof(int));         
-         dump_memory_promt("dump tx_buffer ? ",(int)tx_buffer,5*sizeof(mac_tx_bd_t));         
-         dump_memory_promt("dump rx_buffer ? ",(int)rx_buffer,5*sizeof(mac_rx_bd_t));                  
+          dump_mac_state();
           #endif
           return 0;
 }
@@ -269,6 +267,15 @@ void dump_hdp(int n)
           int * ptr;
           ptr = (int *)( EMAC_BASE + 0x600 + n*4);
           dump_memory((void*)ptr,1*sizeof(int));
+}
+
+void dump_mac_state()
+{
+         dump_memory_promt("dump EMAC registers ? ",EMAC_BASE,415*sizeof(int));
+         dump_memory_promt("dump MDIO registers ? ",MDIO_BASE,6*sizeof(int));         
+         dump_memory_promt("dump tx_buffer ? ",(int)tx_buffer,5*sizeof(mac_tx_bd_t));         
+         dump_memory_promt("dump rx_buffer ? ",(int)rx_buffer,5*sizeof(mac_rx_bd_t));                 
+  
 }
 
 int eth_transmit(uint8_t* buf,uint32_t length)

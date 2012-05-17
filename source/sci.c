@@ -73,7 +73,7 @@ void sciInit(void)
                   | (1 << 1);  /* asynchronous timing mode */
 
     /** - set baudrate */
-    scilinREG->BAUD = 520;  /* baudrate */
+    scilinREG->BAUD = 86;  /* baudrate */
 
     /** - tranmision length */
     scilinREG->LENGTH = 8 - 1;  /* length */

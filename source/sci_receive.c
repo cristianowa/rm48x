@@ -10,7 +10,7 @@ void sciNotification(sciBASE_t *sci, uint32_t flags)
 }
 
 typedef enum curr_state_t  {
-  SEND_DUMMY_PACKET,IDLE
+  SEND_DUMMY_PACKET,IDLE,DUMP_MAC
 }curr_state_t;
 
 curr_state_t curr_state = IDLE;
@@ -25,16 +25,24 @@ void print_curr_state()
  case IDLE:
       print_line("   IDLE");
   break;
+ case DUMP_MAC:
+      print_line("   DUMP_MAC");
+  break;
   
  }
 }
 
 void send_dummy_packet(){
    print_line("Sending Dummy Packet");
-   print_line("Press E to exit");
-   if(sci_transfer_buffer[0] == 'e' || sci_transfer_buffer[0] == 'E' )
-     curr_state= IDLE;
    eth_dummy_send();
+   curr_state= IDLE;
+}
+
+void dump_mac(){
+   print_line("Sending Dummy Packet");
+   print_line("Press E to exit");
+   dump_mac_state();
+   curr_state= IDLE;
 }
 
 void sci_receive_rotine()
@@ -46,6 +54,10 @@ void sci_receive_rotine()
       case 's':
       case 'S':
         curr_state = SEND_DUMMY_PACKET;
+        break;
+      case 'd':
+      case 'D':
+        curr_state = DUMP_MAC;
         break;
       case 'i':
       case 'I':
@@ -59,6 +71,8 @@ void sci_receive_rotine()
         print_line("press the following chars to select stade : ");        
         print_line("   SEND_DUMMY_PACKET : s");
         print_line("   IDLE : i");
+        print_line("   DUMP_MAC: d");
+        
   }
  else
  {
@@ -67,6 +81,9 @@ void sci_receive_rotine()
       case SEND_DUMMY_PACKET:
           send_dummy_packet();
       break;  
+    case DUMP_MAC:
+          dump_mac();
+      break;
       default:
          curr_state = IDLE;             
     }   
