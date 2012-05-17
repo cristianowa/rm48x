@@ -34,15 +34,14 @@ void print_curr_state()
 
 void send_dummy_packet(){
    print_line("Sending Dummy Packet");
-   eth_dummy_send();
-   curr_state= IDLE;
+   eth_dummy_send();   
 }
 
 void dump_mac(){
    print_line("Sending Dummy Packet");
    print_line("Press E to exit");
    dump_mac_state();
-   curr_state= IDLE;
+
 }
 
 void sci_receive_rotine()
@@ -80,9 +79,11 @@ void sci_receive_rotine()
     {
       case SEND_DUMMY_PACKET:
           send_dummy_packet();
+           curr_state = IDLE; 
       break;  
     case DUMP_MAC:
           dump_mac();
+          curr_state = IDLE; 
       break;
       default:
          curr_state = IDLE;             
