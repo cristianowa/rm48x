@@ -1971,6 +1971,12 @@
     <name>$PROJ_DIR$\include\sci_receive.h</name>
   </file>
   <file>
+    <name>$PROJ_DIR$\source\self_test.c</name>
+  </file>
+  <file>
+    <name>$PROJ_DIR$\include\self_test.h</name>
+  </file>
+  <file>
     <name>$PROJ_DIR$\source\spi.c</name>
   </file>
   <file>
