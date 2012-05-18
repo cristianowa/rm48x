@@ -25,7 +25,7 @@
 uint8_t		__mac__emacAddress[6] 	= 	{0x1, 0x2, 0x3, 0x4, 0x5, 0x6};
 uint32_t 	__mac__emacPhyAddress	=	1;
 
-#define __MAC_DEBUG__
+
 #ifdef __MAC_DEBUG__
 #define MAC_DEBUG(x) PRINT_FUNCTION(" MAC DEBUG:  ",x)
 #else
