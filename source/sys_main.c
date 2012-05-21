@@ -30,6 +30,8 @@
 #include "sci.h"
 /* Include ADC header file - types, definitions and function declarations for system driver */
 #include "adc.h"
+/* Include CAN header file - types, definitions and function declarations for system driver */
+#include "can.h"
 /* Include sci print header file - used to do io in the sci */
 #include "sci_print.h"
 
@@ -48,6 +50,10 @@
 */
 
 /* USER CODE BEGIN (2) */
+#define  D_SIZE 9
+uint8_t  tx_data[D_SIZE]  = {'H','E','R','C','U','L','E','S','\0'};
+uint8_t  rx_data[D_SIZE] = {0};
+uint32_t error = 0;
 
 /* USER CODE END */
 
@@ -73,6 +79,8 @@ esmInit();
 gioInit();
 /* Initialize SCI driver */
 sciInit();
+/* Initialize CANdriver */
+canInit();
 /* Enable Notification for Push Button ( HDK ) */
 gioEnableNotification(7);
 /* Enable Global Interrupt int Cortex R4F */
@@ -95,6 +103,9 @@ else
 
 //wait till better buffer writing
 //eth_dummy_send();
+
+ canTransmit(canREG1, canMESSAGE_BOX1, tx_data); 
+// canTransmit(canREG1, canMESSAGE_BOX1, "CAN MESSAGE"); 
 
 
 

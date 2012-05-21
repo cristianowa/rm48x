@@ -108,7 +108,7 @@ static const t_isrFuncPTR s_vim_init[] =
     &phantomInterrupt,
     &phantomInterrupt,
     &phantomInterrupt,
-    &phantomInterrupt,
+    &can2LowLevelInterrupt,
     &phantomInterrupt,
     &phantomInterrupt,
     &phantomInterrupt,
@@ -410,7 +410,7 @@ void _c_int00()
                         | (0U << 7U)
                         | (0U << 8U)
                         | (0U << 9U)
-                        | (0U << 10U)
+                        | (1U << 10U)
                         | (0U << 11U)
                         | (0U << 12U)
                         | (0U << 13U)
