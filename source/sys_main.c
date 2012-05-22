@@ -36,7 +36,7 @@
 #include "sci_print.h"
 
 #include "mac.h"
-
+#include "can_protocol.h"
 #include "debug.h"
 /* USER CODE END */
 
@@ -104,10 +104,9 @@ else
 //wait till better buffer writing
 //eth_dummy_send();
 
- canTransmit(canREG1, canMESSAGE_BOX1, tx_data); 
+ 
 // canTransmit(canREG1, canMESSAGE_BOX1, "CAN MESSAGE"); 
-
-
+can_protocol_send(canREG1,canMESSAGE_BOX1,"0123456789012345678901234567890123456789",44); 
 
 /* Run forever */
 while(1)

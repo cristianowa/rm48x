@@ -12,4 +12,5 @@ void dump_memory_promt(uint8_t * question,int address,int size);
 
 //#define __MAC_DEBUG__
 #define __CAN__DEBUG__
+#define __CAN_PROTOCOL__DEBUG__
 #endif

@@ -25,34 +25,6 @@
 #include "can.h"
 
 /* USER CODE BEGIN (1) */
-void canMessageNotification(canBASE_t *node, uint32_t messageBox)
-{
-  uint8_t  rx_data[9] = {0};
-#ifdef __CAN__DEBUG__
-  print("CAN INTERRUPT : ");
-    switch((int)node)
-    {
-    case 0xFFF7DC00U:
-      print("  canREG1 : ");
-      break;
-    case 0xFFF7DE00U:
-      print("  canREG2 : ");      
-      break;
-    case 0xFFF7E000U:
-      print("  canREG3 - ");
-      break;
-    }    
-    print(" msg box : ");
-    print_number(messageBox);
-    print_line("");
-#endif
-
-    while(!canIsRxMessageArrived(node, messageBox));
-    canGetData(node, messageBox, rx_data);  /* receive on can2  */
-    print(" CAN Message : ");
-    print_line(rx_data);
-
-}
 
 
 /* USER CODE END */
