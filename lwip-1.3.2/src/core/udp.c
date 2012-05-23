@@ -89,8 +89,8 @@ udp_input(struct pbuf *p, struct netif *inp)
   struct udp_pcb *uncon_pcb;
   struct ip_hdr *iphdr;
   u16_t src, dest;
-  u8_t local_match;
-  u8_t broadcast;
+  uint8_t local_match;
+  uint8_t broadcast;
 
   PERF_START;
 
@@ -584,7 +584,7 @@ err_t
 udp_bind(struct udp_pcb *pcb, struct ip_addr *ipaddr, u16_t port)
 {
   struct udp_pcb *ipcb;
-  u8_t rebind;
+  uint8_t rebind;
 
   LWIP_DEBUGF(UDP_DEBUG | LWIP_DBG_TRACE, ("udp_bind(ipaddr = "));
   ip_addr_debug_print(UDP_DEBUG, ipaddr);

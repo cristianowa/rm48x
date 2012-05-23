@@ -67,7 +67,7 @@
 #define HTTPD_MAX_SEND_LIMIT(http_state)    0xffff
 /** If 1 HTTPD_MAX_SEND_LIMIT() sets an upper limit to the bytes passed to tcp_writes */
 #define HTTPD_USE_MAX_SEND_LIMIT            0
-/** An u8_t telling us if we have to copy the file when enqueueing (1) or not (0)*/
+/** An uint8_t telling us if we have to copy the file when enqueueing (1) or not (0)*/
 #if HTTPD_SUPPORT_DYNAMIC_PAGES
 #define HTTPD_FILE_IS_VOLATILE(http_state)  ((http_state)->file_orig != NULL)
 #else
@@ -89,7 +89,7 @@ struct http_state {
 #if HTTPD_SUPPORT_DYNAMIC_PAGES
   const unsigned char *file_orig;
 #endif /* HTTPD_SUPPORT_DYNAMIC_PAGES */
-  u8_t retries;
+  uint8_t retries;
 };
 
 /* CGI handler information */

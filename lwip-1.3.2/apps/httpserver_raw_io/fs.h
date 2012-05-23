@@ -32,6 +32,8 @@
 #ifndef __FS_H__
 #define __FS_H__
 
+#include "sys_common.h"
+
 /** Support dynamically created pages (free contents after sending) */
 #ifndef HTTPD_SUPPORT_DYNAMIC_PAGES
 #define HTTPD_SUPPORT_DYNAMIC_PAGES         1
@@ -41,7 +43,7 @@ struct fs_file {
   const unsigned char *data;
   int len;
 #if HTTPD_SUPPORT_DYNAMIC_PAGES
-  u8_t includes_http_header;
+  uint8_t includes_http_header;
 #endif /* HTTPD_SUPPORT_DYNAMIC_PAGES */
 };
 

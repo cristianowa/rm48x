@@ -32,6 +32,7 @@
 #ifndef __LWIP_UDP_H__
 #define __LWIP_UDP_H__
 
+#include "sys_common.h"
 #include "lwip/opt.h"
 
 #if LWIP_UDP /* don't build if not configured for use in lwipopts.h */
@@ -75,7 +76,7 @@ struct udp_pcb {
 
   struct udp_pcb *next;
 
-  u8_t flags;
+  uint8_t flags;
   /* ports are in host byte order */
   u16_t local_port, remote_port;
 

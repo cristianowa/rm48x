@@ -293,7 +293,13 @@
         </option>
         <option>
           <name>CCIncludePath2</name>
+          <state>C:\Hercules\IAR\lwip_example\lwip-1.3.2\src\include\ipv4</state>
+          <state>C:\Hercules\IAR\lwip_example\lwip-1.3.2</state>
           <state>C:\Hercules\IAR\lwip_example\include</state>
+          <state>C:\Hercules\IAR\lwip_example\lwip-1.3.2\apps\httpserver_raw_io</state>
+          <state>C:\Hercules\IAR\lwip_example\lwip-1.3.2\ports\hdk\include</state>
+          <state>C:\Hercules\IAR\lwip_example\lwip-1.3.2\src\include</state>
+          <state>C:\Hercules\IAR\lwip_example\example\hdk\inc</state>
         </option>
         <option>
           <name>CCStdIncCheck</name>
@@ -1821,6 +1827,9 @@
     <name>$PROJ_DIR$\include\adc.h</name>
   </file>
   <file>
+    <name>$PROJ_DIR$\lwip-1.3.2\ports\hdk\include\arch\bpstruct.h</name>
+  </file>
+  <file>
     <name>$PROJ_DIR$\source\can.c</name>
   </file>
   <file>
@@ -1831,6 +1840,9 @@
   </file>
   <file>
     <name>$PROJ_DIR$\include\can_protocol.h</name>
+  </file>
+  <file>
+    <name>$PROJ_DIR$\lwip-1.3.2\ports\hdk\include\arch\cc.h</name>
   </file>
   <file>
     <name>$PROJ_DIR$\source\dcc.c</name>
@@ -1863,6 +1875,9 @@
     <name>$PROJ_DIR$\include\emif.h</name>
   </file>
   <file>
+    <name>$PROJ_DIR$\lwip-1.3.2\ports\hdk\include\arch\epstruct.h</name>
+  </file>
+  <file>
     <name>$PROJ_DIR$\source\errors.c</name>
   </file>
   <file>
@@ -1885,6 +1900,15 @@
   </file>
   <file>
     <name>$PROJ_DIR$\include\het.h</name>
+  </file>
+  <file>
+    <name>$PROJ_DIR$\lwip-1.3.2\apps\httpserver_raw_io\httpd.h</name>
+  </file>
+  <file>
+    <name>$PROJ_DIR$\lwip-1.3.2\apps\httpserver_raw_io\httpd_io.c</name>
+  </file>
+  <file>
+    <name>$PROJ_DIR$\lwip-1.3.2\apps\httpserver_raw_io\httpd_structs.h</name>
   </file>
   <file>
     <name>$PROJ_DIR$\include\hw_emac.h</name>
@@ -1911,6 +1935,15 @@
     <name>$PROJ_DIR$\include\lin.h</name>
   </file>
   <file>
+    <name>$PROJ_DIR$\lwip-1.3.2</name>
+  </file>
+  <file>
+    <name>$PROJ_DIR$\lwip-1.3.2\ports\hdk\lwiplib.c</name>
+  </file>
+  <file>
+    <name>$PROJ_DIR$\lwip-1.3.2\ports\hdk\include\lwiplib.h</name>
+  </file>
+  <file>
     <name>$PROJ_DIR$\source\mac.c</name>
   </file>
   <file>
@@ -1929,10 +1962,10 @@
     <name>$PROJ_DIR$\include\mibspi.h</name>
   </file>
   <file>
-    <name>$PROJ_DIR$\source\phy_dp83640.c</name>
+    <name>$PROJ_DIR$\lwip-1.3.2\ports\hdk\netif\phy_dp83640.c</name>
   </file>
   <file>
-    <name>$PROJ_DIR$\include\phy_dp83640.h</name>
+    <name>$PROJ_DIR$\lwip-1.3.2\ports\hdk\include\netif\phy_dp83640.h</name>
   </file>
   <file>
     <name>$PROJ_DIR$\source\pinmux.c</name>

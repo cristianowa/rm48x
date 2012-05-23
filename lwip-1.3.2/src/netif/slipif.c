@@ -93,7 +93,7 @@ slipif_output(struct netif *netif, struct pbuf *p, struct ip_addr *ipaddr)
   struct slipif_priv *priv;
   struct pbuf *q;
   u16_t i;
-  u8_t c;
+  uint8_t c;
 
   LWIP_ASSERT("netif != NULL", (netif != NULL));
   LWIP_ASSERT("netif->state != NULL", (netif->state != NULL));
@@ -108,7 +108,7 @@ slipif_output(struct netif *netif, struct pbuf *p, struct ip_addr *ipaddr)
 
   for (q = p; q != NULL; q = q->next) {
     for (i = 0; i < q->len; i++) {
-      c = ((u8_t *)q->payload)[i];
+      c = ((uint8_t *)q->payload)[i];
       switch (c) {
       case SLIP_END:
         sio_send(SLIP_ESC, priv->sd);
@@ -139,7 +139,7 @@ slipif_output(struct netif *netif, struct pbuf *p, struct ip_addr *ipaddr)
  * @return return value of sio_read of sio_tryread
  */
 static u32_t
-slip_sio_read(sio_fd_t fd, u8_t* data, u32_t len, u8_t block)
+slip_sio_read(sio_fd_t fd, uint8_t* data, u32_t len, uint8_t block)
 {
   if (block) {
     return sio_read(fd, data, len);
@@ -160,10 +160,10 @@ slip_sio_read(sio_fd_t fd, u8_t* data, u32_t len, u8_t block)
  * @return The IP packet when SLIP_END is received
  */
 static struct pbuf *
-slipif_input(struct netif *netif, u8_t block)
+slipif_input(struct netif *netif, uint8_t block)
 {
   struct slipif_priv *priv;
-  u8_t c;
+  uint8_t c;
   struct pbuf *t;
 
   LWIP_ASSERT("netif != NULL", (netif != NULL));
@@ -232,7 +232,7 @@ slipif_input(struct netif *netif, u8_t block)
 
     /* this automatically drops bytes if > SLIP_MAX_SIZE */
     if ((priv->p != NULL) && (priv->recved <= SLIP_MAX_SIZE)) {
-      ((u8_t *)priv->p->payload)[priv->i] = c;
+      ((uint8_t *)priv->p->payload)[priv->i] = c;
       priv->recved++;
       priv->i++;
       if (priv->i >= priv->p->len) {

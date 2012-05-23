@@ -354,7 +354,7 @@ tcpip_input(struct pbuf *p, struct netif *inp)
  * @return ERR_OK if the function was called, another err_t if not
  */
 err_t
-tcpip_callback_with_block(void (*f)(void *ctx), void *ctx, u8_t block)
+tcpip_callback_with_block(void (*f)(void *ctx), void *ctx, uint8_t block)
 {
   struct tcpip_msg *msg;
 

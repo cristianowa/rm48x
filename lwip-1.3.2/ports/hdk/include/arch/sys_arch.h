@@ -58,7 +58,7 @@ typedef struct {
 
 /* Typedefs for the various port-specific types. */
 typedef mbox_t *sys_mbox_t;
-typedef u8_t sys_prot_t;
+typedef uint8_t sys_prot_t;
 typedef sem_t *sys_sem_t;
 typedef xTaskHandle sys_thread_t;
 

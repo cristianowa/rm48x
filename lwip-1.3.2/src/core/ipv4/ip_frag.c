@@ -473,7 +473,7 @@ ip_reass(struct pbuf *p)
   struct ip_reassdata *ipr;
   struct ip_reass_helper *iprh;
   u16_t offset, len;
-  u8_t clen;
+  uint8_t clen;
   struct ip_reassdata *ipr_prev = NULL;
 
   IPFRAG_STATS_INC(ip_frag.recv);
@@ -608,7 +608,7 @@ nullreturn:
 
 #if IP_FRAG
 #if IP_FRAG_USES_STATIC_BUF
-static u8_t buf[LWIP_MEM_ALIGN_SIZE(IP_FRAG_MAX_MTU + MEM_ALIGNMENT - 1)];
+static uint8_t buf[LWIP_MEM_ALIGN_SIZE(IP_FRAG_MAX_MTU + MEM_ALIGNMENT - 1)];
 #endif /* IP_FRAG_USES_STATIC_BUF */
 
 /**
@@ -690,7 +690,7 @@ ip_frag(struct pbuf *p, struct netif *netif, struct ip_addr *dest)
     cop = last ? left : nfb * 8;
 
 #if IP_FRAG_USES_STATIC_BUF
-    poff += pbuf_copy_partial(p, (u8_t*)iphdr + IP_HLEN, cop, poff);
+    poff += pbuf_copy_partial(p, (uint8_t*)iphdr + IP_HLEN, cop, poff);
 #else /* IP_FRAG_USES_STATIC_BUF */
     /* When not using a static buffer, create a chain of pbufs.
      * The first will be a PBUF_RAM holding the link and IP header.
@@ -707,7 +707,7 @@ ip_frag(struct pbuf *p, struct netif *netif, struct ip_addr *dest)
     iphdr = rambuf->payload;
 
     /* Can just adjust p directly for needed offset. */
-    p->payload = (u8_t *)p->payload + poff;
+    p->payload = (uint8_t *)p->payload + poff;
     p->len -= poff;
 
     left_to_copy = cop;

@@ -55,7 +55,7 @@
 
 #endif
 
-typedef unsigned char u8_t;
+typedef unsigned char uint8_t;
 #include "../httpd.h"
 
 /** (Your server name here) */

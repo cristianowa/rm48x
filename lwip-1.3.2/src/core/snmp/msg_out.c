@@ -57,7 +57,7 @@ struct snmp_trap_dst
   /* destination IP address in network order */
   struct ip_addr dip;
   /* set to 0 when disabled, >0 when enabled */
-  u8_t enable;
+  uint8_t enable;
 };
 struct snmp_trap_dst trap_dst[SNMP_TRAP_DESTINATIONS];
 
@@ -78,7 +78,7 @@ static u16_t snmp_varbind_list_enc(struct snmp_varbind_root *root, struct pbuf *
  * @param enable switch if 0 destination is disabled >0 enabled.
  */
 void
-snmp_trap_dst_enable(u8_t dst_idx, u8_t enable)
+snmp_trap_dst_enable(uint8_t dst_idx, uint8_t enable)
 {
   if (dst_idx < SNMP_TRAP_DESTINATIONS)
   {
@@ -92,7 +92,7 @@ snmp_trap_dst_enable(u8_t dst_idx, u8_t enable)
  * @param dst IPv4 address in host order.
  */
 void
-snmp_trap_dst_ip_set(u8_t dst_idx, struct ip_addr *dst)
+snmp_trap_dst_ip_set(uint8_t dst_idx, struct ip_addr *dst)
 {
   if (dst_idx < SNMP_TRAP_DESTINATIONS)
   {
@@ -298,7 +298,7 @@ snmp_coldstart_trap(void)
 void
 snmp_authfail_trap(void)
 {
-  u8_t enable;
+  uint8_t enable;
   snmp_get_snmpenableauthentraps(&enable);
   if (enable == 1)
   {
@@ -564,7 +564,7 @@ snmp_trap_header_enc(struct snmp_msg_trap *m_trap, struct pbuf *p)
   ofs += 1;
   snmp_asn1_enc_length(p, ofs, m_trap->thl.comlen);
   ofs += m_trap->thl.comlenlen;
-  snmp_asn1_enc_raw(p, ofs, m_trap->thl.comlen, (u8_t *)&snmp_publiccommunity[0]);
+  snmp_asn1_enc_raw(p, ofs, m_trap->thl.comlen, (uint8_t *)&snmp_publiccommunity[0]);
   ofs += m_trap->thl.comlen;
 
   snmp_asn1_enc_type(p, ofs, (SNMP_ASN1_CONTXT | SNMP_ASN1_CONSTR | SNMP_ASN1_PDU_TRAP));
@@ -619,7 +619,7 @@ snmp_varbind_list_enc(struct snmp_varbind_root *root, struct pbuf *p, u16_t ofs)
   struct snmp_varbind *vb;
   s32_t *sint_ptr;
   u32_t *uint_ptr;
-  u8_t *raw_ptr;
+  uint8_t *raw_ptr;
 
   snmp_asn1_enc_type(p, ofs, (SNMP_ASN1_UNIV | SNMP_ASN1_CONSTR | SNMP_ASN1_SEQ));
   ofs += 1;

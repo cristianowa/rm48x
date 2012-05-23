@@ -1,5 +1,5 @@
 #include "mac.h"
-#include "phy_dp83640.h"
+#include "netif/phy_dp83640.h"
 #include "sys_common.h"
 #include "mdio.h"
 #include "emac.h"

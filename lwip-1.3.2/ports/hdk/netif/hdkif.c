@@ -59,7 +59,7 @@
 /* HALCoGen DriverLib Header & PHY files required for this interface driver. */
 #include "emac.h"
 #include "mdio.h"
-#include "phy_dp83640.h"
+#include "netif/phy_dp83640.h"
 
 #define TRUE 1
 
