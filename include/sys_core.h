@@ -237,6 +237,7 @@ void _esmCcmErrorsClear_(void);
 
 
 /* USER CODE BEGIN (1) */
+unsigned int _get_CPSR(void);
 /* USER CODE END */
 
 

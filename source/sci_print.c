@@ -1,7 +1,7 @@
 #include "sci_print.h"
 #include "stdio.h"
 #include "string.h"
-void sciDisplayText(sciBASE_t *sci, uint8_t *text)
+void sci_display_text(sciBASE_t *sci, uint8_t *text)
 {
     while(*text != '\0')
     {
@@ -12,17 +12,17 @@ void sciDisplayText(sciBASE_t *sci, uint8_t *text)
 
 void new_line()
 {
-      sciDisplayText(UART,"\n\r");
+      sci_display_text(UART,"\n\r");
 }
 
 void print(uint8_t *text)
 {
-     sciDisplayText(UART,text);
+     sci_display_text(UART,text);
 }
 
 void print_line(uint8_t *text)
 {
-      sciDisplayText(UART,text);
+      sci_display_text(UART,text);
       new_line();
 }
 
@@ -31,7 +31,7 @@ void print_digit(int number)
   uint8_t text[1];
   text[0] = number + 48;
   text[1] = '\0';
-  sciDisplayText(UART,text);
+  sci_display_text(UART,text);
 }
 
 void print_number(int number)

@@ -13,7 +13,7 @@ void print_number(int number);
 
 void print_hex(int number);
 
-void sciDisplayText(sciBASE_t *sci, uint8_t *text);
+void sci_display_text(sciBASE_t *sci, uint8_t *text);
 
 void boot_message();
 #define UART scilinREG

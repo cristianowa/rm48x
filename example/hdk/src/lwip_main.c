@@ -10,11 +10,12 @@
 /* (c) Texas Instruments 2011, All rights reserved. */
 
 #include "sys_common.h"
+#include "sys_core.h"
 #include "system.h"
 
 #include "emac.h"
 #include "mdio.h"
-#include "phy_dp83640.h"
+#include "netif\phy_dp83640.h"
 #include "sci.h"
 
 #include "lwipopts.h"
@@ -230,13 +231,13 @@ void EMACCore0TxIsr(void)
 
 void IntMasterIRQEnable(void)
 {
-	_enable_IRQ();
+	_enable_interrupt_();
 	return;
 }
 
 void IntMasterIRQDisable(void)
 {
-	_disable_IRQ();
+	_disable_interrupt_();
 	return;
 }
 
@@ -252,10 +253,4 @@ void sciDisplayText(sciBASE_t *sci, uint8_t *text,uint32_t length)
         while ((scilinREG->FLR & 0x4) == 4); /* wait until busy */
         sciSendByte(scilinREG,*text++);      /* send out text   */
     };
-}
-
-/* sci notification (Not used but must be provided) */
-void sciNotification(sciBASE_t *sci, uint32_t flags)
-{
-	return;
 }

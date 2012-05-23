@@ -1,7 +1,6 @@
 #include "sci.h"
 #include "sci_receive.h"
 #include "sci_print.h"
-#include "mac.h"
 #include "can_protocol.h"
 #include "string.h"
 void sciNotification(sciBASE_t *sci, uint32_t flags)
@@ -38,13 +37,12 @@ void print_curr_state()
 
 void send_dummy_packet(){
    print_line("Sending Dummy Packet");
-   eth_dummy_send();   
+  
 }
 
 void dump_mac(){
    print_line("Sending Dummy Packet");
    print_line("Press E to exit");
-   dump_mac_state();
 
 }
 
