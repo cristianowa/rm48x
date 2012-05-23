@@ -50,19 +50,15 @@
 
 /* USER CODE BEGIN (2) */
 
-extern void EMAC_LwIP_Main (uint8_t * emacAddress);
-#define  D_SIZE 9
-uint8_t  tx_data[D_SIZE]  = {'H','E','R','C','U','L','E','S','\0'};
-uint8_t  rx_data[D_SIZE] = {0};
-uint32_t error = 0;
+
 
 /* USER CODE END */
 
 
 
 
-uint8_t		emacAddress[6] 	= 	{0x00, 0x08, 0xEE, 0x03, 0xA6, 0x6C};
-uint32_t 	emacPhyAddress	=	1;
+//uint8_t		emacAddress[6] 	= 	{0x00, 0x08, 0xEE, 0x03, 0xA6, 0x6C};
+//uint32_t 	emacPhyAddress	=	1;
 void main(void)
 {
 /* USER CODE BEGIN (3) */
@@ -91,7 +87,7 @@ hetREG1->DOUT = 0;
 
 boot_message();
 
-EMAC_LwIP_Main (emacAddress);
+//EMAC_LwIP_Main (emacAddress);
 
  
 // canTransmit(canREG1, canMESSAGE_BOX1, "CAN MESSAGE"); 

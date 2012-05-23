@@ -12,7 +12,7 @@
 #include "sys_common.h"
 #include "sys_core.h"
 #include "system.h"
-
+#include "sci_print.h"
 #include "emac.h"
 #include "mdio.h"
 #include "netif\phy_dp83640.h"
@@ -76,11 +76,11 @@ void EMAC_LwIP_Main (uint8_t * macAddress)
 	//iommMuxEnableMdio();
 	//iommMuxEnableMii();
 	//iommLock();
-	sciInit();
+	//sciInit();
 	
 	/* Enable the interrupt generation in CPSR register */
 	IntMasterIRQEnable();
-
+        print_line("inside lwip main");
 	sciDisplayText(scilinREG, txtCRLF, sizeof(txtCRLF));
 	sciDisplayText(scilinREG, txtTitle, sizeof(txtTitle));
 	sciDisplayText(scilinREG, txtCRLF, sizeof(txtCRLF));
