@@ -106,7 +106,7 @@ else
 
  
 // canTransmit(canREG1, canMESSAGE_BOX1, "CAN MESSAGE"); 
-can_protocol_send(canREG1,canMESSAGE_BOX1,"0123456789012345678901234567890123456789",44); 
+can_protocol_send(canREG1,canMESSAGE_BOX1,"0123456789 bla bla bla bla I have to send a large mess",11); 
 
 /* Run forever */
 while(1)
