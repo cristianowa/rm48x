@@ -13,7 +13,6 @@
 #include "sci.h"
 
 /* USER CODE BEGIN (1) */
-
 uint8_t sci_transfer_buffer[4] = { ' ',' ',' ',' '};
 #ifndef IRQ
 #define IRQ __irq
@@ -133,6 +132,7 @@ void sciInit(void)
     scilinREG->GCR1 |= (1 << 7);
 
 /* USER CODE BEGIN (3) */
+   
 /* USER CODE END */
 }
 
