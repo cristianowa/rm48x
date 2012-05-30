@@ -2,66 +2,143 @@
 
 <Workspace>
   <ConfigDictionary>
-    
-  <CurrentConfigs><Project>no_os_hercules_open_safety/Debug</Project></CurrentConfigs></ConfigDictionary>
+    <CurrentConfigs>
+      <Project>no_os_hercules_open_safety/Debug</Project>
+    </CurrentConfigs>
+  </ConfigDictionary>
   <Desktop>
     <Static>
       <Workspace>
         <ColumnWidths>
-          
-          
-          
-          
-        <Column0>91</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+          <Column0>197</Column0>
+          <Column1>27</Column1>
+          <Column2>27</Column2>
+          <Column3>27</Column3>
+        </ColumnWidths>
       </Workspace>
       <Build>
-        
-        
-        
-        
-      <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>1155</ColumnWidth1><ColumnWidth2>308</ColumnWidth2><ColumnWidth3>77</ColumnWidth3></Build>
+        <ColumnWidth0>20</ColumnWidth0>
+        <ColumnWidth1>1155</ColumnWidth1>
+        <ColumnWidth2>308</ColumnWidth2>
+        <ColumnWidth3>77</ColumnWidth3>
+      </Build>
       <TerminalIO/>
-    <Debug-Log><ColumnWidth0>22</ColumnWidth0><ColumnWidth1>1539</ColumnWidth1></Debug-Log></Static>
+    </Static>
     <Windows>
-      
-      
-    <Wnd0>
+      <Wnd0>
         <Tabs>
           <Tab>
-            <Identity>TabID-11887-14188</Identity>
+            <Identity>TabID-11999-29019</Identity>
             <TabName>Workspace</TabName>
             <Factory>Workspace</Factory>
             <Session>
-              
-            <NodeDict><ExpandedNode>no_os_hercules_open_safety</ExpandedNode></NodeDict></Session>
+              <NodeDict>
+                <ExpandedNode>no_os_hercules_open_safety</ExpandedNode>
+              </NodeDict>
+            </Session>
           </Tab>
         </Tabs>
-        
-      <SelectedTab>0</SelectedTab></Wnd0><Wnd1>
+        <SelectedTab>0</SelectedTab>
+      </Wnd0>
+      <Wnd1>
         <Tabs>
           <Tab>
-            <Identity>TabID-14396-15164</Identity>
+            <Identity>TabID-21702-29042</Identity>
             <TabName>Build</TabName>
             <Factory>Build</Factory>
             <Session/>
           </Tab>
-        <Tab><Identity>TabID-28534-27241</Identity><TabName>Debug Log</TabName><Factory>Debug-Log</Factory><Session/></Tab></Tabs>
-        
-      <SelectedTab>0</SelectedTab></Wnd1></Windows>
+        </Tabs>
+        <SelectedTab>0</SelectedTab>
+      </Wnd1>
+    </Windows>
     <Editor>
-      
-      
-      
-      
-      
-    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\include\debug.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>326</SelStart><SelEnd>349</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\can.c</Filename><XPos>0</XPos><YPos>16</YPos><SelStart>459</SelStart><SelEnd>459</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\can_protocol.c</Filename><XPos>0</XPos><YPos>120</YPos><SelStart>3021</SelStart><SelEnd>3021</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\include\can_protocol.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>28</SelStart><SelEnd>28</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\sci_print.c</Filename><XPos>0</XPos><YPos>14</YPos><SelStart>438</SelStart><SelEnd>438</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\sys_main.c</Filename><XPos>0</XPos><YPos>94</YPos><SelStart>2877</SelStart><SelEnd>2877</SelEnd></Tab><ActiveTab>5</ActiveTab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\sys_startup.c</Filename><XPos>0</XPos><YPos>167</YPos><SelStart>3552</SelStart><SelEnd>3552</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\sci_receive.c</Filename><XPos>0</XPos><YPos>44</YPos><SelStart>1023</SelStart><SelEnd>1023</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\sci.c</Filename><XPos>0</XPos><YPos>319</YPos><SelStart>8892</SelStart><SelEnd>8892</SelEnd></Tab></Pane><ActivePane>0</ActivePane><Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\include\sci.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>204</SelStart><SelEnd>204</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\include\can.h</Filename><XPos>0</XPos><YPos>700</YPos><SelStart>24365</SelStart><SelEnd>24401</SelEnd></Tab><ActiveTab>1</ActiveTab></Pane><Sizes><Pane><X>522580</X><Y>1000000</Y></Pane><Pane><X>477419</X><Y>1000000</Y></Pane></Sizes><SplitMode>4</SplitMode></Editor>
+      <Pane>
+        <Tab>
+          <Factory>TextEditor</Factory>
+          <Filename>$WS_DIR$\source\sys_startup.c</Filename>
+          <XPos>0</XPos>
+          <YPos>163</YPos>
+          <SelStart>3552</SelStart>
+          <SelEnd>3552</SelEnd>
+        </Tab>
+        <ActiveTab>0</ActiveTab>
+      </Pane>
+      <ActivePane>0</ActivePane>
+      <Sizes>
+        <Pane>
+          <X>1000000</X>
+          <Y>1000000</Y>
+        </Pane>
+      </Sizes>
+      <SplitMode>1</SplitMode>
+    </Editor>
     <Positions>
-      
-      
-      
-      
-      
-    <Top><Row0><Sizes><Toolbar-00ea1838><key>iaridepm.enu1</key></Toolbar-00ea1838></Sizes></Row0><Row1><Sizes/></Row1></Top><Left><Row0><Sizes><Wnd0><Rect><Top>-2</Top><Left>-2</Left><Bottom>618</Bottom><Right>182</Right><x>-2</x><y>-2</y><xscreen>15</xscreen><yscreen>82</yscreen><sizeHorzCX>9375</sizeHorzCX><sizeHorzCY>104061</sizeHorzCY><sizeVertCX>115000</sizeVertCX><sizeVertCY>786802</sizeVertCY></Rect></Wnd0></Sizes></Row0></Left><Right><Row0><Sizes/></Row0></Right><Bottom><Row0><Sizes><Wnd1><Rect><Top>-2</Top><Left>-2</Left><Bottom>125</Bottom><Right>1602</Right><x>-2</x><y>-2</y><xscreen>1604</xscreen><yscreen>127</yscreen><sizeHorzCX>1002500</sizeHorzCX><sizeHorzCY>161168</sizeHorzCY><sizeVertCX>9375</sizeVertCX><sizeVertCY>104061</sizeVertCY></Rect></Wnd1></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+      <Top>
+        <Row0>
+          <Sizes>
+            <Toolbar-01007380>
+              <key>iaridepm.enu1</key>
+            </Toolbar-01007380>
+          </Sizes>
+        </Row0>
+        <Row1>
+          <Sizes/>
+        </Row1>
+      </Top>
+      <Left>
+        <Row0>
+          <Sizes>
+            <Wnd0>
+              <Rect>
+                <Top>-2</Top>
+                <Left>-2</Left>
+                <Bottom>547</Bottom>
+                <Right>288</Right>
+                <x>-2</x>
+                <y>-2</y>
+                <xscreen>200</xscreen>
+                <yscreen>200</yscreen>
+                <sizeHorzCX>125000</sizeHorzCX>
+                <sizeHorzCY>253165</sizeHorzCY>
+                <sizeVertCX>181250</sizeVertCX>
+                <sizeVertCY>694937</sizeVertCY>
+              </Rect>
+            </Wnd0>
+          </Sizes>
+        </Row0>
+      </Left>
+      <Right>
+        <Row0>
+          <Sizes/>
+        </Row0>
+      </Right>
+      <Bottom>
+        <Row0>
+          <Sizes>
+            <Wnd1>
+              <Rect>
+                <Top>-2</Top>
+                <Left>-2</Left>
+                <Bottom>198</Bottom>
+                <Right>1602</Right>
+                <x>-2</x>
+                <y>-2</y>
+                <xscreen>1604</xscreen>
+                <yscreen>200</yscreen>
+                <sizeHorzCX>1002500</sizeHorzCX>
+                <sizeHorzCY>253165</sizeHorzCY>
+                <sizeVertCX>125000</sizeVertCX>
+                <sizeVertCY>253165</sizeVertCY>
+              </Rect>
+            </Wnd1>
+          </Sizes>
+        </Row0>
+      </Bottom>
+      <Float>
+        <Sizes/>
+      </Float>
+    </Positions>
   </Desktop>
 </Workspace>
 

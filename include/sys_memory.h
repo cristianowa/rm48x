@@ -32,6 +32,27 @@ void _memoryTest_(void);
 */
 void _memoryInit_(void);
 
+/** @fn void memoryPort0TestFailNotification(uint32_t groupSelect, uint32_t dataSelect, uint32_t address, uint32_t data)
+*   @brief Memory Port 0 test fail notification
+*   @param[in] groupSelect Failing Ram group select:
+*   @param[in] dataSelect Failing Ram data select:
+*   @param[in] address Failing Ram offset:
+*   @param[in] data Failing data at address:
+*
+*   @note This function has to be provide by the user.
+*/
+void memoryPort0TestFailNotification(uint32_t groupSelect, uint32_t dataSelect, uint32_t address, uint32_t data);
+
+/** @fn void memoryPort1TestFailNotification(uint32_t groupSelect, uint32_t dataSelect, uint32_t address, uint32_t data)
+*   @brief Memory Port 1 test fail notification
+*   @param[in] groupSelect Failing Ram group select:
+*   @param[in] dataSelect Failing Ram data select:
+*   @param[in] address Failing Ram offset:
+*   @param[in] data Failing data at address:
+*
+*   @note This function has to be provide by the user.
+*/
+void memoryPort1TestFailNotification(uint32_t groupSelect, uint32_t dataSelect, uint32_t address, uint32_t data);
 
 /* EFUSE Selftest Functions */
 
