@@ -127,12 +127,12 @@ regPbist      dcd 0xFFFFE500
 algo
               dcd 0<<0
               dcd 0<<1
-              dcd 0<<2
-              dcd 0<<3
+              dcd 1<<2
+              dcd 1<<3
               dcd 0<<4
               dcd 0<<5
-              dcd 1<<6
-              dcd 1<<7
+              dcd 0<<6
+              dcd 0<<7
               dcd 0<<8
               dcd 0<<9
               dcd 0<<10

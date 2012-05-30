@@ -83,16 +83,17 @@ hetREG1->DOUT = 0;
 
 boot_message();
 
-
-if (macInit())
-{
-  print_line("failure in network init");
+if(promt_question("Start EMAC/MDIO ? "))
+    {
+    if (macInit())
+    {
+      print_line("failure in network init");
+    }
+    else
+    {
+      print_line("Network Initialized");
+    }
 }
-else
-{
-  print_line("Network Initialized");
-}
-
 //wait till better buffer writing
 //eth_dummy_send();
 
