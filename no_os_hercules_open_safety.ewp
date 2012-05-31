@@ -1923,6 +1923,9 @@
     <name>$PROJ_DIR$\include\mibspi.h</name>
   </file>
   <file>
+    <name>$PROJ_DIR$\source\parity_functions.c</name>
+  </file>
+  <file>
     <name>$PROJ_DIR$\source\phy_dp83640.c</name>
   </file>
   <file>
