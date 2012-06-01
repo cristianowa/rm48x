@@ -1827,6 +1827,12 @@
     <name>$PROJ_DIR$\include\can.h</name>
   </file>
   <file>
+    <name>$PROJ_DIR$\source\can_protocol.c</name>
+  </file>
+  <file>
+    <name>$PROJ_DIR$\include\can_protocol.h</name>
+  </file>
+  <file>
     <name>$PROJ_DIR$\source\dcc.c</name>
   </file>
   <file>

@@ -50,6 +50,7 @@ extern void linHighLevelInterrupt(void);
 extern void esmLowInterrupt(void);
 extern void gioLowLevelInterrupt(void);
 extern void linLowLevelInterrupt(void);
+extern void can2LowLevelInterrupt(void);
 
 
 /* Vim Register Frame Definition */
