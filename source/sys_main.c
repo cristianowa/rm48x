@@ -33,6 +33,7 @@
 /* Include sci print header file - used to do io in the sci */
 #include "sci_print.h"
 
+#include "sci_receive.h"
 #include "mac.h"
 
 #include "debug.h"
@@ -122,18 +123,7 @@ void edgeNotification(hetBASE_t * hetREG, unsigned edge)
     return;
 }
 
-/* ESM Group notification (Not used but must be provided) */
-void esmGroup1Notification(unsigned channel)
-{
-    return;
-}
 
-/* ESM Group2 notification (Not used but must be provided) */
-
-void esmGroup2Notification(unsigned channel)
-{
-  
-}
 /* Gio notification (Not used but must be provided) */
 void gioNotification(int bit)
 {

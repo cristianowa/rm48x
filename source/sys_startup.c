@@ -28,6 +28,7 @@
 #include "sys_memory.h"
 
 /* USER CODE BEGIN (1) */
+#include "pinmux.h"
 /* USER CODE END */
 
 

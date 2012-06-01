@@ -6,27 +6,83 @@
   <configuration>
     <name>Debug</name>
     <outputs>
-      <file>$PROJ_DIR$\source\can.c</file>
-      <file>$PROJ_DIR$\source\adc.c</file>
-      <file>$PROJ_DIR$\include\adc.h</file>
-      <file>$PROJ_DIR$\source\dcc.c</file>
-      <file>$PROJ_DIR$\include\can.h</file>
-      <file>$PROJ_DIR$\source\dmm.c</file>
-      <file>$PROJ_DIR$\include\dcc.h</file>
-      <file>$PROJ_DIR$\source\debug.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\mdio.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\sys_startup.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\pinmux.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\sys_main.pbi</file>
+      <file>$PROJ_DIR$\include\mac.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\dmm.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$PROJ_DIR$\config\RM48L950_flash.icf</file>
+      <file>$PROJ_DIR$\Debug\Obj\gio.o</file>
+      <file>$PROJ_DIR$\Debug\List\no_os_hercules_open_safety.map</file>
+      <file>$PROJ_DIR$\source\hdkif.c</file>
+      <file>$PROJ_DIR$\source\pbuf.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\sys_main.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\sys_memory.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\sys_phantom.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\spi.o</file>
+      <file>$TOOLKIT_DIR$\lib\rt5E_al.a</file>
+      <file>$PROJ_DIR$\Debug\Exe\no_os_hercules_open_safety.out</file>
+      <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\no_os_hercules_open_safety.pbd</file>
+      <file>$PROJ_DIR$\Debug\Obj\self_test.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\lin.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\i2c.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\sys_intvecs.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\dmm.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\self_test.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\debug.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\hdkif.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\sci_receive.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\rti.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\spi.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\sci.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\emac.pbi</file>
+      <file>$PROJ_DIR$\include\pbuf.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\sys_phantom.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\dcc.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\pom.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\emac.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\pom.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\rtp.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\mac.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\i2c.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\emif.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\esm.o</file>
+      <file>$PROJ_DIR$\include\sci_print.c</file>
+      <file>$TOOLKIT_DIR$\lib\m5E_alv.a</file>
+      <file>$PROJ_DIR$\Debug\Obj\gio.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\can.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\adc.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\phy_dp83640.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\mibspi.o</file>
+      <file>$PROJ_DIR$\include\std_nhet.h</file>
+      <file>$PROJ_DIR$\source\sys_intvecs.asm</file>
+      <file>$PROJ_DIR$\include\sys_common.h</file>
+      <file>$PROJ_DIR$\source\sys_core.asm</file>
+      <file>$PROJ_DIR$\include\sys_core.h</file>
+      <file>$PROJ_DIR$\source\sys_memory.asm</file>
+      <file>$PROJ_DIR$\source\sys_main.c</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$PROJ_DIR$\include\sys_memory.h</file>
+      <file>$PROJ_DIR$\source\sys_mpu.asm</file>
+      <file>$PROJ_DIR$\include\sys_mpu.h</file>
       <file>$PROJ_DIR$\include\debug.h</file>
       <file>$PROJ_DIR$\source\esm.c</file>
       <file>$PROJ_DIR$\include\dmm.h</file>
+      <file>$PROJ_DIR$\include\esm.h</file>
       <file>$PROJ_DIR$\source\emac.c</file>
-      <file>$PROJ_DIR$\Debug\Obj\pinmux.pbi</file>
-      <file>$PROJ_DIR$\source\parity_functions.c</file>
       <file>$PROJ_DIR$\include\emac.h</file>
       <file>$PROJ_DIR$\source\emif.c</file>
       <file>$PROJ_DIR$\include\emif.h</file>
       <file>$PROJ_DIR$\source\errors.c</file>
       <file>$PROJ_DIR$\include\errors.h</file>
       <file>$PROJ_DIR$\source\gio.c</file>
-      <file>$PROJ_DIR$\include\esm.h</file>
       <file>$PROJ_DIR$\include\hw_emac_ctrl.h</file>
       <file>$PROJ_DIR$\source\het.c</file>
       <file>$PROJ_DIR$\include\gio.h</file>
@@ -35,47 +91,12 @@
       <file>$PROJ_DIR$\include\hw_emac.h</file>
       <file>$PROJ_DIR$\include\hw_reg_access.h</file>
       <file>$PROJ_DIR$\include\hw_mdio.h</file>
-      <file>$PROJ_DIR$\include\phy_dp83640.h</file>
       <file>$PROJ_DIR$\source\lin.c</file>
       <file>$PROJ_DIR$\include\i2c.h</file>
       <file>$PROJ_DIR$\source\mac.c</file>
       <file>$PROJ_DIR$\include\lin.h</file>
-      <file>$PROJ_DIR$\source\sys_main.c</file>
+      <file>$PROJ_DIR$\source\parity_functions.c</file>
       <file>$PROJ_DIR$\include\mac.h</file>
-      <file>$PROJ_DIR$\source\mdio.c</file>
-      <file>$PROJ_DIR$\include\mdio.h</file>
-      <file>$PROJ_DIR$\source\mibspi.c</file>
-      <file>$PROJ_DIR$\include\mibspi.h</file>
-      <file>$PROJ_DIR$\source\phy_dp83640.c</file>
-      <file>$PROJ_DIR$\include\sci_receive.h</file>
-      <file>$PROJ_DIR$\source\pinmux.c</file>
-      <file>$PROJ_DIR$\source\pom.c</file>
-      <file>$PROJ_DIR$\include\pinmux.h</file>
-      <file>$PROJ_DIR$\source\rti.c</file>
-      <file>$PROJ_DIR$\include\pom.h</file>
-      <file>$PROJ_DIR$\source\rtp.c</file>
-      <file>$PROJ_DIR$\include\rti.h</file>
-      <file>$PROJ_DIR$\source\sci.c</file>
-      <file>$PROJ_DIR$\include\rtp.h</file>
-      <file>$PROJ_DIR$\source\spi.c</file>
-      <file>$PROJ_DIR$\include\sci.h</file>
-      <file>$PROJ_DIR$\source\sci_print.c</file>
-      <file>$PROJ_DIR$\include\sci_print.h</file>
-      <file>$PROJ_DIR$\source\sci_receive.c</file>
-      <file>$PROJ_DIR$\source\self_test.c</file>
-      <file>$PROJ_DIR$\include\self_test.h</file>
-      <file>$PROJ_DIR$\source\sys_intvecs.asm</file>
-      <file>$PROJ_DIR$\include\spi.h</file>
-      <file>$PROJ_DIR$\include\std_nhet.h</file>
-      <file>$PROJ_DIR$\include\sys_common.h</file>
-      <file>$PROJ_DIR$\source\sys_core.asm</file>
-      <file>$PROJ_DIR$\include\sys_core.h</file>
-      <file>$PROJ_DIR$\source\sys_memory.asm</file>
-      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
-      <file>$PROJ_DIR$\include\sys_memory.h</file>
-      <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
-      <file>$PROJ_DIR$\source\sys_mpu.asm</file>
-      <file>$PROJ_DIR$\include\sys_mpu.h</file>
       <file>$PROJ_DIR$\source\sys_phantom.c</file>
       <file>$PROJ_DIR$\source\sys_pmu.asm</file>
       <file>$PROJ_DIR$\include\sys_pmu.h</file>
@@ -83,810 +104,98 @@
       <file>$PROJ_DIR$\include\sys_vim.h</file>
       <file>$PROJ_DIR$\source\system.c</file>
       <file>$PROJ_DIR$\include\system.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\emif.o</file>
-      <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\pinmux.pbi</file>
       <file>$TOOLKIT_DIR$\lib\dl5E_tln.a</file>
-      <file>$PROJ_DIR$\Debug\Obj\spi.o</file>
-      <file>$PROJ_DIR$\Debug\Obj\sys_phantom.o</file>
-      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
-      <file>$TOOLKIT_DIR$\lib\rt5E_al.a</file>
-      <file>$PROJ_DIR$\Debug\Exe\no_os_hercules_open_safety.out</file>
-      <file>$TOOLKIT_DIR$\inc\c\string.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\no_os_hercules_open_safety.pbd</file>
-      <file>$PROJ_DIR$\Debug\Obj\i2c.o</file>
-      <file>$PROJ_DIR$\Debug\Obj\lin.pbi</file>
-      <file>$PROJ_DIR$\Debug\Obj\dmm.o</file>
-      <file>$PROJ_DIR$\Debug\Obj\sys_intvecs.o</file>
-      <file>$PROJ_DIR$\Debug\Obj\self_test.pbi</file>
-      <file>$PROJ_DIR$\Debug\Obj\debug.o</file>
-      <file>$PROJ_DIR$\Debug\Obj\self_test.o</file>
-      <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
-      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\hdkif.pbi</file>
-      <file>$PROJ_DIR$\Debug\Obj\spi.pbi</file>
-      <file>$PROJ_DIR$\Debug\Obj\sci_receive.pbi</file>
-      <file>$PROJ_DIR$\Debug\Obj\rti.pbi</file>
-      <file>$PROJ_DIR$\include\pbuf.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\emac.pbi</file>
-      <file>$PROJ_DIR$\Debug\Obj\dcc.o</file>
-      <file>$PROJ_DIR$\Debug\Obj\sys_phantom.pbi</file>
-      <file>$PROJ_DIR$\Debug\Obj\sci.pbi</file>
-      <file>$PROJ_DIR$\Debug\Obj\pom.pbi</file>
-      <file>$PROJ_DIR$\Debug\Obj\pom.o</file>
-      <file>$PROJ_DIR$\Debug\Obj\mibspi.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\emif.o</file>
+      <file>$PROJ_DIR$\source\rtp.c</file>
+      <file>$PROJ_DIR$\include\rti.h</file>
+      <file>$PROJ_DIR$\include\sci_receive.h</file>
+      <file>$PROJ_DIR$\source\sci.c</file>
+      <file>$PROJ_DIR$\include\rtp.h</file>
+      <file>$PROJ_DIR$\source\spi.c</file>
+      <file>$PROJ_DIR$\include\sci.h</file>
+      <file>$PROJ_DIR$\source\sci_print.c</file>
+      <file>$PROJ_DIR$\include\sci_print.h</file>
+      <file>$PROJ_DIR$\source\sci_receive.c</file>
+      <file>$PROJ_DIR$\include\spi.h</file>
+      <file>$PROJ_DIR$\source\self_test.c</file>
+      <file>$PROJ_DIR$\include\self_test.h</file>
+      <file>$PROJ_DIR$\source\can.c</file>
+      <file>$PROJ_DIR$\source\adc.c</file>
+      <file>$PROJ_DIR$\include\adc.h</file>
+      <file>$PROJ_DIR$\source\dcc.c</file>
+      <file>$PROJ_DIR$\include\can.h</file>
+      <file>$PROJ_DIR$\source\dmm.c</file>
+      <file>$PROJ_DIR$\include\dcc.h</file>
+      <file>$PROJ_DIR$\source\debug.c</file>
+      <file>$PROJ_DIR$\source\mdio.c</file>
+      <file>$PROJ_DIR$\include\mdio.h</file>
+      <file>$PROJ_DIR$\source\mibspi.c</file>
+      <file>$PROJ_DIR$\include\mibspi.h</file>
+      <file>$PROJ_DIR$\include\phy_dp83640.h</file>
+      <file>$PROJ_DIR$\source\phy_dp83640.c</file>
+      <file>$PROJ_DIR$\source\pom.c</file>
+      <file>$PROJ_DIR$\source\pinmux.c</file>
+      <file>$PROJ_DIR$\include\pinmux.h</file>
+      <file>$PROJ_DIR$\source\rti.c</file>
+      <file>$PROJ_DIR$\include\pom.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\sys_core.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\hdkif.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\mdio.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\debug.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\errors.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\errors.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\system.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\het.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\parity_functions.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\sci.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\parity_functions.o</file>
       <file>$PROJ_DIR$\Debug\Obj\adc.o</file>
       <file>$PROJ_DIR$\Debug\Obj\mibspi.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
       <file>$PROJ_DIR$\Debug\Obj\rtp.pbi</file>
       <file>$PROJ_DIR$\Debug\Obj\dcc.pbi</file>
-      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
       <file>$PROJ_DIR$\include\hdkif.h</file>
-      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
       <file>$PROJ_DIR$\Debug\Obj\esm.pbi</file>
-      <file>$PROJ_DIR$\Debug\Obj\het.o</file>
-      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
       <file>$PROJ_DIR$\Debug\Obj\sci_print.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\het.o</file>
       <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
       <file>$PROJ_DIR$\Debug\Obj\phy_dp83640.pbi</file>
-      <file>$PROJ_DIR$\Debug\Obj\mdio.pbi</file>
-      <file>$PROJ_DIR$\Debug\Obj\pinmux.o</file>
-      <file>$PROJ_DIR$\Debug\Obj\sys_startup.o</file>
-      <file>$PROJ_DIR$\Debug\Obj\sys_main.pbi</file>
-      <file>$PROJ_DIR$\include\mac.c</file>
-      <file>$PROJ_DIR$\Debug\Obj\dmm.pbi</file>
-      <file>$PROJ_DIR$\Debug\Obj\gio.o</file>
-      <file>$PROJ_DIR$\config\RM48L950_flash.icf</file>
-      <file>$PROJ_DIR$\source\hdkif.c</file>
-      <file>$PROJ_DIR$\source\pbuf.c</file>
-      <file>$PROJ_DIR$\Debug\Obj\sys_main.o</file>
-      <file>$PROJ_DIR$\Debug\List\no_os_hercules_open_safety.map</file>
-      <file>$PROJ_DIR$\Debug\Obj\emac.o</file>
-      <file>$PROJ_DIR$\Debug\Obj\mac.pbi</file>
-      <file>$PROJ_DIR$\Debug\Obj\i2c.pbi</file>
-      <file>$PROJ_DIR$\Debug\Obj\emif.pbi</file>
-      <file>$PROJ_DIR$\Debug\Obj\rtp.o</file>
-      <file>$PROJ_DIR$\include\sci_print.c</file>
-      <file>$PROJ_DIR$\Debug\Obj\esm.o</file>
-      <file>$PROJ_DIR$\Debug\Obj\gio.pbi</file>
-      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\sys_memory.o</file>
-      <file>$TOOLKIT_DIR$\lib\m5E_alv.a</file>
-      <file>$PROJ_DIR$\Debug\Obj\can.pbi</file>
-      <file>$PROJ_DIR$\Debug\Obj\adc.pbi</file>
       <file>$PROJ_DIR$\Debug\Obj\sys_mpu.o</file>
-      <file>$PROJ_DIR$\Debug\Obj\phy_dp83640.o</file>
-      <file>$PROJ_DIR$\Debug\Obj\rti.o</file>
-      <file>$PROJ_DIR$\Debug\Obj\sys_pmu.o</file>
-      <file>$PROJ_DIR$\Debug\Obj\sci_receive.o</file>
-      <file>$PROJ_DIR$\Debug\Obj\lin.o</file>
-      <file>$PROJ_DIR$\Debug\Obj\sys_startup.pbi</file>
       <file>$PROJ_DIR$\Debug\Obj\pbuf.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\rti.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\sci_receive.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\sys_pmu.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\sys_startup.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\lin.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\sci_print.o</file>
       <file>$PROJ_DIR$\Debug\Obj\system.pbi</file>
       <file>$PROJ_DIR$\Debug\Obj\mac.o</file>
       <file>$PROJ_DIR$\Debug\Obj\can.o</file>
-      <file>$PROJ_DIR$\Debug\Obj\hdkif.o</file>
-      <file>$PROJ_DIR$\Debug\Obj\sys_core.o</file>
-      <file>$PROJ_DIR$\Debug\Obj\debug.pbi</file>
-      <file>$PROJ_DIR$\Debug\Obj\mdio.o</file>
-      <file>$PROJ_DIR$\Debug\Obj\errors.o</file>
-      <file>$PROJ_DIR$\Debug\Obj\errors.pbi</file>
-      <file>$PROJ_DIR$\Debug\Obj\het.pbi</file>
-      <file>$PROJ_DIR$\Debug\Obj\system.o</file>
-      <file>$PROJ_DIR$\Debug\Obj\sci_print.o</file>
-      <file>$PROJ_DIR$\Debug\Obj\sci.o</file>
-      <file>$PROJ_DIR$\Debug\Obj\parity_functions.pbi</file>
-      <file>$PROJ_DIR$\Debug\Obj\parity_functions.o</file>
     </outputs>
-    <file>
-      <name>$PROJ_DIR$\source\can.c</name>
-      <outputs>
-        <tool>
-          <name>ICCARM</name>
-          <file> 156</file>
-        </tool>
-        <tool>
-          <name>BICOMP</name>
-          <file> 144</file>
-        </tool>
-      </outputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\source\adc.c</name>
-      <outputs>
-        <tool>
-          <name>ICCARM</name>
-          <file> 108</file>
-        </tool>
-        <tool>
-          <name>BICOMP</name>
-          <file> 145</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>ICCARM</name>
-          <file> 2 61</file>
-        </tool>
-        <tool>
-          <name>BICOMP</name>
-          <file> 2 61</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\source\dcc.c</name>
-      <outputs>
-        <tool>
-          <name>ICCARM</name>
-          <file> 102</file>
-        </tool>
-        <tool>
-          <name>BICOMP</name>
-          <file> 111</file>
-        </tool>
-      </outputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\source\dmm.c</name>
-      <outputs>
-        <tool>
-          <name>ICCARM</name>
-          <file> 89</file>
-        </tool>
-        <tool>
-          <name>BICOMP</name>
-          <file> 126</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>ICCARM</name>
-          <file> 10 61 23</file>
-        </tool>
-        <tool>
-          <name>BICOMP</name>
-          <file> 10 61 23</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\source\debug.c</name>
-      <outputs>
-        <tool>
-          <name>ICCARM</name>
-          <file> 92</file>
-        </tool>
-        <tool>
-          <name>BICOMP</name>
-          <file> 159</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>ICCARM</name>
-          <file> 54 52 61 23 41 8</file>
-        </tool>
-        <tool>
-          <name>BICOMP</name>
-          <file> 54 52 61 23 41 8</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\source\esm.c</name>
-      <outputs>
-        <tool>
-          <name>ICCARM</name>
-          <file> 139</file>
-        </tool>
-        <tool>
-          <name>BICOMP</name>
-          <file> 115</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>ICCARM</name>
-          <file> 20 61</file>
-        </tool>
-        <tool>
-          <name>BICOMP</name>
-          <file> 20 61</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\source\emac.c</name>
-      <outputs>
-        <tool>
-          <name>ICCARM</name>
-          <file> 133</file>
-        </tool>
-        <tool>
-          <name>BICOMP</name>
-          <file> 101</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>ICCARM</name>
-          <file> 61 27 14 26 21</file>
-        </tool>
-        <tool>
-          <name>BICOMP</name>
-          <file> 61 27 14 26 21</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>[ROOT_NODE]</name>
-      <outputs>
-        <tool>
-          <name>ILINK</name>
-          <file> 84 132</file>
-        </tool>
-      </outputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\source\parity_functions.c</name>
-      <outputs>
-        <tool>
-          <name>ICCARM</name>
-          <file> 168</file>
-        </tool>
-        <tool>
-          <name>BICOMP</name>
-          <file> 167</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>ICCARM</name>
-          <file> 4 61 59 23 2</file>
-        </tool>
-        <tool>
-          <name>BICOMP</name>
-          <file> 4 61 59 23 2</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\source\emif.c</name>
-      <outputs>
-        <tool>
-          <name>ICCARM</name>
-          <file> 77</file>
-        </tool>
-        <tool>
-          <name>BICOMP</name>
-          <file> 136</file>
-        </tool>
-      </outputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\source\errors.c</name>
-      <outputs>
-        <tool>
-          <name>ICCARM</name>
-          <file> 161</file>
-        </tool>
-        <tool>
-          <name>BICOMP</name>
-          <file> 162</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>ICCARM</name>
-          <file> 18 54 52 61 23</file>
-        </tool>
-        <tool>
-          <name>BICOMP</name>
-          <file> 18 54 52 61 23</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\source\gio.c</name>
-      <outputs>
-        <tool>
-          <name>ICCARM</name>
-          <file> 127</file>
-        </tool>
-        <tool>
-          <name>BICOMP</name>
-          <file> 140</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>ICCARM</name>
-          <file> 23 61</file>
-        </tool>
-        <tool>
-          <name>BICOMP</name>
-          <file> 23 61</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\source\het.c</name>
-      <outputs>
-        <tool>
-          <name>ICCARM</name>
-          <file> 116</file>
-        </tool>
-        <tool>
-          <name>BICOMP</name>
-          <file> 163</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>ICCARM</name>
-          <file> 25 61 23 85 117 119 141 82 95 65 114 112 94</file>
-        </tool>
-        <tool>
-          <name>BICOMP</name>
-          <file> 25 61 23 85 117 119 141 95 65 114 112 94</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\source\i2c.c</name>
-      <outputs>
-        <tool>
-          <name>ICCARM</name>
-          <file> 87</file>
-        </tool>
-        <tool>
-          <name>BICOMP</name>
-          <file> 135</file>
-        </tool>
-      </outputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\source\lin.c</name>
-      <outputs>
-        <tool>
-          <name>ICCARM</name>
-          <file> 151</file>
-        </tool>
-        <tool>
-          <name>BICOMP</name>
-          <file> 88</file>
-        </tool>
-      </outputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\source\mac.c</name>
-      <outputs>
-        <tool>
-          <name>ICCARM</name>
-          <file> 155</file>
-        </tool>
-        <tool>
-          <name>BICOMP</name>
-          <file> 134</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>ICCARM</name>
-          <file> 35 61 29 37 28 14 26 54 52 23 41 8</file>
-        </tool>
-        <tool>
-          <name>BICOMP</name>
-          <file> 35 61 29 37 28 14 26 54 52 23 41 8</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\source\sys_main.c</name>
-      <outputs>
-        <tool>
-          <name>ICCARM</name>
-          <file> 131</file>
-        </tool>
-        <tool>
-          <name>BICOMP</name>
-          <file> 124</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>ICCARM</name>
-          <file> 61 76 23 63 25 85 117 119 141 82 95 65 114 112 94 20 52 2 54 41 35 8</file>
-        </tool>
-        <tool>
-          <name>BICOMP</name>
-          <file> 61 76 23 63 25 85 117 119 141 95 65 114 112 94 20 52 2 54 41 35 8</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\source\mdio.c</name>
-      <outputs>
-        <tool>
-          <name>ICCARM</name>
-          <file> 160</file>
-        </tool>
-        <tool>
-          <name>BICOMP</name>
-          <file> 121</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>ICCARM</name>
-          <file> 61 27 37 28</file>
-        </tool>
-        <tool>
-          <name>BICOMP</name>
-          <file> 61 27 37 28</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\source\mibspi.c</name>
-      <outputs>
-        <tool>
-          <name>ICCARM</name>
-          <file> 107</file>
-        </tool>
-        <tool>
-          <name>BICOMP</name>
-          <file> 109</file>
-        </tool>
-      </outputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\source\phy_dp83640.c</name>
-      <outputs>
-        <tool>
-          <name>ICCARM</name>
-          <file> 147</file>
-        </tool>
-        <tool>
-          <name>BICOMP</name>
-          <file> 120</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>ICCARM</name>
-          <file> 61 37 28 29</file>
-        </tool>
-        <tool>
-          <name>BICOMP</name>
-          <file> 61 37 28 29</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\source\pinmux.c</name>
-      <outputs>
-        <tool>
-          <name>ICCARM</name>
-          <file> 122</file>
-        </tool>
-        <tool>
-          <name>BICOMP</name>
-          <file> 12</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>ICCARM</name>
-          <file> 44 61</file>
-        </tool>
-        <tool>
-          <name>BICOMP</name>
-          <file> 44 61</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\source\pom.c</name>
-      <outputs>
-        <tool>
-          <name>ICCARM</name>
-          <file> 106</file>
-        </tool>
-        <tool>
-          <name>BICOMP</name>
-          <file> 105</file>
-        </tool>
-      </outputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\source\rti.c</name>
-      <outputs>
-        <tool>
-          <name>ICCARM</name>
-          <file> 148</file>
-        </tool>
-        <tool>
-          <name>BICOMP</name>
-          <file> 99</file>
-        </tool>
-      </outputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\source\rtp.c</name>
-      <outputs>
-        <tool>
-          <name>ICCARM</name>
-          <file> 137</file>
-        </tool>
-        <tool>
-          <name>BICOMP</name>
-          <file> 110</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>ICCARM</name>
-          <file> 50 61 23</file>
-        </tool>
-        <tool>
-          <name>BICOMP</name>
-          <file> 50 61 23</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\source\sci.c</name>
-      <outputs>
-        <tool>
-          <name>ICCARM</name>
-          <file> 166</file>
-        </tool>
-        <tool>
-          <name>BICOMP</name>
-          <file> 104</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>ICCARM</name>
-          <file> 52 61 23</file>
-        </tool>
-        <tool>
-          <name>BICOMP</name>
-          <file> 52 61 23</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\source\spi.c</name>
-      <outputs>
-        <tool>
-          <name>ICCARM</name>
-          <file> 80</file>
-        </tool>
-        <tool>
-          <name>BICOMP</name>
-          <file> 97</file>
-        </tool>
-      </outputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\source\sci_print.c</name>
-      <outputs>
-        <tool>
-          <name>ICCARM</name>
-          <file> 165</file>
-        </tool>
-        <tool>
-          <name>BICOMP</name>
-          <file> 118</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>ICCARM</name>
-          <file> 54 52 61 23 67 117 119 141 82 95 65 114 112 78 85 94</file>
-        </tool>
-        <tool>
-          <name>BICOMP</name>
-          <file> 54 52 61 23 67 117 119 141 95 65 114 112 78 85 94</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\source\sci_receive.c</name>
-      <outputs>
-        <tool>
-          <name>ICCARM</name>
-          <file> 150</file>
-        </tool>
-        <tool>
-          <name>BICOMP</name>
-          <file> 98</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>ICCARM</name>
-          <file> 52 61 23 41 54 35</file>
-        </tool>
-        <tool>
-          <name>BICOMP</name>
-          <file> 52 61 23 41 54 35</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\source\self_test.c</name>
-      <outputs>
-        <tool>
-          <name>ICCARM</name>
-          <file> 93</file>
-        </tool>
-        <tool>
-          <name>BICOMP</name>
-          <file> 91</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>ICCARM</name>
-          <file> 57 66 61 54 52 23</file>
-        </tool>
-        <tool>
-          <name>BICOMP</name>
-          <file> 57 66 61 54 52 23</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\source\sys_intvecs.asm</name>
-      <outputs>
-        <tool>
-          <name>AARM</name>
-          <file> 90</file>
-        </tool>
-      </outputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\source\sys_core.asm</name>
-      <outputs>
-        <tool>
-          <name>AARM</name>
-          <file> 158</file>
-        </tool>
-      </outputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\source\sys_memory.asm</name>
-      <outputs>
-        <tool>
-          <name>AARM</name>
-          <file> 142</file>
-        </tool>
-      </outputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\source\sys_mpu.asm</name>
-      <outputs>
-        <tool>
-          <name>AARM</name>
-          <file> 146</file>
-        </tool>
-      </outputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\source\sys_phantom.c</name>
-      <outputs>
-        <tool>
-          <name>ICCARM</name>
-          <file> 81</file>
-        </tool>
-        <tool>
-          <name>BICOMP</name>
-          <file> 103</file>
-        </tool>
-      </outputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\source\sys_pmu.asm</name>
-      <outputs>
-        <tool>
-          <name>AARM</name>
-          <file> 149</file>
-        </tool>
-      </outputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\source\sys_startup.c</name>
-      <outputs>
-        <tool>
-          <name>ICCARM</name>
-          <file> 123</file>
-        </tool>
-        <tool>
-          <name>BICOMP</name>
-          <file> 152</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>ICCARM</name>
-          <file> 61 76 23 74 63 66 44</file>
-        </tool>
-        <tool>
-          <name>BICOMP</name>
-          <file> 61 76 23 74 63 66 44</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\source\system.c</name>
-      <outputs>
-        <tool>
-          <name>ICCARM</name>
-          <file> 164</file>
-        </tool>
-        <tool>
-          <name>BICOMP</name>
-          <file> 154</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>ICCARM</name>
-          <file> 76 61 23</file>
-        </tool>
-        <tool>
-          <name>BICOMP</name>
-          <file> 76 61 23</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\Debug\Exe\no_os_hercules_open_safety.out</name>
-      <outputs>
-        <tool>
-          <name>ILINK</name>
-          <file> 132</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>ILINK</name>
-          <file> 128 108 156 102 92 89 133 77 161 139 127 116 87 151 155 160 107 168 147 122 106 148 137 166 165 150 93 80 158 90 131 142 146 81 149 123 164 83 143 79</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\Debug\Obj\no_os_hercules_open_safety.pbd</name>
-      <inputs>
-        <tool>
-          <name>BILINK</name>
-          <file> 145 144 111 159 126 101 136 162 115 140 163 135 88 134 121 109 167 120 12 105 99 110 104 118 98 91 97 124 103 152 154</file>
-        </tool>
-      </inputs>
-    </file>
     <file>
       <name>$PROJ_DIR$\include\mac.c</name>
       <outputs>
         <tool>
           <name>ICCARM</name>
-          <file> 155</file>
+          <file> 167</file>
         </tool>
         <tool>
           <name>BICOMP</name>
-          <file> 134</file>
+          <file> 44</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
           <name>ICCARM</name>
-          <file> 35 61 29 37 28 14 26 54 52 23</file>
+          <file> 90 57 128 125 84 71 82 111 109 79</file>
         </tool>
         <tool>
           <name>BICOMP</name>
-          <file> 35 61 29 37 28 14 26 54 52 23</file>
+          <file> 90 57 128 125 84 71 82 111 109 79</file>
         </tool>
       </inputs>
     </file>
@@ -895,21 +204,21 @@
       <outputs>
         <tool>
           <name>ICCARM</name>
-          <file> 157</file>
+          <file> 136</file>
         </tool>
         <tool>
           <name>BICOMP</name>
-          <file> 96</file>
+          <file> 30</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
           <name>ICCARM</name>
-          <file> 113 61 63 14 26 37 28 29 100 52 23</file>
+          <file> 151 57 59 71 82 125 84 128 36 109 79</file>
         </tool>
         <tool>
           <name>BICOMP</name>
-          <file> 113 61 63 14 26 37 28 29 100 52 23</file>
+          <file> 151 57 59 71 82 125 84 128 36 109 79</file>
         </tool>
       </inputs>
     </file>
@@ -918,17 +227,50 @@
       <outputs>
         <tool>
           <name>BICOMP</name>
-          <file> 153</file>
+          <file> 159</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
           <name>ICCARM</name>
-          <file> 100 61</file>
+          <file> 36 57</file>
         </tool>
         <tool>
           <name>BICOMP</name>
-          <file> 100 61</file>
+          <file> 36 57</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 18 9</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\no_os_hercules_open_safety.out</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 9</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 7 146 168 38 28 25 41 102 139 47 8 155 23 164 167 137 54 145 53 2 42 160 43 144 165 161 27 16 135 24 12 13 158 15 162 1 141 17 49 99</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Obj\no_os_hercules_open_safety.pbd</name>
+      <inputs>
+        <tool>
+          <name>BILINK</name>
+          <file> 52 51 150 138 5 35 46 140 152 50 142 45 22 44 0 147 143 157 98 39 32 149 34 153 31 21 33 3 37 163 166</file>
         </tool>
       </inputs>
     </file>
@@ -941,19 +283,677 @@
         </tool>
         <tool>
           <name>BICOMP</name>
-          <file> 118</file>
+          <file> 153</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
           <name>ICCARM</name>
-          <file> 54 52 61 23</file>
+          <file> 111 109 57 79</file>
         </tool>
         <tool>
           <name>BICOMP</name>
-          <file> 54 52 61 23</file>
+          <file> 111 109 57 79</file>
         </tool>
       </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\source\sys_intvecs.asm</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 24</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\source\sys_core.asm</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 135</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\source\sys_memory.asm</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 13</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\source\sys_main.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 12</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 3</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 57 97 79 59 81 19 154 156 6 14 29 62 148 40 26 69 109 118 111 90 66</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 57 97 79 59 81 19 154 156 6 29 62 148 40 26 69 109 118 111 90 66</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\source\sys_mpu.asm</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 158</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\source\esm.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 47</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 152</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 69 57</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 69 57</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\source\emac.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 41</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 35</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 57 83 71 82 77</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 57 83 71 82 77</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\source\emif.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 102</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 46</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\source\errors.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 139</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 140</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 75 111 109 57 79</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 75 111 109 57 79</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\source\gio.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 8</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 50</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 79 57</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 79 57</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\source\het.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 155</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 142</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 81 57 79 19 154 156 6 14 29 62 148 40 26</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 81 57 79 19 154 156 6 29 62 148 40 26</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\source\i2c.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 23</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 45</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\source\lin.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 164</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 22</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\source\mac.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 167</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 44</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 90 57 128 125 84 71 82 111 109 79 105 66</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 90 57 128 125 84 71 82 111 109 79 105 66</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\source\parity_functions.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 145</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 143</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 120 57 113 79 118</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 120 57 113 79 118</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\source\sys_phantom.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 15</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 37</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\source\sys_pmu.asm</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 162</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\source\sys_startup.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 1</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 163</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 57 97 79 95 59 63 132</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 57 97 79 95 59 63 132</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\source\system.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 141</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 166</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 97 57 79</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 97 57 79</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\source\rtp.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 43</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 149</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 107 57 79</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 107 57 79</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\source\sci.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 144</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 34</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 109 57 79</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 109 57 79</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\source\spi.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 16</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 33</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\source\sci_print.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 165</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 153</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 111 109 57 79 101 154 156 6 14 29 62 148 40 100 19 26</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 111 109 57 79 101 154 156 6 29 62 148 40 100 19 26</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\source\sci_receive.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 161</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 31</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 109 57 79 105 111 90</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 109 57 79 105 111 90</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\source\self_test.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 27</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 21</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 115 63 57 111 109 79</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 115 63 57 111 109 79</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\source\can.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 168</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 51</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\source\adc.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 146</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 52</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 118 57</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 118 57</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\source\dcc.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 38</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 150</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\source\dmm.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 25</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 5</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 68 57 79</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 68 57 79</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\source\debug.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 28</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 138</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 111 109 57 79 105 66</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 111 109 57 79 105 66</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\source\mdio.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 137</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 0</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 57 83 125 84</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 57 83 125 84</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\source\mibspi.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 54</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 147</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\source\phy_dp83640.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 53</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 157</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 57 125 84 128</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 57 125 84 128</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\source\pom.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 42</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 39</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\source\pinmux.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 2</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 98</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 132 57</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 132 57</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\source\rti.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 160</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 32</file>
+        </tool>
+      </outputs>
     </file>
   </configuration>
   <configuration>
