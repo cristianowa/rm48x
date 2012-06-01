@@ -8,7 +8,7 @@ void vTask2(void *pvParameters)
 {
     for(;;)
     {
-        /* Taggle HET[1] with timer tick */
+        /* Send alive status to SCI */
         print_line("Task 2 Alive");
         vTaskDelay(10000);
     }   

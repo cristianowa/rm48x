@@ -9,7 +9,7 @@ void vTask1(void *pvParameters)
 {
     for(;;)
     {
-        /* Taggle HET[1] with timer tick */
+        /* Toggle HET[1] with timer tick */
         gioSetBit(hetPORT1, 17, gioGetBit(hetPORT1, 17) ^ 1);
         vTaskDelay(100);
     }   

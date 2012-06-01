@@ -71,54 +71,5 @@ void sci_receive_rotine()
     }   
  }
 
-}  
-
-int sci_receive_byte()
-{
-    sciDisableNotification(scilinREG,SCI_WAKE_INT |SCI_RX_INT |SCI_BREAK_INT );
-    int ch = sciReceiveByte(scilinREG);
-    sciEnableNotification(scilinREG,SCI_WAKE_INT |SCI_RX_INT |SCI_BREAK_INT );
-    return ch;
-}
-
-void sci_receive_wait(uint8_t ch)
-{
-    sciDisableNotification(scilinREG,SCI_WAKE_INT |SCI_RX_INT |SCI_BREAK_INT );
-    while(sciReceiveByte(scilinREG) != ch);
-    sciEnableNotification(scilinREG,SCI_WAKE_INT |SCI_RX_INT |SCI_BREAK_INT );
-}
-
-int sci_receive_key_pressed(uint8_t ch)
-{
-     int ret;
-     sciDisableNotification(scilinREG,SCI_WAKE_INT |SCI_RX_INT |SCI_BREAK_INT );
-     if (sciReceiveByte(scilinREG) == ch)
-          ret = 1;
-     else
-          ret = 0;
-     sciEnableNotification(scilinREG,SCI_WAKE_INT |SCI_RX_INT |SCI_BREAK_INT );  
-     return ret;
-}
-
-int promt_question(uint8_t* question)
-{
-  int answer;
-  sciDisableNotification(scilinREG,SCI_WAKE_INT |SCI_RX_INT |SCI_BREAK_INT );
-  print(question);print_line(" (y/n) ");
-  while(1)
-  {
-    int ch =  sciReceiveByte(scilinREG);
-    if ('y' == ch)
-      {
-      answer = 1;
-      break;
-      }
-    if ('n' == ch)
-      {
-      answer =  0;
-      break;
-      }
-  }
-  sciEnableNotification(scilinREG,SCI_WAKE_INT |SCI_RX_INT |SCI_BREAK_INT );    
-  return answer;
+  
 }

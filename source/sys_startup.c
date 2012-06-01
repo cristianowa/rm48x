@@ -18,10 +18,13 @@
 /* USER CODE BEGIN (0) */
 #include "task1.h"
 #include "task2.h"
+#include "task3.h"
+#include "task4.h"
 #include "het.h"
 #include "pinmux.h"
 #include "sci_print.h"
 #include "mac.h"
+#include "can.h"
 /* USER CODE END */
 
 
@@ -61,7 +64,19 @@ void osInit(void)
         while(1);
     }
 
-        if (xTaskCreate(vTask2, (const signed char *)"Task2", configMINIMAL_STACK_SIZE, NULL, 1, &xTask2Handle) != pdTRUE)
+    if (xTaskCreate(vTask2, (const signed char *)"Task2", configMINIMAL_STACK_SIZE, NULL, 1, &xTask2Handle) != pdTRUE)
+    {
+        /* Task could not be created */
+        while(1);
+    }
+    
+    if (xTaskCreate(vTask3, (const signed char *)"Task3", configMINIMAL_STACK_SIZE, NULL, 1, &xTask3Handle) != pdTRUE)
+    {
+        /* Task could not be created */
+        while(1);
+    }
+    
+    if (xTaskCreate(vTask4, (const signed char *)"Task4", configMINIMAL_STACK_SIZE, NULL, 1, &xTask4Handle) != pdTRUE)
     {
         /* Task could not be created */
         while(1);
@@ -117,7 +132,7 @@ static const t_isrFuncPTR s_vim_init[] =
     &phantomInterrupt,
     &phantomInterrupt,
     &phantomInterrupt,
-    &phantomInterrupt,
+    &esmLowInterrupt,
     &phantomInterrupt,
     &phantomInterrupt,
     &phantomInterrupt,
@@ -139,7 +154,7 @@ static const t_isrFuncPTR s_vim_init[] =
     &phantomInterrupt,
     &phantomInterrupt,
     &phantomInterrupt,
-    &phantomInterrupt,
+    &can2LowLevelInterrupt,
     &phantomInterrupt,
     &phantomInterrupt,
     &phantomInterrupt,
@@ -414,7 +429,7 @@ void _c_int00()
                         | (0U << 17U)
                         | (0U << 18U)
                         | (0U << 19U)
-                        | (0U << 20U)
+                        | (1U << 20U)
                         | (0U << 21U)
                         | (0U << 22U)
                         | (0U << 23U)
@@ -437,7 +452,7 @@ void _c_int00()
                         | (0U << 7U)
                         | (0U << 8U)
                         | (0U << 9U)
-                        | (0U << 10U)
+                        | (1U << 10U)
                         | (0U << 11U)
                         | (0U << 12U)
                         | (0U << 13U)
@@ -499,17 +514,23 @@ void _c_int00()
 /* USER CODE BEGIN (15) */
 /* Initialize SCI driver */
     sciInit();
+/* Initialize CAN driver */    
+    canInit();
 _disable_interrupt_();
-if (macInit())
-{
-  print_line("failure in network init");
-}
-else
-{
-  print_line("Network Initialized");
+/*
+if(promt_question("Start EMAC/MDIO ? "))
+   {
+    if (macInit())
+    {
+      print_line("failure in network init");
+    }
+    else
+    {
+      print_line("Network Initialized");
+    }
 }
  _enable_interrupt_();   
-    
+ */   
     osInit();
 /* USER CODE END */
 	

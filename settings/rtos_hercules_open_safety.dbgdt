@@ -39,7 +39,7 @@
       
       
       
-    <Wnd0>
+    <Wnd4>
         <Tabs>
           <Tab>
             <Identity>TabID-15274-27718</Identity>
@@ -55,7 +55,7 @@
           </Tab>
         </Tabs>
         
-      <SelectedTab>0</SelectedTab></Wnd0><Wnd1>
+      <SelectedTab>0</SelectedTab></Wnd4><Wnd5>
         <Tabs>
           <Tab>
             <Identity>TabID-26023-27721</Identity>
@@ -67,7 +67,7 @@
           </Tab>
         </Tabs>
         
-      <SelectedTab>0</SelectedTab></Wnd1><Wnd2>
+      <SelectedTab>0</SelectedTab></Wnd5><Wnd6>
         <Tabs>
           <Tab>
             <Identity>TabID-4003-27724</Identity>
@@ -77,20 +77,20 @@
           </Tab>
         </Tabs>
         
-      <SelectedTab>0</SelectedTab></Wnd2><Wnd3><Tabs><Tab><Identity>TabID-15725-9504</Identity><TabName>Watch 1</TabName><Factory>WATCH_1</Factory></Tab></Tabs><SelectedTab>0</SelectedTab></Wnd3></Windows>
+      <SelectedTab>0</SelectedTab></Wnd6><Wnd7><Tabs><Tab><Identity>TabID-15725-9504</Identity><TabName>Watch 1</TabName><Factory>WATCH_1</Factory></Tab></Tabs><SelectedTab>0</SelectedTab></Wnd7></Windows>
     <Editor>
       
       
       
       
-    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\os_port.c</Filename><XPos>0</XPos><YPos>51</YPos><SelStart>3388</SelStart><SelEnd>3388</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\mdio.c</Filename><XPos>0</XPos><YPos>35</YPos><SelStart>1417</SelStart><SelEnd>1417</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\include\sys_core.h</Filename><XPos>0</XPos><YPos>202</YPos><SelStart>7714</SelStart><SelEnd>7733</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\sys_core.asm</Filename><XPos>0</XPos><YPos>498</YPos><SelStart>10888</SelStart><SelEnd>10906</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\sys_memory.asm</Filename><XPos>0</XPos><YPos>3</YPos><SelStart>292</SelStart><SelEnd>292</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\sci.c</Filename><XPos>0</XPos><YPos>212</YPos><SelStart>5935</SelStart><SelEnd>5935</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\sci_print.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>464</SelStart><SelEnd>464</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\debug.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>126</SelStart><SelEnd>126</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\mac.c</Filename><XPos>0</XPos><YPos>167</YPos><SelStart>5298</SelStart><SelEnd>5298</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\pinmux.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>275</SelStart><SelEnd>275</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\include\task1.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>90</SelStart><SelEnd>90</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\task1.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>107</SelStart><SelEnd>107</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\task2.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>260</SelStart><SelEnd>260</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\include\task2.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>36</SelStart><SelEnd>36</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\sys_startup.c</Filename><XPos>0</XPos><YPos>192</YPos><SelStart>4307</SelStart><SelEnd>4307</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\phy_dp83640.c</Filename><XPos>0</XPos><YPos>18</YPos><SelStart>985</SelStart><SelEnd>985</SelEnd></Tab><ActiveTab>15</ActiveTab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\include\phy_dp83640.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>569</SelStart><SelEnd>569</SelEnd></Tab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\os_port.c</Filename><XPos>0</XPos><YPos>51</YPos><SelStart>3388</SelStart><SelEnd>3388</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\mdio.c</Filename><XPos>0</XPos><YPos>35</YPos><SelStart>1417</SelStart><SelEnd>1417</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\include\sys_core.h</Filename><XPos>0</XPos><YPos>202</YPos><SelStart>7714</SelStart><SelEnd>7733</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\sys_core.asm</Filename><XPos>0</XPos><YPos>498</YPos><SelStart>10888</SelStart><SelEnd>10906</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\sys_memory.asm</Filename><XPos>0</XPos><YPos>3</YPos><SelStart>292</SelStart><SelEnd>292</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\sci.c</Filename><XPos>0</XPos><YPos>212</YPos><SelStart>5935</SelStart><SelEnd>5935</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\sci_print.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>464</SelStart><SelEnd>464</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\debug.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>126</SelStart><SelEnd>126</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\mac.c</Filename><XPos>0</XPos><YPos>167</YPos><SelStart>5298</SelStart><SelEnd>5298</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\pinmux.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>275</SelStart><SelEnd>275</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\phy_dp83640.c</Filename><XPos>0</XPos><YPos>48</YPos><SelStart>1922</SelStart><SelEnd>1922</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\include\phy_dp83640.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>569</SelStart><SelEnd>569</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\include\task1.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>90</SelStart><SelEnd>90</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\task1.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>107</SelStart><SelEnd>107</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\task2.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>260</SelStart><SelEnd>260</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\include\task2.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>36</SelStart><SelEnd>36</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\sys_startup.c</Filename><XPos>0</XPos><YPos>192</YPos><SelStart>4307</SelStart><SelEnd>4307</SelEnd></Tab><ActiveTab>16</ActiveTab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
     <Positions>
       
       
       
       
       
-    <Top><Row0><Sizes><Toolbar-00dd1838><key>iaridepm.enu1</key></Toolbar-00dd1838><Toolbar-1262a570><key>debuggergui.enu1</key></Toolbar-1262a570></Sizes></Row0></Top><Left><Row0><Sizes><Wnd1><Rect><Top>-2</Top><Left>-2</Left><Bottom>547</Bottom><Right>198</Right><x>-2</x><y>-2</y><xscreen>200</xscreen><yscreen>200</yscreen><sizeHorzCX>125000</sizeHorzCX><sizeHorzCY>253165</sizeHorzCY><sizeVertCX>125000</sizeVertCX><sizeVertCY>694937</sizeVertCY></Rect></Wnd1></Sizes></Row0></Left><Right><Row0><Sizes><Wnd2><Rect><Top>-2</Top><Left>-2</Left><Bottom>422</Bottom><Right>657</Right><x>-2</x><y>-2</y><xscreen>200</xscreen><yscreen>200</yscreen><sizeHorzCX>125000</sizeHorzCX><sizeHorzCY>253165</sizeHorzCY><sizeVertCX>411875</sizeVertCX><sizeVertCY>536709</sizeVertCY></Rect></Wnd2><Wnd3><Rect><Top>272</Top><Left>-2</Left><Bottom>547</Bottom><Right>657</Right><x>-2</x><y>420</y><xscreen>200</xscreen><yscreen>200</yscreen><sizeHorzCX>125000</sizeHorzCX><sizeHorzCY>253165</sizeHorzCY><sizeVertCX>411875</sizeVertCX><sizeVertCY>160759</sizeVertCY></Rect></Wnd3></Sizes></Row0></Right><Bottom><Row0><Sizes><Wnd0><Rect><Top>-2</Top><Left>-2</Left><Bottom>198</Bottom><Right>1602</Right><x>-2</x><y>-2</y><xscreen>1604</xscreen><yscreen>200</yscreen><sizeHorzCX>1002500</sizeHorzCX><sizeHorzCY>253165</sizeHorzCY><sizeVertCX>125000</sizeVertCX><sizeVertCY>253165</sizeVertCY></Rect></Wnd0></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+    <Top><Row0><Sizes><Toolbar-00221a80><key>iaridepm.enu1</key></Toolbar-00221a80><Toolbar-06fb5da8><key>debuggergui.enu1</key></Toolbar-06fb5da8></Sizes></Row0></Top><Left><Row0><Sizes><Wnd5><Rect><Top>-2</Top><Left>-2</Left><Bottom>547</Bottom><Right>198</Right><x>-2</x><y>-2</y><xscreen>200</xscreen><yscreen>200</yscreen><sizeHorzCX>125000</sizeHorzCX><sizeHorzCY>253165</sizeHorzCY><sizeVertCX>125000</sizeVertCX><sizeVertCY>694937</sizeVertCY></Rect></Wnd5></Sizes></Row0></Left><Right><Row0><Sizes><Wnd6><Rect><Top>-2</Top><Left>-2</Left><Bottom>422</Bottom><Right>657</Right><x>-2</x><y>-2</y><xscreen>200</xscreen><yscreen>200</yscreen><sizeHorzCX>125000</sizeHorzCX><sizeHorzCY>253165</sizeHorzCY><sizeVertCX>411875</sizeVertCX><sizeVertCY>536709</sizeVertCY></Rect></Wnd6><Wnd7><Rect><Top>0</Top><Left>0</Left><Bottom>0</Bottom><Right>0</Right><x>-2</x><y>420</y><xscreen>200</xscreen><yscreen>200</yscreen><sizeHorzCX>125000</sizeHorzCX><sizeHorzCY>253165</sizeHorzCY><sizeVertCX>411875</sizeVertCX><sizeVertCY>160759</sizeVertCY></Rect></Wnd7></Sizes></Row0></Right><Bottom><Row0><Sizes><Wnd4><Rect><Top>-2</Top><Left>-2</Left><Bottom>198</Bottom><Right>1602</Right><x>-2</x><y>-2</y><xscreen>1604</xscreen><yscreen>200</yscreen><sizeHorzCX>1002500</sizeHorzCX><sizeHorzCY>253165</sizeHorzCY><sizeVertCX>125000</sizeVertCX><sizeVertCY>253165</sizeVertCY></Rect></Wnd4></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
   </Desktop>
 </Project>
 

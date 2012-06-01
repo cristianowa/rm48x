@@ -1827,6 +1827,9 @@
     <name>$PROJ_DIR$\include\can.h</name>
   </file>
   <file>
+    <name>$PROJ_DIR$\source\can_protocol.c</name>
+  </file>
+  <file>
     <name>$PROJ_DIR$\source\dcc.c</name>
   </file>
   <file>
@@ -1945,9 +1948,6 @@
   </file>
   <file>
     <name>$PROJ_DIR$\source\os_portasm.asm</name>
-  </file>
-  <file>
-    <name>$PROJ_DIR$\source\os_portasm.h</name>
   </file>
   <file>
     <name>$PROJ_DIR$\source\os_portasm.inc</name>
@@ -2092,6 +2092,18 @@
   </file>
   <file>
     <name>$PROJ_DIR$\include\task2.h</name>
+  </file>
+  <file>
+    <name>$PROJ_DIR$\source\task3.c</name>
+  </file>
+  <file>
+    <name>$PROJ_DIR$\include\task3.h</name>
+  </file>
+  <file>
+    <name>$PROJ_DIR$\source\task4.c</name>
+  </file>
+  <file>
+    <name>$PROJ_DIR$\include\task4.h</name>
   </file>
 </project>
 
