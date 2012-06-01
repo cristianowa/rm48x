@@ -77,26 +77,50 @@
           <Filename>$WS_DIR$\source\sys_main.c</Filename>
           <XPos>0</XPos>
           <YPos>81</YPos>
-          <SelStart>0</SelStart>
-          <SelEnd>0</SelEnd>
+          <SelStart>2453</SelStart>
+          <SelEnd>2453</SelEnd>
         </Tab>
         <Tab>
           <Factory>TextEditor</Factory>
           <Filename>$WS_DIR$\source\sys_startup.c</Filename>
           <XPos>0</XPos>
           <YPos>168</YPos>
-          <SelStart>3707</SelStart>
-          <SelEnd>3707</SelEnd>
+          <SelStart>3510</SelStart>
+          <SelEnd>3510</SelEnd>
         </Tab>
         <Tab>
           <Factory>TextEditor</Factory>
           <Filename>$WS_DIR$\source\can_protocol.c</Filename>
           <XPos>0</XPos>
-          <YPos>132</YPos>
-          <SelStart>3028</SelStart>
-          <SelEnd>3028</SelEnd>
+          <YPos>92</YPos>
+          <SelStart>2475</SelStart>
+          <SelEnd>2475</SelEnd>
         </Tab>
-        <ActiveTab>3</ActiveTab>
+        <Tab>
+          <Factory>TextEditor</Factory>
+          <Filename>$WS_DIR$\source\sci.c</Filename>
+          <XPos>0</XPos>
+          <YPos>319</YPos>
+          <SelStart>8842</SelStart>
+          <SelEnd>8842</SelEnd>
+        </Tab>
+        <Tab>
+          <Factory>TextEditor</Factory>
+          <Filename>$WS_DIR$\source\can.c</Filename>
+          <XPos>0</XPos>
+          <YPos>2973</YPos>
+          <SelStart>99391</SelStart>
+          <SelEnd>99391</SelEnd>
+        </Tab>
+        <Tab>
+          <Factory>TextEditor</Factory>
+          <Filename>$WS_DIR$\include\sci_receive.h</Filename>
+          <XPos>0</XPos>
+          <YPos>0</YPos>
+          <SelStart>267</SelStart>
+          <SelEnd>267</SelEnd>
+        </Tab>
+        <ActiveTab>6</ActiveTab>
       </Pane>
       <ActivePane>0</ActivePane>
       <Sizes>
