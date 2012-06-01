@@ -62,7 +62,7 @@
 
 #include "FreeRTOS.h"
 #include "os_task.h"
-#include "os_portasm.h"
+
 /*----------------------------------------------------------------------------*/
 /* Global Vaiables                                                         */
 
@@ -76,6 +76,12 @@ unsigned portLONG ulCriticalNesting = 9999;
 #define portINSTRUCTION_SIZE            ((portSTACK_TYPE) 0x04)
 #define portNO_CRITICAL_SECTION_NESTING ((portSTACK_TYPE) 0x00)
 #define portTHUMB_MODE_BIT				((portSTACK_TYPE) 0x20)
+
+unsigned int _get_CPSR(void)
+{
+ asm("mrs r1,cpsr \n"); 
+}
+
 
 /*----------------------------------------------------------------------------*/
 /* pxPortInitialiseStack                                                      */
