@@ -19,6 +19,7 @@
 #include "esm.h"
 
 /* USER CODE BEGIN (1) */
+#include "sci_print.h"
 /* USER CODE END */
 
 
@@ -354,6 +355,8 @@ void esmTriggerErrorPinReset(void)
     esmREG->KEY = 5U;
 
 /* USER CODE BEGIN (12) */
+    //Waits the pin reset
+    while(!esmREG->EPSTATUS);
 /* USER CODE END */
 }
 
@@ -640,13 +643,20 @@ void esmLowInterrupt(void)
 /* ESM Group notification (Not used but must be provided) */
 void esmGroup1Notification(unsigned channel)
 {
+    print("esmGroup1Notification : ");
+    print_number(channel);
+    print_line("");
     return;
 }
 
 /* ESM Group2 notification (Not used but must be provided) */
-
+  
 void esmGroup2Notification(unsigned channel)
 {
+    print("esmGroup2Notification : ");
+    print_number(channel);
+    print_line("");
     return;
+
 }
 /* USER CODE END */
