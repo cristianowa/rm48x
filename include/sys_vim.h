@@ -47,6 +47,7 @@ extern void phantomInterrupt(void);
 extern void esmHighInterrupt(void);
 extern void phantomInterrupt(void);
 extern void linHighLevelInterrupt(void);
+extern void esmLowInterrupt(void);
 extern void gioLowLevelInterrupt(void);
 extern void linLowLevelInterrupt(void);
 

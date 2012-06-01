@@ -644,6 +644,7 @@ void esmLowInterrupt(void)
 void esmGroup1Notification(unsigned channel)
 {
     print("esmGroup1Notification : ");
+    //TODO : print device name using esmCHANNELxx 
     print_number(channel);
     print_line("");
     return;
@@ -654,6 +655,7 @@ void esmGroup1Notification(unsigned channel)
 void esmGroup2Notification(unsigned channel)
 {
     print("esmGroup2Notification : ");
+    //TODO : print device name using esmCHANNELxx     
     print_number(channel);
     print_line("");
     return;
