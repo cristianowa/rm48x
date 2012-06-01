@@ -12,7 +12,7 @@
           
           
           
-        <Column0>234</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+        <Column0>238</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
       </Workspace>
       <Build>
         
@@ -25,7 +25,7 @@
     <Windows>
       
       
-    <Wnd2>
+    <Wnd0>
         <Tabs>
           <Tab>
             <Identity>TabID-11887-14188</Identity>
@@ -37,7 +37,7 @@
           </Tab>
         </Tabs>
         
-      <SelectedTab>0</SelectedTab></Wnd2><Wnd3>
+      <SelectedTab>0</SelectedTab></Wnd0><Wnd1>
         <Tabs>
           <Tab>
             <Identity>TabID-14396-15164</Identity>
@@ -47,21 +47,21 @@
           </Tab>
         <Tab><Identity>TabID-28534-27241</Identity><TabName>Debug Log</TabName><Factory>Debug-Log</Factory><Session/></Tab></Tabs>
         
-      <SelectedTab>0</SelectedTab></Wnd3></Windows>
+      <SelectedTab>0</SelectedTab></Wnd1></Windows>
     <Editor>
       
       
       
       
       
-    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\self_test.c</Filename><XPos>0</XPos><YPos>3</YPos><SelStart>590</SelStart><SelEnd>590</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\parity_functions.c</Filename><XPos>0</XPos><YPos>84</YPos><SelStart>2244</SelStart><SelEnd>2244</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\pinmux.c</Filename><XPos>0</XPos><YPos>17</YPos><SelStart>1045</SelStart><SelEnd>1052</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\include\pinmux.h</Filename><XPos>0</XPos><YPos>670</YPos><SelStart>32329</SelStart><SelEnd>32329</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\sys_main.c</Filename><XPos>0</XPos><YPos>105</YPos><SelStart>2503</SelStart><SelEnd>2503</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\esm.c</Filename><XPos>0</XPos><YPos>636</YPos><SelStart>17097</SelStart><SelEnd>17097</SelEnd></Tab><ActiveTab>5</ActiveTab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\sys_memory.asm</Filename><XPos>0</XPos><YPos>73</YPos><SelStart>2177</SelStart><SelEnd>2177</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\sys_startup.c</Filename><XPos>0</XPos><YPos>168</YPos><SelStart>3650</SelStart><SelEnd>3650</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\sci.c</Filename><XPos>0</XPos><YPos>542</YPos><SelStart>15026</SelStart><SelEnd>15026</SelEnd></Tab></Pane><ActivePane>0</ActivePane><Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\sci_receive.c</Filename><XPos>0</XPos><YPos>132</YPos><SelStart>3234</SelStart><SelEnd>3234</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\include\sci_receive.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>24</SelStart><SelEnd>24</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\include\parity_functions.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>185</SelStart><SelEnd>185</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\include\esm.h</Filename><XPos>0</XPos><YPos>612</YPos><SelStart>16308</SelStart><SelEnd>16320</SelEnd></Tab><ActiveTab>3</ActiveTab></Pane><Sizes><Pane><X>500000</X><Y>500000</Y></Pane><Pane><X>500000</X><Y>500000</Y></Pane></Sizes><SplitMode>4</SplitMode></Editor>
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\self_test.c</Filename><XPos>0</XPos><YPos>3</YPos><SelStart>590</SelStart><SelEnd>590</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\parity_functions.c</Filename><XPos>0</XPos><YPos>84</YPos><SelStart>2244</SelStart><SelEnd>2244</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\pinmux.c</Filename><XPos>0</XPos><YPos>17</YPos><SelStart>1045</SelStart><SelEnd>1052</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\include\pinmux.h</Filename><XPos>0</XPos><YPos>670</YPos><SelStart>32329</SelStart><SelEnd>32329</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\sys_main.c</Filename><XPos>0</XPos><YPos>105</YPos><SelStart>2503</SelStart><SelEnd>2503</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\esm.c</Filename><XPos>0</XPos><YPos>348</YPos><SelStart>10395</SelStart><SelEnd>10395</SelEnd></Tab><ActiveTab>5</ActiveTab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\sys_memory.asm</Filename><XPos>0</XPos><YPos>73</YPos><SelStart>2124</SelStart><SelEnd>2124</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\sys_startup.c</Filename><XPos>0</XPos><YPos>165</YPos><SelStart>3566</SelStart><SelEnd>3566</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\sci.c</Filename><XPos>0</XPos><YPos>542</YPos><SelStart>15026</SelStart><SelEnd>15026</SelEnd></Tab></Pane><ActivePane>0</ActivePane><Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\sci_receive.c</Filename><XPos>0</XPos><YPos>108</YPos><SelStart>2532</SelStart><SelEnd>2532</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\include\sci_receive.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>24</SelStart><SelEnd>24</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\include\parity_functions.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>185</SelStart><SelEnd>185</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\include\esm.h</Filename><XPos>0</XPos><YPos>612</YPos><SelStart>16308</SelStart><SelEnd>16320</SelEnd></Tab><ActiveTab>3</ActiveTab></Pane><Sizes><Pane><X>500000</X><Y>500000</Y></Pane><Pane><X>500000</X><Y>500000</Y></Pane></Sizes><SplitMode>4</SplitMode></Editor>
     <Positions>
       
       
       
       
       
-    <Top><Row0><Sizes><Toolbar-003d1838><key>iaridepm.enu1</key></Toolbar-003d1838></Sizes></Row0><Row1><Sizes/></Row1></Top><Left><Row0><Sizes><Wnd2><Rect><Top>-2</Top><Left>-2</Left><Bottom>477</Bottom><Right>325</Right><x>-2</x><y>-2</y><xscreen>26</xscreen><yscreen>87</yscreen><sizeHorzCX>16435</sizeHorzCX><sizeHorzCY>112694</sizeHorzCY><sizeVertCX>206700</sizeVertCX><sizeVertCY>620466</sizeVertCY></Rect></Wnd2></Sizes></Row0></Left><Right><Row0><Sizes/></Row0></Right><Bottom><Row0><Sizes><Wnd3><Rect><Top>-2</Top><Left>-2</Left><Bottom>250</Bottom><Right>1584</Right><x>-2</x><y>-2</y><xscreen>1586</xscreen><yscreen>252</yscreen><sizeHorzCX>1002528</sizeHorzCX><sizeHorzCY>326425</sizeHorzCY><sizeVertCX>16435</sizeVertCX><sizeVertCY>112694</sizeVertCY></Rect></Wnd3></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+    <Top><Row0><Sizes><Toolbar-003d1838><key>iaridepm.enu1</key></Toolbar-003d1838></Sizes></Row0><Row1><Sizes/></Row1></Top><Left><Row0><Sizes><Wnd0><Rect><Top>-2</Top><Left>-2</Left><Bottom>489</Bottom><Right>329</Right><x>-2</x><y>-2</y><xscreen>26</xscreen><yscreen>89</yscreen><sizeHorzCX>16250</sizeHorzCX><sizeHorzCY>112658</sizeHorzCY><sizeVertCX>206875</sizeVertCX><sizeVertCY>621519</sizeVertCY></Rect></Wnd0></Sizes></Row0></Left><Right><Row0><Sizes/></Row0></Right><Bottom><Row0><Sizes><Wnd1><Rect><Top>-2</Top><Left>-2</Left><Bottom>256</Bottom><Right>1602</Right><x>-2</x><y>-2</y><xscreen>1604</xscreen><yscreen>258</yscreen><sizeHorzCX>1002500</sizeHorzCX><sizeHorzCY>326582</sizeHorzCY><sizeVertCX>16250</sizeVertCX><sizeVertCY>112658</sizeVertCY></Rect></Wnd1></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
   </Desktop>
 </Workspace>
 

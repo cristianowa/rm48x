@@ -116,10 +116,10 @@ void sci_receive_rotine()
         print_curr_state();  
         print_line("press the following chars to select stade : ");        
         print_line("   SEND_DUMMY_PACKET : s");
-        print_line("   IDLE : i");
-        print_line("   DUMP_MAC: d");
-        print_line("   PARITY_TEST : p");
-        print_line("   CLEAR_ESM : c");
+        print_line("   IDLE              : i");
+        print_line("   DUMP_MAC          : d");
+        print_line("   PARITY_TEST       : p");
+        print_line("   CLEAR_ESM         : c");
         
   }
  else
