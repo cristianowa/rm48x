@@ -7,6 +7,7 @@
 #include "parity_functions.h"
 #include "can_protocol.h"
 #include "string.h"
+#include "stc.h"
 
 void sciNotification(sciBASE_t *sci, uint32_t flags)
 {
@@ -17,7 +18,7 @@ void sciNotification(sciBASE_t *sci, uint32_t flags)
 
 typedef enum curr_state_t  {
 
-  SEND_DUMMY_PACKET,IDLE,DUMP_MAC,PARITY_TEST,CLEAR_ESM,CAN_SEND
+  SEND_DUMMY_PACKET,IDLE,DUMP_MAC,PARITY_TEST,CLEAR_ESM,CAN_SEND,STC_TEST
 
 }curr_state_t;
 
@@ -45,6 +46,9 @@ void print_curr_state()
   case CAN_SEND:
       print_line("   CAN_SEND");
   break; 
+ case STC_TEST:
+        print_line("   STC_TEST");
+  break;
 
  }
 }
@@ -62,7 +66,8 @@ void dump_mac(){
 }
 
 
-void parity_test(){
+  
+ void parity_test(){
      print_line("Parity Test ");
      print_line("  select the option :  ");
      print_line("  1 - DCAN1");
@@ -70,6 +75,7 @@ void parity_test(){
      print_line("  3 - DCAN3");
      print_line("  4 - MIBADC2");
      print_line("  5 - MIBADC1");
+     
      int ch = sci_receive_byte();
      ch = ch - 48;
      switch(ch)
@@ -147,6 +153,10 @@ void sci_receive_rotine()
       case 'c':
       case 'C':
         curr_state = CAN_SEND;
+      case 't':
+      case 'T':
+        curr_state = STC_TEST;
+        break;
       case 'h':    
       case 'H':    
       default:
@@ -159,6 +169,7 @@ void sci_receive_rotine()
         print_line("   PARITY_TEST       : p");
         print_line("   CLEAR_ESM         : e");
         print_line("   CAN_SEND          : c");
+        print_line("   STC_TEST          : t");
 
         
   }
@@ -184,7 +195,12 @@ void sci_receive_rotine()
       break;
     case CAN_SEND:
         can_send();
-          break;
+        curr_state = IDLE;        
+      break;
+    case STC_TEST:
+        stc_test();
+        curr_state = IDLE;
+      break;
       default:
          curr_state = IDLE;             
     }   

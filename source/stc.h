@@ -39,6 +39,5 @@ typedef volatile struct stcBase
 void stcInit(void);
 void stc_test(void);
 void stcStartSelfTest(void);
-void stcErrorNotification(void);
 
 #endif

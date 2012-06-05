@@ -9,7 +9,7 @@
 #include "stc.h"
 #include "system.h"
 #include "sci.h"
-asm(" PUBLIC  _Continue_after_STC");
+#include "esm.h"
 
 extern void sciSend_32bitdata(sciBASE_t *sci, unsigned int data);
 extern void _coreBackupStackPointer_(void);
@@ -58,28 +58,8 @@ void stcStartSelfTest(void)
         asm("	nop");
   	asm("	nop");
   	asm("	nop");
-  	/** - When STC test completes a CPU reset occurs. 
-  	 *  - After checking whether the reset is caused by STC 
-  	 *    the code will brach here to continue the reset of the code	 */
-  	asm("_Continue_after_STC:	nop");
-  	asm("	nop");
-  	asm("	nop");
-  	asm("	nop");
-  	asm("	nop");
-	
-	/** - Restore Stack pointers after STC test */
- 	_coreRestoreStackPointer_();
-
-	if((systemREG1->SYSESR & 0x20) == 0x20U)
-	{	//return TRUE;
-		//Reset has ocurred
-	}
-
-	/** - Clear the Status register after STC complete */
-	stcREG->STCGSTAT =  0x3;
-
-	/** - Disable the Self Test */  	
-   	stcREG->STCGCR1 = 0x5;
+        /* The code for handling the return of the self-test is in the sys_startup.c file */
+  
 }
 
 /** @fn void stc_test(void)
@@ -94,3 +74,10 @@ void stc_test(void)
 	stcStartSelfTest();
 }	
 
+void stcErrorNotification(void)
+{
+  esmEnableError(0xFFFFFFFFFFFFFFFF);
+    sciInit();
+    print_line("stcErrorNotification\n\r");  
+  
+}

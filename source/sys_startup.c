@@ -29,6 +29,9 @@
 
 /* USER CODE BEGIN (1) */
 #include "pinmux.h"
+#include "stc.h"
+#include "sci.h"
+#include "sci_print.h"
 /* USER CODE END */
 
 
@@ -43,6 +46,8 @@
 extern void __cmain(void);
 
 /* USER CODE BEGIN (3) */
+extern void _coreBackupStackPointer_(void);
+extern void _coreRestoreStackPointer_(void);
 /* USER CODE END */
 
 
@@ -233,6 +238,31 @@ void _c_int00()
 		check for selftest completion without any error and continue start-up. */
 
 /* USER CODE BEGIN (11) */
+          
+  	asm("	nop");
+  	asm("	nop");
+  	asm("	nop");
+  	asm("	nop");
+	
+	/** - Restore Stack pointers after STC test */
+ 	_coreRestoreStackPointer_();
+
+	if(!((systemREG1->SYSESR & 0x20) == 0x20U))
+	{	
+              stcErrorNotification();
+	}
+        else
+        {
+           sciInit();
+           print_line("Processor Self Test Passed\n\r");  
+          
+        }
+
+	/** - Clear the Status register after STC complete */
+	stcREG->STCGSTAT =  0x3;
+
+	/** - Disable the Self Test */  	
+   	stcREG->STCGCR1 = 0x5;
 /* USER CODE END */
 	}
 	else if (SYS_EXCEPTION & 0x10)

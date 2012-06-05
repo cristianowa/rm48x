@@ -1833,6 +1833,9 @@
     <name>$PROJ_DIR$\include\can_protocol.h</name>
   </file>
   <file>
+    <name>$PROJ_DIR$\source\core.asm</name>
+  </file>
+  <file>
     <name>$PROJ_DIR$\source\dcc.c</name>
   </file>
   <file>
@@ -1932,6 +1935,12 @@
     <name>$PROJ_DIR$\source\parity_functions.c</name>
   </file>
   <file>
+    <name>$PROJ_DIR$\source\pbist.c</name>
+  </file>
+  <file>
+    <name>$PROJ_DIR$\include\pbist.h</name>
+  </file>
+  <file>
     <name>$PROJ_DIR$\source\phy_dp83640.c</name>
   </file>
   <file>
@@ -1990,6 +1999,12 @@
   </file>
   <file>
     <name>$PROJ_DIR$\include\spi.h</name>
+  </file>
+  <file>
+    <name>$PROJ_DIR$\source\stc.c</name>
+  </file>
+  <file>
+    <name>$PROJ_DIR$\include\stc.h</name>
   </file>
   <file>
     <name>$PROJ_DIR$\include\std_nhet.h</name>
