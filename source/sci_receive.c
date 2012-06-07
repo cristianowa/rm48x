@@ -8,7 +8,7 @@
 #include "can_protocol.h"
 #include "string.h"
 #include "stc.h"
-
+#include "ccm.h"
 void sciNotification(sciBASE_t *sci, uint32_t flags)
 {
   if(flags &  SCI_RX_INT )
@@ -16,42 +16,6 @@ void sciNotification(sciBASE_t *sci, uint32_t flags)
 
 }
 
-typedef enum curr_state_t  {
-
-  SEND_DUMMY_PACKET,IDLE,DUMP_MAC,PARITY_TEST,CLEAR_ESM,CAN_SEND,STC_TEST
-
-}curr_state_t;
-
-curr_state_t curr_state = IDLE;
-
-void print_curr_state()
-{
- switch(curr_state)
- {
-   case SEND_DUMMY_PACKET:
-      print_line("   SEND_DUMMY_PACKET");
-   break;
- case IDLE:
-      print_line("   IDLE");
-  break;
- case DUMP_MAC:
-      print_line("   DUMP_MAC");
-  break;
- case PARITY_TEST:
-      print_line("   PARITY_TEST");
-   break;
- case CLEAR_ESM:
-      print_line("   CLEAR_ESM");
-   break;
-  case CAN_SEND:
-      print_line("   CAN_SEND");
-  break; 
- case STC_TEST:
-        print_line("   STC_TEST");
-  break;
-
- }
-}
 
 void send_dummy_packet(){
    print_line("Sending Dummy Packet");
@@ -120,94 +84,62 @@ void can_send()
   print_line("type string to send : ");
   uint8_t buf[100] = {0};
   sci_receive_string(buf);
-  can_protocol_send(canREG1,canMESSAGE_BOX1,buf,strlen((char*)buf)); 
-  curr_state = IDLE;       
+  can_protocol_send(canREG1,canMESSAGE_BOX1,buf,strlen((char*)buf));
 }
 
 void sci_receive_rotine()
 {
-  
- if( curr_state == IDLE)
   switch(sci_transfer_buffer[0])
   {
       case 's':
       case 'S':
-        curr_state = SEND_DUMMY_PACKET;
+          send_dummy_packet();
         break;
       case 'd':
       case 'D':
-        curr_state = DUMP_MAC;
-        break;
-      case 'i':
-      case 'I':
-        curr_state = IDLE;
+          dump_mac();
         break;
       case 'p':
       case 'P':
-        curr_state =PARITY_TEST ;
+           parity_test();
         break;
       case 'e':
       case 'E':
-        curr_state = CLEAR_ESM;
+          esmTriggerErrorPinReset();
         break;
       case 'c':
       case 'C':
-        curr_state = CAN_SEND;
+        can_send();
       case 't':
       case 'T':
-        curr_state = STC_TEST;
+         stc_test();
         break;
+      case 'm':
+      case 'M':
+        ccm_enable_error();
+         break;
+      case 'f':
+      case 'F':
+        ccm_enable_selftest_error();
+         break;                  
       case 'h':    
       case 'H':    
       default:
-        print_line("current_state : ");
-        print_curr_state();  
-        print_line("press the following chars to select stade : ");        
+        print_line("press the following chars to select action : ");        
         print_line("   SEND_DUMMY_PACKET : s");
-        print_line("   IDLE              : i");
         print_line("   DUMP_MAC          : d");
         print_line("   PARITY_TEST       : p");
         print_line("   CLEAR_ESM         : e");
         print_line("   CAN_SEND          : c");
         print_line("   STC_TEST          : t");
-
-        
+        print_line("   CCM_ERROR         : m");
+        print_line("   CCM_SELFTEST      : f");                   
   }
- else
- {
-    switch(curr_state)
-    {
-      case SEND_DUMMY_PACKET:
-          send_dummy_packet();
-           curr_state = IDLE; 
-      break;  
-    case DUMP_MAC:
-          dump_mac();
-          curr_state = IDLE; 
-      break;
-    case PARITY_TEST:
-           parity_test();
-           curr_state = IDLE;
-      break;
-    case CLEAR_ESM:
-           esmTriggerErrorPinReset();
-           curr_state = IDLE;
-      break;
-    case CAN_SEND:
-        can_send();
-        curr_state = IDLE;        
-      break;
-    case STC_TEST:
-        stc_test();
-        curr_state = IDLE;
-      break;
-      default:
-         curr_state = IDLE;             
-    }   
- }
+ 
+}
 
   
-}
+
 
 int sci_receive_byte()
 {
