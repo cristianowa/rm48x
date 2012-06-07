@@ -489,8 +489,16 @@ void _c_int00()
     muxInit();
 
 /* USER CODE BEGIN (15) */
+#include "stc.h"
     sciInit();
-    print_hex(sys_exp);
+    print("\n\r STCGCR0 : ");
+    hprint(stcREG->STCGCR0);
+    print("\n\r STCGCR1 : ");
+    hprint(stcREG->STCGCR1);
+    print("\n\r STCTPRL : ");
+    hprint(stcREG->STCTPRL);
+    print("\n\r sys_exp : ");
+    hprint(sys_exp);
 /* USER CODE END */
 	
     /* call the application */
