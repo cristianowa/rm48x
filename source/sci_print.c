@@ -61,6 +61,11 @@ void print_hex(int number)
             print(" ");
 }
 
+void hprint( int number)
+{
+ print_hex(number);  
+}
+
 void boot_message()
 {
    print_line("");

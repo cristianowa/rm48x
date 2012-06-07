@@ -12,6 +12,7 @@ void print_line(uint8_t *text);
 void print_number(int number);
 
 void print_hex(int number);
+void hprint( int number);
 
 void sciDisplayText(sciBASE_t *sci, uint8_t *text);
 
