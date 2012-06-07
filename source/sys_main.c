@@ -55,7 +55,6 @@
 uint8_t  tx_data[D_SIZE]  = {'H','E','R','C','U','L','E','S','\0'};
 uint8_t  rx_data[D_SIZE] = {0};
 uint32_t error = 0;
-
 /* USER CODE END */
 
 
@@ -91,6 +90,7 @@ _enable_interrupt_();
 hetREG1->DOUT = 0;
 
 boot_message();
+
 
 if(promt_question("Start EMAC/MDIO ? "))
     {

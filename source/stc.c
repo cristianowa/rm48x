@@ -40,6 +40,21 @@ void stcInit(void)
   	stcREG->STCTPRL = 0xFFFFFFFF;
 }
 
+
+void stcErrorNotification(void)
+{
+  esmEnableError(0xFFFFFFFFFFFFFFFF);
+    sciInit();
+    print_line("stcErrorNotification\n\r");  
+  
+}
+
+void restoreAfterSelfTest(void)
+{
+  asm("blx _Continue_after_STC"); 
+}
+
+
 /** @fn void stcStartSelfTest(void)
 *   @brief Function used to start the STC self test
 *
@@ -58,7 +73,35 @@ void stcStartSelfTest(void)
         asm("	nop");
   	asm("	nop");
   	asm("	nop");
-        /* The code for handling the return of the self-test is in the sys_startup.c file */
+  	/** - When STC test completes a CPU reset occurs. 
+  	 *  - After checking whether the reset is caused by STC 
+  	 *    the code will brach here to continue the reset of the code	 */
+  	asm("_Continue_after_STC:");
+  	asm("	nop");
+  	asm("	nop");
+  	asm("	nop");
+  	asm("	nop");
+
+       
+	/** - Restore Stack pointers after STC test */
+ 	_coreRestoreStackPointer_();
+
+	if(!((systemREG1->SYSESR & 0x20) == 0x20U))
+	{	
+              stcErrorNotification();
+	}
+        else
+        {
+           sciInit();
+           print_line("Processor Self Test Passed\n\r");  
+          
+        }
+
+	/** - Clear the Status register after STC complete */
+	stcREG->STCGSTAT =  0x3;
+
+	/** - Disable the Self Test */  	
+   	stcREG->STCGCR1 = 0x5;
   
 }
 
@@ -73,11 +116,3 @@ void stc_test(void)
 	/** - Start STC Self Test */
 	stcStartSelfTest();
 }	
-
-void stcErrorNotification(void)
-{
-  esmEnableError(0xFFFFFFFFFFFFFFFF);
-    sciInit();
-    print_line("stcErrorNotification\n\r");  
-  
-}
