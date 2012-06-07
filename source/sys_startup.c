@@ -186,7 +186,7 @@ void _c_int00()
     /* Initialize Core Registers to avoid CCM Error */
     _coreInitRegisters_();
 
-    /* Initialize Stack Poi nters */
+    /* Initialize Stack Pointers */
     _coreInitStackPointer_();
 
 /* USER CODE BEGIN (6) */

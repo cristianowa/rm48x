@@ -141,7 +141,7 @@ void esmInit(void)
                        | (0U);
 
     /** - Enable error pin channels */
-    esmREG->EPENASET1 = (0U << 31U)
+    esmREG->EPENASET1 = (1U << 31U)
                       | (0U << 30U)
                       | (0U << 29U)
                       | (0U << 28U)
@@ -208,7 +208,7 @@ void esmInit(void)
                       | (0U);
 
     /** - Enable interrpts */
-    esmREG->INTENASET1 = (0U << 31U)
+    esmREG->INTENASET1 = (1U << 31U)
                        | (0U << 30U)
                        | (0U << 29U)
                        | (0U << 28U)

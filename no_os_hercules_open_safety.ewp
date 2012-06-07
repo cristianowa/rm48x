@@ -1833,6 +1833,12 @@
     <name>$PROJ_DIR$\include\can_protocol.h</name>
   </file>
   <file>
+    <name>$PROJ_DIR$\source\ccm.c</name>
+  </file>
+  <file>
+    <name>$PROJ_DIR$\include\ccm.h</name>
+  </file>
+  <file>
     <name>$PROJ_DIR$\source\core.asm</name>
   </file>
   <file>
