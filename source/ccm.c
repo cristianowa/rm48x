@@ -23,19 +23,22 @@ void ccm_enable_selftest_error()
   ccmREG->CCMKEYR = SELFTEST_ERROR_FORCING_MODE;
 }
 
+void __jump();
+
 void ccm_enable_error()
 {
-  asm("mrs r8,cpsr");
-  asm("mrs r10,cpsr");
-  asm("and r9,r8,#0xFFFFFF00");
-  asm("orr r8,r9,#0x1F");
-  asm("msr cpsr,r9");
-  
+
   /*must be in supervisor mode to make changes*/
+
+  _svc_entry_();
   
+}
+
+void ccm_enable_error_cont()
+{
   ccmREG->CCMKEYR = ERROR_FORCING_MODE;
-      
-  asm("msr cpsr,r10");    
+  _svc_exit_();
+ 
   
   print_hex(ccmREG->CCMKEYR);
 }

@@ -12,6 +12,7 @@
 
     import _c_int00
     import _undef
+    import _svc
     import _prefetch
     import _data
 
@@ -21,8 +22,7 @@
 
         b   _c_int00
         b   _undef
-svcEntry
-        b   svcEntry
+        b   _svc
         b   _prefetch
         b   _data
 reservedEntry
