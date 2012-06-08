@@ -945,10 +945,6 @@
           <name>ICCARM</name>
           <file> 123 139 80 137 125 130 103 18</file>
         </tool>
-        <tool>
-          <name>BICOMP</name>
-          <file> 123 139 80 137 125 130 103 18</file>
-        </tool>
       </inputs>
     </file>
     <file>

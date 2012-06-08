@@ -274,7 +274,7 @@ void _c_int00()
     systemInit();
 	
     /* Run memory tests */
-    _memoryTest_();
+//    _memoryTest_();
 	
     /* Initialize memory */
     _memoryInit_();

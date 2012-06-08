@@ -125,22 +125,22 @@ regMstGcr     dcd 0xFFFFFF58
 regPbist      dcd 0xFFFFE500
 
 algo
-              dcd 0<<0
-              dcd 0<<1
+              dcd 1<<0
+              dcd 1<<1
               dcd 1<<2
               dcd 1<<3
-              dcd 0<<4
-              dcd 0<<5
-              dcd 0<<6
-              dcd 0<<7
-              dcd 0<<8
-              dcd 0<<9
-              dcd 0<<10
-              dcd 0<<11
-              dcd 0<<12
-              dcd 0<<13
-              dcd 0<<14
-              dcd 0<<15
+              dcd 1<<4
+              dcd 1<<5
+              dcd 1<<6
+              dcd 1<<7
+              dcd 1<<8
+              dcd 1<<9
+              dcd 1<<10
+              dcd 1<<11
+              dcd 1<<12
+              dcd 1<<13
+              dcd 1<<14
+              dcd 1<<15
 palgo         dcd algo
 
 rinfo
