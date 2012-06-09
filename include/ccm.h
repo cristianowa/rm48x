@@ -24,4 +24,5 @@ void ccm_self_test();
 void ccm_enable_selftest_error();
 void ccm_enable_error();
 void ccmErrorNotification();
+void ccm_ccmkeyr();
 #endif

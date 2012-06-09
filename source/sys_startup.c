@@ -202,7 +202,7 @@ void _c_int00()
     sys_exp = SYS_EXCEPTION;
     if (SYS_EXCEPTION & 0x20)
     {                
-  	restoreAfterSelfTest();
+  	stcFinishSelfTest();
     }
     
 /* USER CODE END */

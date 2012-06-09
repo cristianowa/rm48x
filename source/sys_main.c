@@ -110,6 +110,14 @@ if(promt_question("Start EMAC/MDIO ? "))
 // canTransmit(canREG1, canMESSAGE_BOX1, "CAN MESSAGE"); 
 can_protocol_send(canREG1,canMESSAGE_BOX1,"0123456789 bla bla bla bla I have to send a large mess",11); 
 
+
+if(stc_pass_status() == -1)
+{
+    print_line("STC ERROR "); 
+}else if(stc_pass_status() == 1)
+{
+    print_line("STC OK ");  
+}
 /* Run forever */
 while(1)
 {

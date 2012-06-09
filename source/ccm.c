@@ -1,18 +1,37 @@
 #include "ccm.h"
 #include "sci_print.h"
+#include "svc.h"
+
+uint32_t value_ccmkeyr;
+
+void ccm_ccmkeyr()
+{
+   ccmREG->CCMKEYR = value_ccmkeyr; 
+}
+
+
+void ccm_keyr_set(uint32_t value)
+{
+  value_ccmkeyr = value;
+  svc_action_request(CCM_KEYR_SET);
+  svc_call();
+}
+
+
 void ccmErrorNotification()
 {
     print_line("ccmErrorNotification");
 }
 
+
 void ccm_set_lockstep_mode()
 {
-  ccmREG->CCMKEYR = LOCKSTEP_MODE;  
+  ccm_keyr_set(LOCKSTEP_MODE);
 }
 
 void ccm_self_test()
 {
-  ccmREG->CCMKEYR = SELFTEST_MODE;
+    ccm_keyr_set(SELFTEST_MODE);
   while( !(ccmREG->CCMSR & 0x10 ) );
   if ( ccmREG->CCMSR & 0x1 )
     ccmErrorNotification();
@@ -20,25 +39,14 @@ void ccm_self_test()
 
 void ccm_enable_selftest_error()
 {
-  ccmREG->CCMKEYR = SELFTEST_ERROR_FORCING_MODE;
+    ccm_keyr_set(SELFTEST_ERROR_FORCING_MODE);
 }
 
-void __jump();
+
 
 void ccm_enable_error()
 {
-
-  /*must be in supervisor mode to make changes*/
-
-  _svc_entry_();
+   ccm_keyr_set( ERROR_FORCING_MODE); 
   
-}
-
-void ccm_enable_error_cont()
-{
-  ccmREG->CCMKEYR = ERROR_FORCING_MODE;
-  _svc_exit_();
- 
-  
-  print_hex(ccmREG->CCMKEYR);
+    print_hex(ccmREG->CCMKEYR);
 }

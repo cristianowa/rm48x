@@ -86,15 +86,24 @@ void stcStartSelfTest(void)
 	/** - Restore Stack pointers after STC test */
  	_coreRestoreStackPointer_();
 
-	if(!((systemREG1->SYSESR & 0x20) == 0x20U))
+	
+  
+}
+
+int stcPassedStatus = 0;
+
+void stcFinishSelfTest(void)
+{
+    if(!((systemREG1->SYSESR & 0x20) == 0x20U))
 	{	
-              stcErrorNotification();
+           //   stcErrorNotification();
+          stcPassedStatus = -1;
 	}
         else
         {
-           sciInit();
-           print_line("Processor Self Test Passed\n\r");  
-          
+         //  sciInit();
+         //  print_line("Processor Self Test Passed\n\r");  
+          stcPassedStatus = 1;          
         }
 
 	/** - Clear the Status register after STC complete */
@@ -102,7 +111,6 @@ void stcStartSelfTest(void)
 
 	/** - Disable the Self Test */  	
    	stcREG->STCGCR1 = 0x5;
-  
 }
 
 /** @fn void stc_test(void)
@@ -116,3 +124,8 @@ void stc_test(void)
 	/** - Start STC Self Test */
 	stcStartSelfTest();
 }	
+
+int stc_pass_status()
+{
+  return stcPassedStatus; 
+}

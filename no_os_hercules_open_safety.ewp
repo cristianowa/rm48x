@@ -2016,6 +2016,12 @@
     <name>$PROJ_DIR$\include\std_nhet.h</name>
   </file>
   <file>
+    <name>$PROJ_DIR$\include\svc.c</name>
+  </file>
+  <file>
+    <name>$PROJ_DIR$\include\svc.h</name>
+  </file>
+  <file>
     <name>$PROJ_DIR$\include\sys_common.h</name>
   </file>
   <file>

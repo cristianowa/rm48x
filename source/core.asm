@@ -9,9 +9,9 @@
     PUBLIC  _coreRestoreStackPointer_
     PUBLIC _svc_entry_
     PUBLIC _svc_exit_
-    PUBLIC _svc
+    import _svc    
 
-  import     ccm_enable_error_cont
+
 
 _coreBackupStackPointer_:
 
@@ -77,15 +77,9 @@ _coreRestoreStackPointer_:
 
 _svc_entry_:
         swi _svc
-
-_svc:
-  ;      stmfd       sp!, {r0-r12,lr} 
-  ;      ldrb         r0, [lr,#-1]  
-        blx ccm_enable_error_cont
-
 _svc_exit_:
-   ;     ldmfd   sp!, {r0-r12,pc}
-        bx    lr
+        movs PC, r14;_svc
+
 
 user_bkup:   DCD 0x08001000
 svc_bkup:    DCD 0x08001004
