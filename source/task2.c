@@ -10,6 +10,6 @@ void vTask2(void *pvParameters)
     {
         /* Send alive status to SCI */
         print_line("Task 2 Alive");
-        vTaskDelay(10000);
+        vTaskDelay(1000000);
     }   
 }

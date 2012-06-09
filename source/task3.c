@@ -5,22 +5,33 @@
 xTaskHandle xTask3Handle;
 
 
+
 void vTask3(void *pvParameters)
 {
-  uint8_t tx_data[9] = { 'C','O','U','N','T',':',' ','0'};
+  uint8_t data[9] = { 'C','O','U','N','T',':',' ','0'};
+  
+    canTransmit(canREG1, canMESSAGE_BOX2,data); 
     for(;;)
     {
-        /* Send alive status to SCI */
-              
-          canTransmit(canREG1, canMESSAGE_BOX2,tx_data); 
-          if(9 ==tx_data[8])
-          {
-            tx_data[8] = 0;
-          }
-          else
-          {
-            tx_data[8]++;
-          }
-          vTaskDelay(5000);
+       
+        while(!canIsRxMessageArrived(canREG1,canMESSAGE_BOX1))
+        {
+         vTaskDelay(50); 
+        }
+        canGetData(canREG1,canMESSAGE_BOX1 , data);
+        print("task 3 message received : ");
+        print_line(data);
+        if((48+9) ==data[7])
+        {
+           data[7] = 48;
+        }
+        else
+        {
+          data[7]++;
+        }
+        print("task 3 message send : ");
+        print_line(data);      
+        canTransmit(canREG1, canMESSAGE_BOX2,data); 
+        vTaskDelay(5000);   
     }   
 }
