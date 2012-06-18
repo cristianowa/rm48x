@@ -24,7 +24,7 @@
     <Windows>
       
       
-    <Wnd0>
+    <Wnd2>
         <Tabs>
           <Tab>
             <Identity>TabID-26321-14164</Identity>
@@ -36,7 +36,7 @@
           </Tab>
         </Tabs>
         
-      <SelectedTab>0</SelectedTab></Wnd0><Wnd1>
+      <SelectedTab>0</SelectedTab></Wnd2><Wnd3>
         <Tabs>
           <Tab>
             <Identity>TabID-1813-15033</Identity>
@@ -46,20 +46,20 @@
           </Tab>
         <Tab><Identity>TabID-17471-4385</Identity><TabName>Debug Log</TabName><Factory>Debug-Log</Factory><Session/></Tab></Tabs>
         
-      <SelectedTab>0</SelectedTab></Wnd1></Windows>
+      <SelectedTab>0</SelectedTab></Wnd3></Windows>
     <Editor>
       
       
       
       
-    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\include\task4.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>165</SelStart><SelEnd>165</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\include\task3.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>165</SelStart><SelEnd>165</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\os_port.c</Filename><XPos>0</XPos><YPos>63</YPos><SelStart>3500</SelStart><SelEnd>3500</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\sci_receive.c</Filename><XPos>0</XPos><YPos>49</YPos><SelStart>1392</SelStart><SelEnd>1392</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\include\sci_receive.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>261</SelStart><SelEnd>261</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\sci.c</Filename><XPos>0</XPos><YPos>395</YPos><SelStart>9004</SelStart><SelEnd>9004</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\task3.c</Filename><XPos>0</XPos><YPos>6</YPos><SelStart>428</SelStart><SelEnd>428</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\task4.c</Filename><XPos>0</XPos><YPos>6</YPos><SelStart>489</SelStart><SelEnd>489</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\system.c</Filename><XPos>29</XPos><YPos>116</YPos><SelStart>4032</SelStart><SelEnd>4032</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\os_tasks.c</Filename><XPos>23</XPos><YPos>1935</YPos><SelStart>62969</SelStart><SelEnd>62969</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\mac.c</Filename><XPos>0</XPos><YPos>244</YPos><SelStart>8025</SelStart><SelEnd>8025</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\sys_memory.asm</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>611</SelStart><SelEnd>611</SelEnd></Tab><ActiveTab>11</ActiveTab></Pane><ActivePane>0</ActivePane><Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\include\task1.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>90</SelStart><SelEnd>90</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\task1.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>295</SelStart><SelEnd>295</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\task2.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>240</SelStart><SelEnd>240</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\include\task2.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>198</SelStart><SelEnd>198</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\sys_startup.c</Filename><XPos>0</XPos><YPos>207</YPos><SelStart>4750</SelStart><SelEnd>4750</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\can.c</Filename><XPos>0</XPos><YPos>27</YPos><SelStart>636</SelStart><SelEnd>636</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\include\can.h</Filename><XPos>0</XPos><YPos>691</YPos><SelStart>24200</SelStart><SelEnd>24200</SelEnd></Tab><ActiveTab>6</ActiveTab></Pane><Sizes><Pane><X>500000</X><Y>500000</Y></Pane><Pane><X>500000</X><Y>500000</Y></Pane></Sizes><SplitMode>4</SplitMode></Editor>
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\task1.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>295</SelStart><SelEnd>295</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\task2.c</Filename><XPos>0</XPos><YPos>10</YPos><SelStart>857</SelStart><SelEnd>857</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\task3.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\task4.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>534</SelStart><SelEnd>534</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\os_tasks.c</Filename><XPos>0</XPos><YPos>2120</YPos><SelStart>68006</SelStart><SelEnd>68006</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\sys_core.asm</Filename><XPos>0</XPos><YPos>11</YPos><SelStart>504</SelStart><SelEnd>504</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\include\FreeRTOS.h</Filename><XPos>0</XPos><YPos>39</YPos><SelStart>2909</SelStart><SelEnd>2909</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\include\FreeRTOSConfig.h</Filename><XPos>0</XPos><YPos>42</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd></Tab><ActiveTab>7</ActiveTab></Pane><Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\sys_startup.c</Filename><XPos>0</XPos><YPos>219</YPos><SelStart>4750</SelStart><SelEnd>4750</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\os_port.c</Filename><XPos>0</XPos><YPos>63</YPos><SelStart>4101</SelStart><SelEnd>4101</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\esm.c</Filename><XPos>0</XPos><YPos>609</YPos><SelStart>16388</SelStart><SelEnd>16404</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\include\esm.h</Filename><XPos>0</XPos><YPos>700</YPos><SelStart>17761</SelStart><SelEnd>17761</SelEnd></Tab><ActiveTab>3</ActiveTab></Pane><ActivePane>1</ActivePane><Sizes><Pane><X>500000</X><Y>500000</Y></Pane><Pane><X>500000</X><Y>500000</Y></Pane></Sizes><SplitMode>4</SplitMode></Editor>
     <Positions>
       
       
       
       
       
-    <Top><Row0><Sizes><Toolbar-01241838><key>iaridepm.enu1</key></Toolbar-01241838></Sizes></Row0><Row1><Sizes/></Row1></Top><Left><Row0><Sizes><Wnd0><Rect><Top>-2</Top><Left>-2</Left><Bottom>540</Bottom><Right>366</Right><x>-2</x><y>-2</y><xscreen>200</xscreen><yscreen>207</yscreen><sizeHorzCX>125000</sizeHorzCX><sizeHorzCY>262025</sizeHorzCY><sizeVertCX>230000</sizeVertCX><sizeVertCY>686076</sizeVertCY></Rect></Wnd0></Sizes></Row0></Left><Right><Row0><Sizes/></Row0></Right><Bottom><Row0><Sizes><Wnd1><Rect><Top>-2</Top><Left>-2</Left><Bottom>205</Bottom><Right>1602</Right><x>-2</x><y>-2</y><xscreen>1604</xscreen><yscreen>207</yscreen><sizeHorzCX>1002500</sizeHorzCX><sizeHorzCY>262025</sizeHorzCY><sizeVertCX>125000</sizeVertCX><sizeVertCY>262025</sizeVertCY></Rect></Wnd1></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+    <Top><Row0><Sizes><Toolbar-00c91838><key>iaridepm.enu1</key></Toolbar-00c91838></Sizes></Row0></Top><Left><Row0><Sizes><Wnd2><Rect><Top>-2</Top><Left>-2</Left><Bottom>568</Bottom><Right>366</Right><x>-2</x><y>-2</y><xscreen>200</xscreen><yscreen>207</yscreen><sizeHorzCX>125000</sizeHorzCX><sizeHorzCY>253056</sizeHorzCY><sizeVertCX>230000</sizeVertCX><sizeVertCY>696822</sizeVertCY></Rect></Wnd2></Sizes></Row0></Left><Right><Row0><Sizes/></Row0></Right><Bottom><Row0><Sizes><Wnd3><Rect><Top>-2</Top><Left>-2</Left><Bottom>205</Bottom><Right>1602</Right><x>-2</x><y>-2</y><xscreen>1604</xscreen><yscreen>207</yscreen><sizeHorzCX>1002500</sizeHorzCX><sizeHorzCY>253056</sizeHorzCY><sizeVertCX>125000</sizeVertCX><sizeVertCY>253056</sizeVertCY></Rect></Wnd3></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
   </Desktop>
 </Workspace>
 

@@ -293,7 +293,7 @@
         </option>
         <option>
           <name>CCIncludePath2</name>
-          <state>C:\Hercules\IAR\rtos_hercules_open_safety\include</state>
+          <state>$PROJ_DIR$\include</state>
         </option>
         <option>
           <name>CCStdIncCheck</name>
@@ -1830,6 +1830,12 @@
     <name>$PROJ_DIR$\source\can_protocol.c</name>
   </file>
   <file>
+    <name>$PROJ_DIR$\source\ccm.c</name>
+  </file>
+  <file>
+    <name>$PROJ_DIR$\include\ccm.h</name>
+  </file>
+  <file>
     <name>$PROJ_DIR$\source\dcc.c</name>
   </file>
   <file>
@@ -1983,6 +1989,12 @@
     <name>$PROJ_DIR$\include\os_timer.h</name>
   </file>
   <file>
+    <name>$PROJ_DIR$\source\parity_functions.c</name>
+  </file>
+  <file>
+    <name>$PROJ_DIR$\include\parity_functions.h</name>
+  </file>
+  <file>
     <name>$PROJ_DIR$\source\phy_dp83640.c</name>
   </file>
   <file>
@@ -2029,6 +2041,12 @@
   </file>
   <file>
     <name>$PROJ_DIR$\include\spi.h</name>
+  </file>
+  <file>
+    <name>$PROJ_DIR$\source\stc.c</name>
+  </file>
+  <file>
+    <name>$PROJ_DIR$\include\stc.h</name>
   </file>
   <file>
     <name>$PROJ_DIR$\include\std_nhet.h</name>
