@@ -293,7 +293,7 @@
         </option>
         <option>
           <name>CCIncludePath2</name>
-          <state>C:\Hercules\IAR\no_os_hercules_open_safety\include</state>
+          <state>$PROJ_DIR$\include</state>
         </option>
         <option>
           <name>CCStdIncCheck</name>

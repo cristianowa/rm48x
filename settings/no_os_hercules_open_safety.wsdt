@@ -29,7 +29,7 @@
     <Windows>
       
       
-    <Wnd2>
+    <Wnd0>
         <Tabs>
           <Tab>
             <Identity>TabID-26283-11250</Identity>
@@ -41,7 +41,7 @@
           </Tab>
         </Tabs>
         
-      <SelectedTab>0</SelectedTab></Wnd2><Wnd3>
+      <SelectedTab>0</SelectedTab></Wnd0><Wnd1>
         <Tabs>
           <Tab>
             <Identity>TabID-14489-11267</Identity>
@@ -57,20 +57,20 @@
           </Tab>
         </Tabs>
         
-      <SelectedTab>0</SelectedTab></Wnd3></Windows>
+      <SelectedTab>0</SelectedTab></Wnd1></Windows>
     <Editor>
       
       
       
       
-    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\include\svc.c</Filename><XPos>0</XPos><YPos>17</YPos><SelStart>320</SelStart><SelEnd>320</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\include\svc.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>166</SelStart><SelEnd>176</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\core.asm</Filename><XPos>0</XPos><YPos>56</YPos><SelStart>2302</SelStart><SelEnd>2302</SelEnd></Tab><ActiveTab>2</ActiveTab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\sys_startup.c</Filename><XPos>0</XPos><YPos>338</YPos><SelStart>3995</SelStart><SelEnd>3995</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\errors.c</Filename><XPos>0</XPos><YPos>6</YPos><SelStart>312</SelStart><SelEnd>312</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\sci.c</Filename><XPos>0</XPos><YPos>321</YPos><SelStart>8895</SelStart><SelEnd>8895</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\sci_print.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>154</SelStart><SelEnd>154</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\sys_core.asm</Filename><XPos>0</XPos><YPos>327</YPos><SelStart>7554</SelStart><SelEnd>7554</SelEnd></Tab></Pane><ActivePane>0</ActivePane><Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\include\ccm.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>452</SelStart><SelEnd>452</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\ccm.c</Filename><XPos>0</XPos><YPos>38</YPos><SelStart>668</SelStart><SelEnd>668</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\include\stc.h</Filename><XPos>0</XPos><YPos>23</YPos><SelStart>962</SelStart><SelEnd>962</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\stc.c</Filename><XPos>0</XPos><YPos>93</YPos><SelStart>2541</SelStart><SelEnd>2541</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\sys_main.c</Filename><XPos>0</XPos><YPos>125</YPos><SelStart>3269</SelStart><SelEnd>3269</SelEnd></Tab><ActiveTab>4</ActiveTab></Pane><Sizes><Pane><X>500000</X><Y>500000</Y></Pane><Pane><X>500000</X><Y>500000</Y></Pane></Sizes><SplitMode>4</SplitMode></Editor>
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\sci.c</Filename><XPos>0</XPos><YPos>48</YPos><SelStart>1195</SelStart><SelEnd>1195</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\sys_main.c</Filename><XPos>0</XPos><YPos>69</YPos><SelStart>2287</SelStart><SelEnd>2287</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\sys_startup.c</Filename><XPos>0</XPos><YPos>165</YPos><SelStart>3600</SelStart><SelEnd>3600</SelEnd></Tab><ActiveTab>2</ActiveTab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
     <Positions>
       
       
       
       
       
-    <Top><Row0><Sizes><Toolbar-00cd1838><key>iaridepm.enu1</key></Toolbar-00cd1838></Sizes></Row0><Row1><Sizes/></Row1></Top><Left><Row0><Sizes><Wnd2><Rect><Top>-2</Top><Left>-2</Left><Bottom>551</Bottom><Right>377</Right><x>-2</x><y>-2</y><xscreen>98</xscreen><yscreen>196</yscreen><sizeHorzCX>61250</sizeHorzCX><sizeHorzCY>248101</sizeHorzCY><sizeVertCX>236875</sizeVertCX><sizeVertCY>700000</sizeVertCY></Rect></Wnd2></Sizes></Row0></Left><Right><Row0><Sizes/></Row0></Right><Bottom><Row0><Sizes><Wnd3><Rect><Top>-2</Top><Left>-2</Left><Bottom>194</Bottom><Right>1602</Right><x>-2</x><y>-2</y><xscreen>1604</xscreen><yscreen>196</yscreen><sizeHorzCX>1002500</sizeHorzCX><sizeHorzCY>248101</sizeHorzCY><sizeVertCX>61250</sizeVertCX><sizeVertCY>248101</sizeVertCY></Rect></Wnd3></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+    <Top><Row0><Sizes><Toolbar-02641838><key>iaridepm.enu1</key></Toolbar-02641838></Sizes></Row0></Top><Left><Row0><Sizes><Wnd0><Rect><Top>-2</Top><Left>-2</Left><Bottom>461</Bottom><Right>377</Right><x>-2</x><y>-2</y><xscreen>98</xscreen><yscreen>196</yscreen><sizeHorzCX>61250</sizeHorzCX><sizeHorzCY>239609</sizeHorzCY><sizeVertCX>236875</sizeVertCX><sizeVertCY>566015</sizeVertCY></Rect></Wnd0></Sizes></Row0></Left><Right><Row0><Sizes/></Row0></Right><Bottom><Row0><Sizes><Wnd1><Rect><Top>-2</Top><Left>-2</Left><Bottom>312</Bottom><Right>1602</Right><x>-2</x><y>-2</y><xscreen>1604</xscreen><yscreen>314</yscreen><sizeHorzCX>1002500</sizeHorzCX><sizeHorzCY>383863</sizeHorzCY><sizeVertCX>61250</sizeVertCX><sizeVertCY>239609</sizeVertCY></Rect></Wnd1></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
   </Desktop>
 </Workspace>
 
