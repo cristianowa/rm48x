@@ -3,7 +3,7 @@
   <DEVICE>
     <family>RM4x</family>
     <device>TMDXRM48HDK</device>
-    <dilfile>no_os_hercules_open_safety.dil</dilfile>
+    <dilfile>rm48x.dil</dilfile>
     <tools>iar</tools>
   </DEVICE>
   <HET1>
