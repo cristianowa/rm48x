@@ -174,7 +174,7 @@
       <file>$PROJ_DIR$\Debug\Obj\errors.pbi</file>
       <file>$PROJ_DIR$\Debug\Obj\sys_memory.o</file>
       <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
-      <file>$PROJ_DIR$\Debug\List\lwip_example.map</file>
+      <file>$PROJ_DIR$\Debug\List\rm48x.map</file>
       <file>$PROJ_DIR$\Debug\Obj\emif.o</file>
       <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
       <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
@@ -312,14 +312,14 @@
       <file>$TOOLKIT_DIR$\lib\dl5E_tln.a</file>
       <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
       <file>$PROJ_DIR$\Debug\Obj\debug.o</file>
-      <file>$PROJ_DIR$\Debug\Exe\lwip_example.out</file>
+      <file>$PROJ_DIR$\Debug\Exe\rm48x.out</file>
       <file>$PROJ_DIR$\Debug\Obj\lin.pbi</file>
       <file>$PROJ_DIR$\Debug\Obj\debug.pbi</file>
       <file>$PROJ_DIR$\include\phy_dp83640.h</file>
       <file>$PROJ_DIR$\Debug\Obj\dmm.o</file>
       <file>$PROJ_DIR$\Debug\Obj\sys_intvecs.o</file>
       <file>$PROJ_DIR$\Debug\Obj\sys_phantom.o</file>
-      <file>$PROJ_DIR$\Debug\Obj\lwip_example.pbd</file>
+      <file>$PROJ_DIR$\Debug\Obj\rm48x.pbd</file>
       <file>$PROJ_DIR$\lwip-1.3.2\src\core\tcp_out.c</file>
       <file>$PROJ_DIR$\lwip-1.3.2\src\core\memp.c</file>
       <file>$PROJ_DIR$\lwip-1.3.2\src\core\pbuf.c</file>
@@ -1532,7 +1532,7 @@
       </inputs>
     </file>
     <file>
-      <name>$PROJ_DIR$\Debug\Exe\lwip_example.out</name>
+      <name>$PROJ_DIR$\Debug\Exe\rm48x.out</name>
       <inputs>
         <tool>
           <name>ILINK</name>
@@ -1541,7 +1541,7 @@
       </inputs>
     </file>
     <file>
-      <name>$PROJ_DIR$\Debug\Obj\lwip_example.pbd</name>
+      <name>$PROJ_DIR$\Debug\Obj\rm48x.pbd</name>
       <inputs>
         <tool>
           <name>BILINK</name>

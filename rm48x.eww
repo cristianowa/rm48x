@@ -2,7 +2,7 @@
 
 <workspace>
   <project>
-    <path>$WS_DIR$\lwip_example.ewp</path>
+    <path>$WS_DIR$\rm48x.ewp</path>
   </project>
   <batchBuild/>
 </workspace>

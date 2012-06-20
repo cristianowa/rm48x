@@ -574,7 +574,7 @@
         </option>
         <option>
           <name>OOCOutputFile</name>
-          <state>lwip_example.srec</state>
+          <state>rm48x.srec</state>
         </option>
         <option>
           <name>OOCCommandLineProducer</name>
@@ -628,7 +628,7 @@
         </option>
         <option>
           <name>IlinkOutputFile</name>
-          <state>lwip_example.out</state>
+          <state>rm48x.out</state>
         </option>
         <option>
           <name>IlinkDebugInfoEnable</name>
