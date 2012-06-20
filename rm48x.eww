@@ -2,7 +2,7 @@
 
 <workspace>
   <project>
-    <path>$WS_DIR$\rtos_hercules_open_safety.ewp</path>
+    <path>$WS_DIR$\rm48x.ewp</path>
   </project>
   <batchBuild/>
 </workspace>

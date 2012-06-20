@@ -3,7 +3,7 @@
   <DEVICE>
     <family>RM4x</family>
     <device>RM48L950ZWT_FREERTOS</device>
-    <dilfile>rtos_hercules_open_safety.dil</dilfile>
+    <dilfile>rm48x.dil</dilfile>
     <tools>iar</tools>
   </DEVICE>
   <HET1>

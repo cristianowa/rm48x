@@ -568,7 +568,7 @@
         </option>
         <option>
           <name>OOCOutputFile</name>
-          <state>rtos_hercules_open_safety.srec</state>
+          <state>rm48x.srec</state>
         </option>
         <option>
           <name>OOCCommandLineProducer</name>
@@ -622,7 +622,7 @@
         </option>
         <option>
           <name>IlinkOutputFile</name>
-          <state>rtos_hercules_open_safety.out</state>
+          <state>rm48x.out</state>
         </option>
         <option>
           <name>IlinkDebugInfoEnable</name>
@@ -686,7 +686,7 @@
         </option>
         <option>
           <name>IlinkIcfFile</name>
-          <state>C:\Hercules\IAR\rtos_hercules_open_safety\config\RM48L950_flash.icf</state>
+          <state>C:\Hercules\IAR\rm48x\config\RM48L950_flash.icf</state>
         </option>
         <option>
           <name>IlinkIcfFileSlave</name>
