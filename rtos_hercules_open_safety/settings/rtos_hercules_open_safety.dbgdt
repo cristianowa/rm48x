@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Project>
+  <Desktop>
+    <Static>
+      <Debug-Log>
+        
+        
+      <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>1541</ColumnWidth1></Debug-Log>
+      <Build>
+        <ColumnWidth0>20</ColumnWidth0>
+        <ColumnWidth1>1155</ColumnWidth1>
+        <ColumnWidth2>308</ColumnWidth2>
+        <ColumnWidth3>77</ColumnWidth3>
+      </Build>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>107</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+      </Workspace>
+      <Disassembly>
+        <col-names>
+          
+          
+        <item>Disassembly</item><item>_I0</item></col-names>
+        <col-widths>
+          
+          
+        <item>500</item><item>20</item></col-widths>
+        <DisasmHistory/>
+        
+        
+      <ShowCodeCoverage>0</ShowCodeCoverage><ShowInstrProfiling>0</ShowInstrProfiling></Disassembly>
+    <WATCH_1><expressions><item>data</item><item>id</item><item>PHY_ID_SHIFT</item><item>data[7]</item><item>esmREG-&gt;ESTATUS4</item><item/></expressions><col-names><item>Expression</item><item>Location</item><item>Type</item><item>Value</item></col-names><col-widths><item>100</item><item>150</item><item>100</item><item>235</item></col-widths></WATCH_1></Static>
+    <Windows>
+      
+      
+      
+    <Wnd0>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-15274-27718</Identity>
+            <TabName>Debug Log</TabName>
+            <Factory>Debug-Log</Factory>
+            <Session/>
+          </Tab>
+          <Tab>
+            <Identity>TabID-14751-27728</Identity>
+            <TabName>Build</TabName>
+            <Factory>Build</Factory>
+            <Session/>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd0><Wnd1>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-26023-27721</Identity>
+            <TabName>Workspace</TabName>
+            <Factory>Workspace</Factory>
+            <Session>
+              
+            <NodeDict><ExpandedNode>rtos_hercules_open_safety</ExpandedNode></NodeDict></Session>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd1><Wnd2>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-4003-27724</Identity>
+            <TabName>Disassembly</TabName>
+            <Factory>Disassembly</Factory>
+            <Session/>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd2><Wnd3><Tabs><Tab><Identity>TabID-15725-9504</Identity><TabName>Watch 1</TabName><Factory>WATCH_1</Factory></Tab></Tabs><SelectedTab>0</SelectedTab></Wnd3></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\task1.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>295</SelStart><SelEnd>295</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\task2.c</Filename><XPos>0</XPos><YPos>10</YPos><SelStart>857</SelStart><SelEnd>857</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\task3.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\task4.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>534</SelStart><SelEnd>534</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\os_tasks.c</Filename><XPos>0</XPos><YPos>2120</YPos><SelStart>68006</SelStart><SelEnd>68006</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\sys_core.asm</Filename><XPos>0</XPos><YPos>11</YPos><SelStart>504</SelStart><SelEnd>504</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\include\FreeRTOS.h</Filename><XPos>0</XPos><YPos>39</YPos><SelStart>2909</SelStart><SelEnd>2909</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\include\FreeRTOSConfig.h</Filename><XPos>0</XPos><YPos>42</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\sys_startup.c</Filename><XPos>0</XPos><YPos>219</YPos><SelStart>4750</SelStart><SelEnd>4750</SelEnd></Tab><ActiveTab>8</ActiveTab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\os_port.c</Filename><XPos>0</XPos><YPos>63</YPos><SelStart>4101</SelStart><SelEnd>4101</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\esm.c</Filename><XPos>0</XPos><YPos>609</YPos><SelStart>16388</SelStart><SelEnd>16404</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\include\esm.h</Filename><XPos>0</XPos><YPos>700</YPos><SelStart>17761</SelStart><SelEnd>17761</SelEnd></Tab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-00371838><key>iaridepm.enu1</key></Toolbar-00371838></Sizes></Row0><Row1><Sizes><Toolbar-0df09578><key>debuggergui.enu1</key></Toolbar-0df09578></Sizes></Row1></Top><Left><Row0><Sizes><Wnd1><Rect><Top>-2</Top><Left>-2</Left><Bottom>523</Bottom><Right>198</Right><x>-2</x><y>-2</y><xscreen>200</xscreen><yscreen>200</yscreen><sizeHorzCX>125000</sizeHorzCX><sizeHorzCY>253165</sizeHorzCY><sizeVertCX>125000</sizeVertCX><sizeVertCY>664557</sizeVertCY></Rect></Wnd1></Sizes></Row0></Left><Right><Row0><Sizes><Wnd2><Rect><Top>-2</Top><Left>-2</Left><Bottom>239</Bottom><Right>657</Right><x>-2</x><y>-2</y><xscreen>200</xscreen><yscreen>200</yscreen><sizeHorzCX>125000</sizeHorzCX><sizeHorzCY>253165</sizeHorzCY><sizeVertCX>411875</sizeVertCX><sizeVertCY>305063</sizeVertCY></Rect></Wnd2><Wnd3><Rect><Top>0</Top><Left>0</Left><Bottom>0</Bottom><Right>0</Right><x>-2</x><y>237</y><xscreen>200</xscreen><yscreen>200</yscreen><sizeHorzCX>125000</sizeHorzCX><sizeHorzCY>253165</sizeHorzCY><sizeVertCX>411875</sizeVertCX><sizeVertCY>362025</sizeVertCY></Rect></Wnd3></Sizes></Row0></Right><Bottom><Row0><Sizes><Wnd0><Rect><Top>-2</Top><Left>-2</Left><Bottom>198</Bottom><Right>1602</Right><x>-2</x><y>-2</y><xscreen>1604</xscreen><yscreen>200</yscreen><sizeHorzCX>1002500</sizeHorzCX><sizeHorzCY>253165</sizeHorzCY><sizeVertCX>125000</sizeVertCX><sizeVertCY>253165</sizeVertCY></Rect></Wnd0></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Project>
+
+

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Workspace>
+  <ConfigDictionary>
+    
+  <CurrentConfigs><Project>rtos_hercules_open_safety/Debug</Project></CurrentConfigs></ConfigDictionary>
+  <Desktop>
+    <Static>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>275</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+      </Workspace>
+      <Build>
+        
+        
+        
+        
+      <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>1155</ColumnWidth1><ColumnWidth2>308</ColumnWidth2><ColumnWidth3>77</ColumnWidth3></Build>
+    <TerminalIO/><Debug-Log><ColumnWidth0>20</ColumnWidth0><ColumnWidth1>1541</ColumnWidth1></Debug-Log></Static>
+    <Windows>
+      
+      
+    <Wnd2>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-26321-14164</Identity>
+            <TabName>Workspace</TabName>
+            <Factory>Workspace</Factory>
+            <Session>
+              
+            <NodeDict><ExpandedNode>rtos_hercules_open_safety</ExpandedNode></NodeDict></Session>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd2><Wnd3>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-1813-15033</Identity>
+            <TabName>Build</TabName>
+            <Factory>Build</Factory>
+            <Session/>
+          </Tab>
+        <Tab><Identity>TabID-17471-4385</Identity><TabName>Debug Log</TabName><Factory>Debug-Log</Factory><Session/></Tab></Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd3></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\task1.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>295</SelStart><SelEnd>295</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\task2.c</Filename><XPos>0</XPos><YPos>10</YPos><SelStart>857</SelStart><SelEnd>857</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\task3.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\task4.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>534</SelStart><SelEnd>534</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\os_tasks.c</Filename><XPos>0</XPos><YPos>2120</YPos><SelStart>68006</SelStart><SelEnd>68006</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\sys_core.asm</Filename><XPos>0</XPos><YPos>11</YPos><SelStart>504</SelStart><SelEnd>504</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\include\FreeRTOS.h</Filename><XPos>0</XPos><YPos>39</YPos><SelStart>2909</SelStart><SelEnd>2909</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\include\FreeRTOSConfig.h</Filename><XPos>0</XPos><YPos>42</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd></Tab><ActiveTab>7</ActiveTab></Pane><Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\sys_startup.c</Filename><XPos>0</XPos><YPos>219</YPos><SelStart>4750</SelStart><SelEnd>4750</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\os_port.c</Filename><XPos>0</XPos><YPos>63</YPos><SelStart>4101</SelStart><SelEnd>4101</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\esm.c</Filename><XPos>0</XPos><YPos>609</YPos><SelStart>16388</SelStart><SelEnd>16404</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\include\esm.h</Filename><XPos>0</XPos><YPos>700</YPos><SelStart>17761</SelStart><SelEnd>17761</SelEnd></Tab><ActiveTab>3</ActiveTab></Pane><ActivePane>1</ActivePane><Sizes><Pane><X>500000</X><Y>500000</Y></Pane><Pane><X>500000</X><Y>500000</Y></Pane></Sizes><SplitMode>4</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-00c91838><key>iaridepm.enu1</key></Toolbar-00c91838></Sizes></Row0></Top><Left><Row0><Sizes><Wnd2><Rect><Top>-2</Top><Left>-2</Left><Bottom>568</Bottom><Right>366</Right><x>-2</x><y>-2</y><xscreen>200</xscreen><yscreen>207</yscreen><sizeHorzCX>125000</sizeHorzCX><sizeHorzCY>253056</sizeHorzCY><sizeVertCX>230000</sizeVertCX><sizeVertCY>696822</sizeVertCY></Rect></Wnd2></Sizes></Row0></Left><Right><Row0><Sizes/></Row0></Right><Bottom><Row0><Sizes><Wnd3><Rect><Top>-2</Top><Left>-2</Left><Bottom>205</Bottom><Right>1602</Right><x>-2</x><y>-2</y><xscreen>1604</xscreen><yscreen>207</yscreen><sizeHorzCX>1002500</sizeHorzCX><sizeHorzCY>253056</sizeHorzCY><sizeVertCX>125000</sizeVertCX><sizeVertCY>253056</sizeVertCY></Rect></Wnd3></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Workspace>
+
+
