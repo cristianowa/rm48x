@@ -2,8 +2,8 @@
 <?fileVersion 3.1.0?>
 
 <ManagedProjectBuildInfo>
-<project id="HalCoGenExample.com.ti.ccstudio.buildDefinitions.TMS470.ProjectType.912849351" name="ARM" projectType="com.ti.ccstudio.buildDefinitions.TMS470.ProjectType">
-<configuration artifactExtension="out" artifactName="HalCoGenExample" description="" id="com.ti.ccstudio.buildDefinitions.TMS470.Debug.1833069868" name="Debug" parent="com.ti.ccstudio.buildDefinitions.TMS470.Debug">
+<project id=".com.ti.ccstudio.buildDefinitions.TMS470.ProjectType.912849351" name="ARM" projectType="com.ti.ccstudio.buildDefinitions.TMS470.ProjectType">
+<configuration artifactExtension="out" artifactName="" description="" id="com.ti.ccstudio.buildDefinitions.TMS470.Debug.1833069868" name="Debug" parent="com.ti.ccstudio.buildDefinitions.TMS470.Debug">
 <toolChain id="com.ti.ccstudio.buildDefinitions.TMS470_4.9.exe.DebugToolchain.677298630" name="TI Code Generation Tools" superClass="com.ti.ccstudio.buildDefinitions.TMS470_4.9.exe.DebugToolchain" targetTool="com.ti.ccstudio.buildDefinitions.TMS470_4.9.exe.linkerDebug.1379630919">
 <option id="com.ti.ccstudio.buildDefinitions.core.OPT_TAGS.1756784732" superClass="com.ti.ccstudio.buildDefinitions.core.OPT_TAGS" valueType="stringList">
 <listOptionValue builtIn="false" value="DEVICE_CONFIGURATION_ID=Cortex R.RM48L950"/>
@@ -25,15 +25,15 @@
 <option id="com.ti.ccstudio.buildDefinitions.TMS470_4.9.compilerID.ABI.219992290" superClass="com.ti.ccstudio.buildDefinitions.TMS470_4.9.compilerID.ABI" value="com.ti.ccstudio.buildDefinitions.TMS470_4.9.compilerID.ABI.eabi" valueType="enumerated"/>
 <option id="com.ti.ccstudio.buildDefinitions.TMS470_4.9.compilerID.ENUM_TYPE.446643311" superClass="com.ti.ccstudio.buildDefinitions.TMS470_4.9.compilerID.ENUM_TYPE" value="com.ti.ccstudio.buildDefinitions.TMS470_4.9.compilerID.ENUM_TYPE.packed" valueType="enumerated"/>
 <option id="com.ti.ccstudio.buildDefinitions.TMS470_4.9.compilerID.INCLUDE_PATH.598498975" superClass="com.ti.ccstudio.buildDefinitions.TMS470_4.9.compilerID.INCLUDE_PATH" valueType="includePath">
-<listOptionValue builtIn="false" value="&quot;${workspace_loc:/HalCoGenExample}&quot;"/>
+<listOptionValue builtIn="false" value="&quot;${workspace_loc:/}&quot;"/>
 <listOptionValue builtIn="false" value="&quot;${CG_TOOL_ROOT}/include&quot;"/>
-<listOptionValue builtIn="false" value="&quot;${workspace_loc:/HalCoGenExample/nonHalCoGen}&quot;"/>
+<listOptionValue builtIn="false" value="&quot;${workspace_loc://nonHalCoGen}&quot;"/>
 </option>
 <option id="com.ti.ccstudio.buildDefinitions.TMS470_4.9.compilerID.LITTLE_ENDIAN.856524888" superClass="com.ti.ccstudio.buildDefinitions.TMS470_4.9.compilerID.LITTLE_ENDIAN" value="true" valueType="boolean"/>
 </tool>
 <tool id="com.ti.ccstudio.buildDefinitions.TMS470_4.9.exe.linkerDebug.1379630919" name="TMS470 Linker" superClass="com.ti.ccstudio.buildDefinitions.TMS470_4.9.exe.linkerDebug">
-<option id="com.ti.ccstudio.buildDefinitions.TMS470_4.9.linkerID.OUTPUT_FILE.1177882413" superClass="com.ti.ccstudio.buildDefinitions.TMS470_4.9.linkerID.OUTPUT_FILE" value="&quot;HalCoGenExample.out&quot;" valueType="string"/>
-<option id="com.ti.ccstudio.buildDefinitions.TMS470_4.9.linkerID.MAP_FILE.1956112893" superClass="com.ti.ccstudio.buildDefinitions.TMS470_4.9.linkerID.MAP_FILE" value="&quot;HalCoGenExample.map&quot;" valueType="string"/>
+<option id="com.ti.ccstudio.buildDefinitions.TMS470_4.9.linkerID.OUTPUT_FILE.1177882413" superClass="com.ti.ccstudio.buildDefinitions.TMS470_4.9.linkerID.OUTPUT_FILE" value="&quot;.out&quot;" valueType="string"/>
+<option id="com.ti.ccstudio.buildDefinitions.TMS470_4.9.linkerID.MAP_FILE.1956112893" superClass="com.ti.ccstudio.buildDefinitions.TMS470_4.9.linkerID.MAP_FILE" value="&quot;.map&quot;" valueType="string"/>
 <option id="com.ti.ccstudio.buildDefinitions.TMS470_4.9.linkerID.SEARCH_PATH.447594881" superClass="com.ti.ccstudio.buildDefinitions.TMS470_4.9.linkerID.SEARCH_PATH" valueType="stringList">
 <listOptionValue builtIn="false" value="&quot;${CG_TOOL_ROOT}/lib&quot;"/>
 <listOptionValue builtIn="false" value="&quot;${CG_TOOL_ROOT}/include&quot;"/>
@@ -46,7 +46,7 @@
 <macros expandEnvironmentMacros="true"/>
 </toolChain>
 </configuration>
-<configuration artifactExtension="out" artifactName="HalCoGenExample" description="" id="com.ti.ccstudio.buildDefinitions.TMS470.Release.1566061747" name="Release" parent="com.ti.ccstudio.buildDefinitions.TMS470.Release">
+<configuration artifactExtension="out" artifactName="" description="" id="com.ti.ccstudio.buildDefinitions.TMS470.Release.1566061747" name="Release" parent="com.ti.ccstudio.buildDefinitions.TMS470.Release">
 <toolChain id="com.ti.ccstudio.buildDefinitions.TMS470_4.9.exe.ReleaseToolchain.1334259115" name="TI Code Generation Tools" superClass="com.ti.ccstudio.buildDefinitions.TMS470_4.9.exe.ReleaseToolchain" targetTool="com.ti.ccstudio.buildDefinitions.TMS470_4.9.exe.linkerRelease.1983099395">
 <option id="com.ti.ccstudio.buildDefinitions.core.OPT_TAGS.1716234350" superClass="com.ti.ccstudio.buildDefinitions.core.OPT_TAGS" valueType="stringList">
 <listOptionValue builtIn="false" value="DEVICE_CONFIGURATION_ID=Cortex R.RM48L950"/>
@@ -72,8 +72,8 @@
 </option>
 </tool>
 <tool id="com.ti.ccstudio.buildDefinitions.TMS470_4.9.exe.linkerRelease.1983099395" name="TMS470 Linker" superClass="com.ti.ccstudio.buildDefinitions.TMS470_4.9.exe.linkerRelease">
-<option id="com.ti.ccstudio.buildDefinitions.TMS470_4.9.linkerID.OUTPUT_FILE.934049253" superClass="com.ti.ccstudio.buildDefinitions.TMS470_4.9.linkerID.OUTPUT_FILE" value="&quot;HalCoGenExample.out&quot;" valueType="string"/>
-<option id="com.ti.ccstudio.buildDefinitions.TMS470_4.9.linkerID.MAP_FILE.14523672" superClass="com.ti.ccstudio.buildDefinitions.TMS470_4.9.linkerID.MAP_FILE" value="&quot;HalCoGenExample.map&quot;" valueType="string"/>
+<option id="com.ti.ccstudio.buildDefinitions.TMS470_4.9.linkerID.OUTPUT_FILE.934049253" superClass="com.ti.ccstudio.buildDefinitions.TMS470_4.9.linkerID.OUTPUT_FILE" value="&quot;.out&quot;" valueType="string"/>
+<option id="com.ti.ccstudio.buildDefinitions.TMS470_4.9.linkerID.MAP_FILE.14523672" superClass="com.ti.ccstudio.buildDefinitions.TMS470_4.9.linkerID.MAP_FILE" value="&quot;.map&quot;" valueType="string"/>
 <option id="com.ti.ccstudio.buildDefinitions.TMS470_4.9.linkerID.LIBRARY.1499493039" superClass="com.ti.ccstudio.buildDefinitions.TMS470_4.9.linkerID.LIBRARY" valueType="libs">
 <listOptionValue builtIn="false" value="&quot;libc.a&quot;"/>
 </option>
