@@ -1,0 +1,47 @@
+!SESSION 2012-06-21 17:05:44.067 -----------------------------------------------
+eclipse.buildId=4.2.4.00033
+java.version=1.5.0_14
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY com.ti.ccstudio.buildDefinitions.core 4 0 2012-06-21 17:06:04.540
+!MESSAGE An internal error was logged by 'com.ti.ccstudio.buildDefinitions.core'.
+!STACK 0
+java.lang.NullPointerException
+	at com.ti.common.managedbuild.core.tools.AToolDefinition.hashCode(AToolDefinition.java:36)
+	at java.util.HashMap.getEntry(Unknown Source)
+	at java.util.LinkedHashMap.get(Unknown Source)
+	at com.ti.ccstudio.buildmodel.CodegenToolDefinition.findInstance(CodegenToolDefinition.java:56)
+	at com.ti.ccstudio.buildmodel.BuildModelLoader.doLoadToolDefinition(BuildModelLoader.java:256)
+	at com.ti.ccstudio.buildmodel.BuildModelLoader.doLoadToolDefinition(BuildModelLoader.java:302)
+	at com.ti.ccstudio.buildmodel.BuildModelLoader.buildDefsLoaded(BuildModelLoader.java:108)
+	at com.ti.ccstudio.buildmodel.BuildModelLoader.buildDefsLoaded(BuildModelLoader.java:103)
+	at org.eclipse.cdt.managedbuilder.core.ManagedBuildManager.loadExtensionsSynchronized(ManagedBuildManager.java:1919)
+	at org.eclipse.cdt.managedbuilder.core.ManagedBuildManager.loadExtensions(ManagedBuildManager.java:1834)
+	at org.eclipse.cdt.managedbuilder.core.ManagedBuildManager.findBuildInfoSynchronized(ManagedBuildManager.java:2465)
+	at org.eclipse.cdt.managedbuilder.core.ManagedBuildManager.findBuildInfo(ManagedBuildManager.java:2376)
+	at org.eclipse.cdt.managedbuilder.core.ManagedBuildManager.getBuildInfo(ManagedBuildManager.java:2552)
+	at org.eclipse.cdt.managedbuilder.core.ManagedBuildManager.getBuildInfo(ManagedBuildManager.java:2536)
+	at org.eclipse.cdt.managedbuilder.internal.scannerconfig.ManagedBuildCPathEntryContainer.getPathEntries(ManagedBuildCPathEntryContainer.java:164)
+	at org.eclipse.cdt.internal.core.model.PathEntryManager.getResolvedPathEntries(PathEntryManager.java:457)
+	at org.eclipse.cdt.internal.core.model.PathEntryManager.getResolvedPathEntries(PathEntryManager.java:429)
+	at org.eclipse.cdt.core.model.CoreModel.getResolvedPathEntries(CoreModel.java:941)
+	at org.eclipse.cdt.internal.core.model.CProject.getResolvedPathEntries(CProject.java:400)
+	at org.eclipse.cdt.internal.core.model.CProject.computeSourceRoots(CProject.java:595)
+	at org.eclipse.cdt.internal.core.model.CProject.getAllSourceRoots(CProject.java:502)
+	at org.eclipse.cdt.internal.core.model.CModelManager.create(CModelManager.java:254)
+	at org.eclipse.cdt.internal.core.model.CModelManager.create(CModelManager.java:229)
+	at org.eclipse.cdt.internal.core.model.DeltaProcessor.createElement(DeltaProcessor.java:92)
+	at org.eclipse.cdt.internal.core.model.DeltaProcessor.traverseDelta(DeltaProcessor.java:458)
+	at org.eclipse.cdt.internal.core.model.DeltaProcessor.traverseDelta(DeltaProcessor.java:477)
+	at org.eclipse.cdt.internal.core.model.DeltaProcessor.processResourceDelta(DeltaProcessor.java:439)
+	at org.eclipse.cdt.internal.core.model.CModelManager.resourceChanged(CModelManager.java:747)
+	at org.eclipse.core.internal.events.NotificationManager$2.run(NotificationManager.java:284)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:278)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:152)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:256)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:958)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:45)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:58)
