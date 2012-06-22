@@ -686,7 +686,7 @@
         </option>
         <option>
           <name>IlinkIcfFile</name>
-          <state>C:\Hercules\IAR\rm48x\config\RM48L950_flash.icf</state>
+          <state>$PROJ_DIR$\config\RM48L950_flash.icf</state>
         </option>
         <option>
           <name>IlinkIcfFileSlave</name>
