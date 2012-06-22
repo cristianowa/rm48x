@@ -1,0 +1,3 @@
+--cpu Cortex-R4F "startup_rm48.o" "adc.o" "can.o" "can_protocol.o" "dcc.o" "debug.o" "dmm.o" "emac.o" "emif.o" "errors.o" "esm.o" "gio.o" "het.o" "i2c.o" "lin.o" "mac.o" "mdio.o" "mibspi.o" "parity_functions.o" "phy_dp83640.o" "pinmux.o" "pom.o" "rti.o" "rtp.o" "sci.o" "sci_print.o" "sci_receive.o" "self_test.o" "spi.o" "stc.o" "sys_main.o" "sys_phantom.o" "sys_startup.o" "system.o" "sys_core.o" "sys_intvecs.o" "sys_memory.o" "sys_mpu.o" "sys_pmu.o" --ro-base 0x00000000 --entry 0x00000000 --rw-base 0x08000000 --strict --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\RM48x.map" -o "RM48x.axf"

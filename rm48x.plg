@@ -1,0 +1,901 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Keil\ARM\Boards\TI\RM48x\RM48x.uvproj
+Project File Date:  06/08/2012
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling adc.c...
+compiling can.c...
+.\include\debug.h(16): warning:  #1-D: last line of file ends without a newline
+.\include\sci_print.h(19): warning:  #1295-D: Deprecated declaration boot_message - give arg types
+.\include\sci_print.h(22): warning:  #1-D: last line of file ends without a newline
+.\include\can_protocol.h(9): warning:  #1-D: last line of file ends without a newline
+compiling can_protocol.c...
+.\include\can_protocol.h(9): warning:  #1-D: last line of file ends without a newline
+.\include\debug.h(16): warning:  #1-D: last line of file ends without a newline
+.\include\sci_print.h(19): warning:  #1295-D: Deprecated declaration boot_message - give arg types
+.\include\sci_print.h(22): warning:  #1-D: last line of file ends without a newline
+compiling ccm.c...
+.\include\ccm.h(22): warning:  #1295-D: Deprecated declaration ccm_set_lockstep_mode - give arg types
+.\include\ccm.h(23): warning:  #1295-D: Deprecated declaration ccm_self_test - give arg types
+.\include\ccm.h(24): warning:  #1295-D: Deprecated declaration ccm_enable_selftest_error - give arg types
+.\include\ccm.h(25): warning:  #1295-D: Deprecated declaration ccm_enable_error - give arg types
+.\include\ccm.h(26): warning:  #1295-D: Deprecated declaration ccmErrorNotification - give arg types
+.\include\ccm.h(27): warning:  #1-D: last line of file ends without a newline
+.\include\sci_print.h(19): warning:  #1295-D: Deprecated declaration boot_message - give arg types
+.\include\sci_print.h(22): warning:  #1-D: last line of file ends without a newline
+source\ccm.c(26): warning:  #1295-D: Deprecated declaration __jump - give arg types
+source\ccm.c(33): warning:  #223-D: function "_svc_entry_" declared implicitly
+source\ccm.c(40): warning:  #223-D: function "_svc_exit_" declared implicitly
+compiling dcc.c...
+compiling debug.c...
+.\include\sci_print.h(19): warning:  #1295-D: Deprecated declaration boot_message - give arg types
+.\include\sci_print.h(22): warning:  #1-D: last line of file ends without a newline
+.\include\sci_receive.h(6): warning:  #1295-D: Deprecated declaration sci_receive_rotine - give arg types
+.\include\sci_receive.h(8): warning:  #1295-D: Deprecated declaration sci_receive_byte - give arg types
+.\include\sci_receive.h(15): warning:  #1-D: last line of file ends without a newline
+.\include\debug.h(16): warning:  #1-D: last line of file ends without a newline
+source\debug.c(50): warning:  #1-D: last line of file ends without a newline
+compiling dmm.c...
+compiling emac.c...
+compiling emif.c...
+compiling errors.c...
+.\include\errors.h(4): warning:  #1295-D: Deprecated declaration abortError - give arg types
+.\include\errors.h(13): warning:  #1-D: last line of file ends without a newline
+.\include\sci_print.h(19): warning:  #1295-D: Deprecated declaration boot_message - give arg types
+.\include\sci_print.h(22): warning:  #1-D: last line of file ends without a newline
+source\errors.c(60): warning:  #1-D: last line of file ends without a newline
+compiling esm.c...
+.\include\sci_print.h(19): warning:  #1295-D: Deprecated declaration boot_message - give arg types
+.\include\sci_print.h(22): warning:  #1-D: last line of file ends without a newline
+compiling gio.c...
+compiling het.c...
+compiling i2c.c...
+compiling lin.c...
+compiling mac.c...
+.\include\mac.h(5): warning:  #1295-D: Deprecated declaration macInit - give arg types
+.\include\mac.h(10): warning:  #1295-D: Deprecated declaration eth_dummy_send - give arg types
+.\include\mac.h(12): warning:  #1295-D: Deprecated declaration dump_mac_state - give arg types
+.\include\mac.h(20): warning:  #1-D: last line of file ends without a newline
+.\include\sci_print.h(19): warning:  #1295-D: Deprecated declaration boot_message - give arg types
+.\include\sci_print.h(22): warning:  #1-D: last line of file ends without a newline
+.\include\sci_receive.h(6): warning:  #1295-D: Deprecated declaration sci_receive_rotine - give arg types
+.\include\sci_receive.h(8): warning:  #1295-D: Deprecated declaration sci_receive_byte - give arg types
+.\include\sci_receive.h(15): warning:  #1-D: last line of file ends without a newline
+.\include\debug.h(16): warning:  #1-D: last line of file ends without a newline
+source\mac.c(319): warning:  #1-D: last line of file ends without a newline
+compiling mdio.c...
+compiling mibspi.c...
+compiling parity_functions.c...
+.\include\debug.h(16): warning:  #1-D: last line of file ends without a newline
+.\include\parity_functions.h(4): warning:  #1295-D: Deprecated declaration DCAN1_Parity - give arg types
+.\include\parity_functions.h(6): warning:  #1295-D: Deprecated declaration DCAN2_Parity - give arg types
+.\include\parity_functions.h(8): warning:  #1295-D: Deprecated declaration DCAN3_Parity - give arg types
+.\include\parity_functions.h(10): warning:  #1295-D: Deprecated declaration MIBADC2_Parity - give arg types
+.\include\parity_functions.h(12): warning:  #1295-D: Deprecated declaration MIBADC2_Parity - give arg types
+.\include\parity_functions.h(13): warning:  #1-D: last line of file ends without a newline
+compiling phy_dp83640.c...
+compiling pinmux.c...
+source\pinmux.c(109): warning:  #61-D: integer operation result is out of range
+compiling pom.c...
+compiling rti.c...
+compiling rtp.c...
+compiling sci.c...
+compiling sci_print.c...
+.\include\sci_print.h(19): warning:  #1295-D: Deprecated declaration boot_message - give arg types
+.\include\sci_print.h(22): warning:  #1-D: last line of file ends without a newline
+source\sci_print.c(60): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+source\sci_print.c(61): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+source\sci_print.c(80): warning:  #1-D: last line of file ends without a newline
+source\sci_print.c(35): warning: C3488E: write to variable 'text' with offset out of bounds
+compiling sci_receive.c...
+.\include\sci_receive.h(6): warning:  #1295-D: Deprecated declaration sci_receive_rotine - give arg types
+.\include\sci_receive.h(8): warning:  #1295-D: Deprecated declaration sci_receive_byte - give arg types
+.\include\sci_receive.h(15): warning:  #1-D: last line of file ends without a newline
+.\include\sci_print.h(19): warning:  #1295-D: Deprecated declaration boot_message - give arg types
+.\include\sci_print.h(22): warning:  #1-D: last line of file ends without a newline
+.\include\mac.h(5): warning:  #1295-D: Deprecated declaration macInit - give arg types
+.\include\mac.h(10): warning:  #1295-D: Deprecated declaration eth_dummy_send - give arg types
+.\include\mac.h(12): warning:  #1295-D: Deprecated declaration dump_mac_state - give arg types
+.\include\mac.h(20): warning:  #1-D: last line of file ends without a newline
+.\include\parity_functions.h(4): warning:  #1295-D: Deprecated declaration DCAN1_Parity - give arg types
+.\include\parity_functions.h(6): warning:  #1295-D: Deprecated declaration DCAN2_Parity - give arg types
+.\include\parity_functions.h(8): warning:  #1295-D: Deprecated declaration DCAN3_Parity - give arg types
+.\include\parity_functions.h(10): warning:  #1295-D: Deprecated declaration MIBADC2_Parity - give arg types
+.\include\parity_functions.h(12): warning:  #1295-D: Deprecated declaration MIBADC2_Parity - give arg types
+.\include\parity_functions.h(13): warning:  #1-D: last line of file ends without a newline
+.\include\can_protocol.h(9): warning:  #1-D: last line of file ends without a newline
+.\include\ccm.h(22): warning:  #1295-D: Deprecated declaration ccm_set_lockstep_mode - give arg types
+.\include\ccm.h(23): warning:  #1295-D: Deprecated declaration ccm_self_test - give arg types
+.\include\ccm.h(24): warning:  #1295-D: Deprecated declaration ccm_enable_selftest_error - give arg types
+.\include\ccm.h(25): warning:  #1295-D: Deprecated declaration ccm_enable_error - give arg types
+.\include\ccm.h(26): warning:  #1295-D: Deprecated declaration ccmErrorNotification - give arg types
+.\include\ccm.h(27): warning:  #1-D: last line of file ends without a newline
+source\sci_receive.c(195): warning:  #1-D: last line of file ends without a newline
+compiling self_test.c...
+.\include\self_test.h(6): warning:  #1-D: last line of file ends without a newline
+.\include\sci_print.h(19): warning:  #1295-D: Deprecated declaration boot_message - give arg types
+.\include\sci_print.h(22): warning:  #1-D: last line of file ends without a newline
+source\self_test.c(30): warning:  #1-D: last line of file ends without a newline
+compiling spi.c...
+compiling stc.c...
+source\stc.c(49): warning:  #223-D: function "print_line" declared implicitly
+source\stc.c(74): warning:  #223-D: function "_wfi" declared implicitly
+source\stc.c(75): warning:  #2523-D: use of inline assembler is deprecated
+source\stc.c(76): warning:  #2523-D: use of inline assembler is deprecated
+source\stc.c(77): warning:  #2523-D: use of inline assembler is deprecated
+source\stc.c(82): warning:  #2523-D: use of inline assembler is deprecated
+source\stc.c(83): warning:  #2523-D: use of inline assembler is deprecated
+source\stc.c(84): warning:  #2523-D: use of inline assembler is deprecated
+source\stc.c(85): warning:  #2523-D: use of inline assembler is deprecated
+source\stc.c(98): warning:  #223-D: function "print_line" declared implicitly
+compiling sys_main.c...
+.\include\sci_print.h(19): warning:  #1295-D: Deprecated declaration boot_message - give arg types
+.\include\sci_print.h(22): warning:  #1-D: last line of file ends without a newline
+.\include\sci_receive.h(6): warning:  #1295-D: Deprecated declaration sci_receive_rotine - give arg types
+.\include\sci_receive.h(8): warning:  #1295-D: Deprecated declaration sci_receive_byte - give arg types
+.\include\sci_receive.h(15): warning:  #1-D: last line of file ends without a newline
+.\include\mac.h(5): warning:  #1295-D: Deprecated declaration macInit - give arg types
+.\include\mac.h(10): warning:  #1295-D: Deprecated declaration eth_dummy_send - give arg types
+.\include\mac.h(12): warning:  #1295-D: Deprecated declaration dump_mac_state - give arg types
+.\include\mac.h(20): warning:  #1-D: last line of file ends without a newline
+.\include\can_protocol.h(9): warning:  #1-D: last line of file ends without a newline
+.\include\debug.h(16): warning:  #1-D: last line of file ends without a newline
+source\sys_main.c(70): warning:  #177-D: variable "ch_count" was declared but never referenced
+source\sys_main.c(71): warning:  #177-D: variable "id" was declared but never referenced
+source\sys_main.c(72): warning:  #177-D: variable "value" was declared but never referenced
+compiling sys_phantom.c...
+compiling sys_startup.c...
+source\sys_startup.c(205): warning:  #223-D: function "restoreAfterSelfTest" declared implicitly
+source\sys_startup.c(493): warning:  #223-D: function "sciInit" declared implicitly
+source\sys_startup.c(494): warning:  #223-D: function "print" declared implicitly
+source\sys_startup.c(495): warning:  #223-D: function "hprint" declared implicitly
+compiling system.c...
+source\system.c(26): warning:  #1295-D: Deprecated declaration _coreDisableFlashEcc_ - give arg types
+source\system.c(27): warning:  #1295-D: Deprecated declaration _coreEnableFlashEcc_ - give arg types
+assembling sys_core.asm...
+source\sys_core.asm(34): warning: A1786W: This instruction using SP is deprecated and may not work in future architecture revisions
+assembling sys_intvecs.asm...
+assembling sys_memory.asm...
+assembling sys_mpu.asm...
+assembling sys_pmu.asm...
+linking...
+RM48x.axf: Error: L6238E: core.o(.text) contains invalid call from '~PRES8 (The user did not require code to preserve 8-byte aligment of 8-byte data objects)' function to 'REQ8 (Code was permitted to depend on the 8-byte aligment of 8-byte data items)' function ccm_enable_error_cont.
+Target not created
+Build target 'Target 1'
+assembling core.asm...
+linking...
+RM48x.axf: Error: L6238E: core.o(.text) contains invalid call from '~PRES8 (The user did not require code to preserve 8-byte aligment of 8-byte data objects)' function to 'REQ8 (Code was permitted to depend on the 8-byte aligment of 8-byte data items)' function ccm_enable_error_cont.
+Target not created
+Build target 'Target 1'
+linking...
+RM48x.axf: Error: L6218E: Undefined symbol _svc_entry_ (referred from ccm.o).
+RM48x.axf: Error: L6218E: Undefined symbol _svc_exit_ (referred from ccm.o).
+RM48x.axf: Error: L6218E: Undefined symbol _coreBackupStackPointer_ (referred from stc.o).
+RM48x.axf: Error: L6218E: Undefined symbol _coreRestoreStackPointer_ (referred from stc.o).
+RM48x.axf: Error: L6218E: Undefined symbol _wfi (referred from stc.o).
+RM48x.axf: Error: L6218E: Undefined symbol _svc (referred from sys_intvecs.o).
+Target not created
+Build target 'Target 1'
+linking...
+RM48x.axf: Error: L6218E: Undefined symbol ccm_enable_error (referred from sci_receive.o).
+RM48x.axf: Error: L6218E: Undefined symbol ccm_enable_selftest_error (referred from sci_receive.o).
+RM48x.axf: Error: L6218E: Undefined symbol _coreBackupStackPointer_ (referred from stc.o).
+RM48x.axf: Error: L6218E: Undefined symbol _coreRestoreStackPointer_ (referred from stc.o).
+RM48x.axf: Error: L6218E: Undefined symbol _wfi (referred from stc.o).
+RM48x.axf: Error: L6218E: Undefined symbol _svc (referred from sys_intvecs.o).
+Target not created
+Build target 'Target 1'
+compiling stc.c...
+source\stc.c(49): warning:  #223-D: function "print_line" declared implicitly
+source\stc.c(74): warning:  #223-D: function "_wfi" declared implicitly
+source\stc.c(75): warning:  #2523-D: use of inline assembler is deprecated
+source\stc.c(76): warning:  #2523-D: use of inline assembler is deprecated
+source\stc.c(77): warning:  #2523-D: use of inline assembler is deprecated
+source\stc.c(82): warning:  #2523-D: use of inline assembler is deprecated
+source\stc.c(83): warning:  #2523-D: use of inline assembler is deprecated
+source\stc.c(84): warning:  #2523-D: use of inline assembler is deprecated
+source\stc.c(85): warning:  #2523-D: use of inline assembler is deprecated
+source\stc.c(98): warning:  #223-D: function "print_line" declared implicitly
+linking...
+RM48x.axf: Error: L6218E: Undefined symbol ccm_enable_error (referred from sci_receive.o).
+RM48x.axf: Error: L6218E: Undefined symbol ccm_enable_selftest_error (referred from sci_receive.o).
+RM48x.axf: Error: L6218E: Undefined symbol _wfi (referred from stc.o).
+RM48x.axf: Error: L6218E: Undefined symbol _svc (referred from sys_intvecs.o).
+Target not created
+Build target 'Target 1'
+compiling sci_receive.c...
+.\include\sci_receive.h(6): warning:  #1295-D: Deprecated declaration sci_receive_rotine - give arg types
+.\include\sci_receive.h(8): warning:  #1295-D: Deprecated declaration sci_receive_byte - give arg types
+.\include\sci_receive.h(15): warning:  #1-D: last line of file ends without a newline
+.\include\sci_print.h(19): warning:  #1295-D: Deprecated declaration boot_message - give arg types
+.\include\sci_print.h(22): warning:  #1-D: last line of file ends without a newline
+.\include\mac.h(5): warning:  #1295-D: Deprecated declaration macInit - give arg types
+.\include\mac.h(10): warning:  #1295-D: Deprecated declaration eth_dummy_send - give arg types
+.\include\mac.h(12): warning:  #1295-D: Deprecated declaration dump_mac_state - give arg types
+.\include\mac.h(20): warning:  #1-D: last line of file ends without a newline
+.\include\parity_functions.h(4): warning:  #1295-D: Deprecated declaration DCAN1_Parity - give arg types
+.\include\parity_functions.h(6): warning:  #1295-D: Deprecated declaration DCAN2_Parity - give arg types
+.\include\parity_functions.h(8): warning:  #1295-D: Deprecated declaration DCAN3_Parity - give arg types
+.\include\parity_functions.h(10): warning:  #1295-D: Deprecated declaration MIBADC2_Parity - give arg types
+.\include\parity_functions.h(12): warning:  #1295-D: Deprecated declaration MIBADC2_Parity - give arg types
+.\include\parity_functions.h(13): warning:  #1-D: last line of file ends without a newline
+.\include\can_protocol.h(9): warning:  #1-D: last line of file ends without a newline
+.\include\ccm.h(22): warning:  #1295-D: Deprecated declaration ccm_set_lockstep_mode - give arg types
+.\include\ccm.h(23): warning:  #1295-D: Deprecated declaration ccm_self_test - give arg types
+.\include\ccm.h(24): warning:  #1295-D: Deprecated declaration ccm_enable_selftest_error - give arg types
+.\include\ccm.h(25): warning:  #1295-D: Deprecated declaration ccm_enable_error - give arg types
+.\include\ccm.h(26): warning:  #1295-D: Deprecated declaration ccmErrorNotification - give arg types
+.\include\ccm.h(27): warning:  #1-D: last line of file ends without a newline
+source\sci_receive.c(194): warning:  #1-D: last line of file ends without a newline
+linking...
+RM48x.axf: Error: L6218E: Undefined symbol ccm_enable_error (referred from sci_receive.o).
+RM48x.axf: Error: L6218E: Undefined symbol ccm_enable_selftest_error (referred from sci_receive.o).
+RM48x.axf: Error: L6218E: Undefined symbol _wfi (referred from stc.o).
+RM48x.axf: Error: L6218E: Undefined symbol _svc (referred from sys_intvecs.o).
+Target not created
+Build target 'Target 1'
+compiling sci_receive.c...
+.\include\sci_receive.h(6): warning:  #1295-D: Deprecated declaration sci_receive_rotine - give arg types
+.\include\sci_receive.h(8): warning:  #1295-D: Deprecated declaration sci_receive_byte - give arg types
+.\include\sci_receive.h(15): warning:  #1-D: last line of file ends without a newline
+.\include\sci_print.h(19): warning:  #1295-D: Deprecated declaration boot_message - give arg types
+.\include\sci_print.h(22): warning:  #1-D: last line of file ends without a newline
+.\include\mac.h(5): warning:  #1295-D: Deprecated declaration macInit - give arg types
+.\include\mac.h(10): warning:  #1295-D: Deprecated declaration eth_dummy_send - give arg types
+.\include\mac.h(12): warning:  #1295-D: Deprecated declaration dump_mac_state - give arg types
+.\include\mac.h(20): warning:  #1-D: last line of file ends without a newline
+.\include\parity_functions.h(4): warning:  #1295-D: Deprecated declaration DCAN1_Parity - give arg types
+.\include\parity_functions.h(6): warning:  #1295-D: Deprecated declaration DCAN2_Parity - give arg types
+.\include\parity_functions.h(8): warning:  #1295-D: Deprecated declaration DCAN3_Parity - give arg types
+.\include\parity_functions.h(10): warning:  #1295-D: Deprecated declaration MIBADC2_Parity - give arg types
+.\include\parity_functions.h(12): warning:  #1295-D: Deprecated declaration MIBADC2_Parity - give arg types
+.\include\parity_functions.h(13): warning:  #1-D: last line of file ends without a newline
+.\include\can_protocol.h(9): warning:  #1-D: last line of file ends without a newline
+.\include\ccm.h(22): warning:  #1295-D: Deprecated declaration ccm_set_lockstep_mode - give arg types
+.\include\ccm.h(23): warning:  #1295-D: Deprecated declaration ccm_self_test - give arg types
+.\include\ccm.h(24): warning:  #1295-D: Deprecated declaration ccm_enable_selftest_error - give arg types
+.\include\ccm.h(25): warning:  #1295-D: Deprecated declaration ccm_enable_error - give arg types
+.\include\ccm.h(26): warning:  #1295-D: Deprecated declaration ccmErrorNotification - give arg types
+.\include\ccm.h(27): warning:  #1-D: last line of file ends without a newline
+source\sci_receive.c(186): warning:  #1-D: last line of file ends without a newline
+linking...
+RM48x.axf: Error: L6218E: Undefined symbol _wfi (referred from stc.o).
+RM48x.axf: Error: L6218E: Undefined symbol _svc (referred from sys_intvecs.o).
+Target not created
+Build target 'Target 1'
+assembling sys_intvecs.asm...
+source\sys_intvecs.asm(25): error: A1108E: Multiply defined symbol '_svc'
+Target not created
+Build target 'Target 1'
+assembling sys_intvecs.asm...
+source\sys_intvecs.asm(25): error: A1108E: Multiply defined symbol '_svc'
+Target not created
+Build target 'Target 1'
+assembling sys_intvecs.asm...
+linking...
+RM48x.axf: Error: L6218E: Undefined symbol _wfi (referred from stc.o).
+RM48x.axf: Error: L6218E: Undefined symbol _svc (referred from sys_intvecs.o).
+Target not created
+Build target 'Target 1'
+assembling sys_intvecs.asm...
+linking...
+RM48x.axf: Error: L6218E: Undefined symbol _wfi (referred from stc.o).
+RM48x.axf: Error: L6218E: Undefined symbol _svc (referred from sys_intvecs.o).
+Target not created
+Build target 'Target 1'
+assembling sys_intvecs.asm...
+linking...
+RM48x.axf: Error: L6218E: Undefined symbol _wfi (referred from stc.o).
+Target not created
+Build target 'Target 1'
+compiling stc.c...
+source\stc.c(49): warning:  #223-D: function "print_line" declared implicitly
+source\stc.c(75): warning:  #2523-D: use of inline assembler is deprecated
+source\stc.c(76): warning:  #2523-D: use of inline assembler is deprecated
+source\stc.c(77): warning:  #2523-D: use of inline assembler is deprecated
+source\stc.c(82): warning:  #2523-D: use of inline assembler is deprecated
+source\stc.c(83): warning:  #2523-D: use of inline assembler is deprecated
+source\stc.c(84): warning:  #2523-D: use of inline assembler is deprecated
+source\stc.c(85): warning:  #2523-D: use of inline assembler is deprecated
+source\stc.c(98): warning:  #223-D: function "print_line" declared implicitly
+linking...
+Program Size: Code=29552 RO-data=372 RW-data=1060 ZI-data=6876  
+"RM48x.axf" - 0 Error(s), 9 Warning(s).
+Load "C:\\Keil\\ARM\\Boards\\TI\\RM48x\\RM48x.AXF" 
+Rebuild target 'Target 1'
+assembling startup_RM48.s...
+compiling adc.c...
+compiling can.c...
+.\include\debug.h(16): warning:  #1-D: last line of file ends without a newline
+.\include\sci_print.h(19): warning:  #1295-D: Deprecated declaration boot_message - give arg types
+.\include\sci_print.h(22): warning:  #1-D: last line of file ends without a newline
+.\include\can_protocol.h(9): warning:  #1-D: last line of file ends without a newline
+compiling can_protocol.c...
+.\include\can_protocol.h(9): warning:  #1-D: last line of file ends without a newline
+.\include\debug.h(16): warning:  #1-D: last line of file ends without a newline
+.\include\sci_print.h(19): warning:  #1295-D: Deprecated declaration boot_message - give arg types
+.\include\sci_print.h(22): warning:  #1-D: last line of file ends without a newline
+compiling dcc.c...
+compiling debug.c...
+.\include\sci_print.h(19): warning:  #1295-D: Deprecated declaration boot_message - give arg types
+.\include\sci_print.h(22): warning:  #1-D: last line of file ends without a newline
+.\include\sci_receive.h(6): warning:  #1295-D: Deprecated declaration sci_receive_rotine - give arg types
+.\include\sci_receive.h(8): warning:  #1295-D: Deprecated declaration sci_receive_byte - give arg types
+.\include\sci_receive.h(15): warning:  #1-D: last line of file ends without a newline
+.\include\debug.h(16): warning:  #1-D: last line of file ends without a newline
+source\debug.c(50): warning:  #1-D: last line of file ends without a newline
+compiling dmm.c...
+compiling emac.c...
+compiling emif.c...
+compiling errors.c...
+.\include\errors.h(4): warning:  #1295-D: Deprecated declaration abortError - give arg types
+.\include\errors.h(13): warning:  #1-D: last line of file ends without a newline
+.\include\sci_print.h(19): warning:  #1295-D: Deprecated declaration boot_message - give arg types
+.\include\sci_print.h(22): warning:  #1-D: last line of file ends without a newline
+source\errors.c(60): warning:  #1-D: last line of file ends without a newline
+compiling esm.c...
+.\include\sci_print.h(19): warning:  #1295-D: Deprecated declaration boot_message - give arg types
+.\include\sci_print.h(22): warning:  #1-D: last line of file ends without a newline
+compiling gio.c...
+compiling het.c...
+compiling i2c.c...
+compiling lin.c...
+compiling mac.c...
+.\include\mac.h(5): warning:  #1295-D: Deprecated declaration macInit - give arg types
+.\include\mac.h(10): warning:  #1295-D: Deprecated declaration eth_dummy_send - give arg types
+.\include\mac.h(12): warning:  #1295-D: Deprecated declaration dump_mac_state - give arg types
+.\include\mac.h(20): warning:  #1-D: last line of file ends without a newline
+.\include\sci_print.h(19): warning:  #1295-D: Deprecated declaration boot_message - give arg types
+.\include\sci_print.h(22): warning:  #1-D: last line of file ends without a newline
+.\include\sci_receive.h(6): warning:  #1295-D: Deprecated declaration sci_receive_rotine - give arg types
+.\include\sci_receive.h(8): warning:  #1295-D: Deprecated declaration sci_receive_byte - give arg types
+.\include\sci_receive.h(15): warning:  #1-D: last line of file ends without a newline
+.\include\debug.h(16): warning:  #1-D: last line of file ends without a newline
+source\mac.c(319): warning:  #1-D: last line of file ends without a newline
+compiling mdio.c...
+compiling mibspi.c...
+compiling parity_functions.c...
+.\include\debug.h(16): warning:  #1-D: last line of file ends without a newline
+.\include\parity_functions.h(4): warning:  #1295-D: Deprecated declaration DCAN1_Parity - give arg types
+.\include\parity_functions.h(6): warning:  #1295-D: Deprecated declaration DCAN2_Parity - give arg types
+.\include\parity_functions.h(8): warning:  #1295-D: Deprecated declaration DCAN3_Parity - give arg types
+.\include\parity_functions.h(10): warning:  #1295-D: Deprecated declaration MIBADC2_Parity - give arg types
+.\include\parity_functions.h(12): warning:  #1295-D: Deprecated declaration MIBADC2_Parity - give arg types
+.\include\parity_functions.h(13): warning:  #1-D: last line of file ends without a newline
+compiling phy_dp83640.c...
+compiling pinmux.c...
+source\pinmux.c(109): warning:  #61-D: integer operation result is out of range
+compiling pom.c...
+compiling rti.c...
+compiling rtp.c...
+compiling sci.c...
+compiling sci_print.c...
+.\include\sci_print.h(19): warning:  #1295-D: Deprecated declaration boot_message - give arg types
+.\include\sci_print.h(22): warning:  #1-D: last line of file ends without a newline
+source\sci_print.c(60): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+source\sci_print.c(61): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+source\sci_print.c(80): warning:  #1-D: last line of file ends without a newline
+source\sci_print.c(35): warning: C3488E: write to variable 'text' with offset out of bounds
+compiling sci_receive.c...
+.\include\sci_receive.h(6): warning:  #1295-D: Deprecated declaration sci_receive_rotine - give arg types
+.\include\sci_receive.h(8): warning:  #1295-D: Deprecated declaration sci_receive_byte - give arg types
+.\include\sci_receive.h(15): warning:  #1-D: last line of file ends without a newline
+.\include\sci_print.h(19): warning:  #1295-D: Deprecated declaration boot_message - give arg types
+.\include\sci_print.h(22): warning:  #1-D: last line of file ends without a newline
+.\include\mac.h(5): warning:  #1295-D: Deprecated declaration macInit - give arg types
+.\include\mac.h(10): warning:  #1295-D: Deprecated declaration eth_dummy_send - give arg types
+.\include\mac.h(12): warning:  #1295-D: Deprecated declaration dump_mac_state - give arg types
+.\include\mac.h(20): warning:  #1-D: last line of file ends without a newline
+.\include\parity_functions.h(4): warning:  #1295-D: Deprecated declaration DCAN1_Parity - give arg types
+.\include\parity_functions.h(6): warning:  #1295-D: Deprecated declaration DCAN2_Parity - give arg types
+.\include\parity_functions.h(8): warning:  #1295-D: Deprecated declaration DCAN3_Parity - give arg types
+.\include\parity_functions.h(10): warning:  #1295-D: Deprecated declaration MIBADC2_Parity - give arg types
+.\include\parity_functions.h(12): warning:  #1295-D: Deprecated declaration MIBADC2_Parity - give arg types
+.\include\parity_functions.h(13): warning:  #1-D: last line of file ends without a newline
+.\include\can_protocol.h(9): warning:  #1-D: last line of file ends without a newline
+.\include\ccm.h(22): warning:  #1295-D: Deprecated declaration ccm_set_lockstep_mode - give arg types
+.\include\ccm.h(23): warning:  #1295-D: Deprecated declaration ccm_self_test - give arg types
+.\include\ccm.h(24): warning:  #1295-D: Deprecated declaration ccm_enable_selftest_error - give arg types
+.\include\ccm.h(25): warning:  #1295-D: Deprecated declaration ccm_enable_error - give arg types
+.\include\ccm.h(26): warning:  #1295-D: Deprecated declaration ccmErrorNotification - give arg types
+.\include\ccm.h(27): warning:  #1-D: last line of file ends without a newline
+source\sci_receive.c(186): warning:  #1-D: last line of file ends without a newline
+compiling self_test.c...
+.\include\self_test.h(6): warning:  #1-D: last line of file ends without a newline
+.\include\sci_print.h(19): warning:  #1295-D: Deprecated declaration boot_message - give arg types
+.\include\sci_print.h(22): warning:  #1-D: last line of file ends without a newline
+source\self_test.c(30): warning:  #1-D: last line of file ends without a newline
+compiling spi.c...
+compiling stc.c...
+source\stc.c(49): warning:  #223-D: function "print_line" declared implicitly
+source\stc.c(75): warning:  #2523-D: use of inline assembler is deprecated
+source\stc.c(76): warning:  #2523-D: use of inline assembler is deprecated
+source\stc.c(77): warning:  #2523-D: use of inline assembler is deprecated
+source\stc.c(82): warning:  #2523-D: use of inline assembler is deprecated
+source\stc.c(83): warning:  #2523-D: use of inline assembler is deprecated
+source\stc.c(84): warning:  #2523-D: use of inline assembler is deprecated
+source\stc.c(85): warning:  #2523-D: use of inline assembler is deprecated
+source\stc.c(98): warning:  #223-D: function "print_line" declared implicitly
+compiling sys_main.c...
+.\include\sci_print.h(19): warning:  #1295-D: Deprecated declaration boot_message - give arg types
+.\include\sci_print.h(22): warning:  #1-D: last line of file ends without a newline
+.\include\sci_receive.h(6): warning:  #1295-D: Deprecated declaration sci_receive_rotine - give arg types
+.\include\sci_receive.h(8): warning:  #1295-D: Deprecated declaration sci_receive_byte - give arg types
+.\include\sci_receive.h(15): warning:  #1-D: last line of file ends without a newline
+.\include\mac.h(5): warning:  #1295-D: Deprecated declaration macInit - give arg types
+.\include\mac.h(10): warning:  #1295-D: Deprecated declaration eth_dummy_send - give arg types
+.\include\mac.h(12): warning:  #1295-D: Deprecated declaration dump_mac_state - give arg types
+.\include\mac.h(20): warning:  #1-D: last line of file ends without a newline
+.\include\can_protocol.h(9): warning:  #1-D: last line of file ends without a newline
+.\include\debug.h(16): warning:  #1-D: last line of file ends without a newline
+source\sys_main.c(70): warning:  #177-D: variable "ch_count" was declared but never referenced
+source\sys_main.c(71): warning:  #177-D: variable "id" was declared but never referenced
+source\sys_main.c(72): warning:  #177-D: variable "value" was declared but never referenced
+compiling sys_phantom.c...
+compiling sys_startup.c...
+source\sys_startup.c(205): warning:  #223-D: function "restoreAfterSelfTest" declared implicitly
+source\sys_startup.c(493): warning:  #223-D: function "sciInit" declared implicitly
+source\sys_startup.c(494): warning:  #223-D: function "print" declared implicitly
+source\sys_startup.c(495): warning:  #223-D: function "hprint" declared implicitly
+compiling system.c...
+source\system.c(26): warning:  #1295-D: Deprecated declaration _coreDisableFlashEcc_ - give arg types
+source\system.c(27): warning:  #1295-D: Deprecated declaration _coreEnableFlashEcc_ - give arg types
+assembling sys_core.asm...
+source\sys_core.asm(34): warning: A1786W: This instruction using SP is deprecated and may not work in future architecture revisions
+assembling sys_intvecs.asm...
+assembling sys_memory.asm...
+assembling sys_mpu.asm...
+assembling sys_pmu.asm...
+linking...
+Program Size: Code=29552 RO-data=372 RW-data=1060 ZI-data=6876  
+"RM48x.axf" - 0 Error(s), 104 Warning(s).
+Rebuild target 'Target 1'
+assembling startup_RM48.s...
+compiling adc.c...
+compiling can.c...
+.\include\debug.h(16): warning:  #1-D: last line of file ends without a newline
+.\include\sci_print.h(19): warning:  #1295-D: Deprecated declaration boot_message - give arg types
+.\include\sci_print.h(22): warning:  #1-D: last line of file ends without a newline
+.\include\can_protocol.h(9): warning:  #1-D: last line of file ends without a newline
+compiling can_protocol.c...
+.\include\can_protocol.h(9): warning:  #1-D: last line of file ends without a newline
+.\include\debug.h(16): warning:  #1-D: last line of file ends without a newline
+.\include\sci_print.h(19): warning:  #1295-D: Deprecated declaration boot_message - give arg types
+.\include\sci_print.h(22): warning:  #1-D: last line of file ends without a newline
+compiling dcc.c...
+compiling debug.c...
+.\include\sci_print.h(19): warning:  #1295-D: Deprecated declaration boot_message - give arg types
+.\include\sci_print.h(22): warning:  #1-D: last line of file ends without a newline
+.\include\sci_receive.h(6): warning:  #1295-D: Deprecated declaration sci_receive_rotine - give arg types
+.\include\sci_receive.h(8): warning:  #1295-D: Deprecated declaration sci_receive_byte - give arg types
+.\include\sci_receive.h(15): warning:  #1-D: last line of file ends without a newline
+.\include\debug.h(16): warning:  #1-D: last line of file ends without a newline
+source\debug.c(50): warning:  #1-D: last line of file ends without a newline
+compiling dmm.c...
+compiling emac.c...
+compiling emif.c...
+compiling errors.c...
+.\include\errors.h(4): warning:  #1295-D: Deprecated declaration abortError - give arg types
+.\include\errors.h(13): warning:  #1-D: last line of file ends without a newline
+.\include\sci_print.h(19): warning:  #1295-D: Deprecated declaration boot_message - give arg types
+.\include\sci_print.h(22): warning:  #1-D: last line of file ends without a newline
+source\errors.c(60): warning:  #1-D: last line of file ends without a newline
+compiling esm.c...
+.\include\sci_print.h(19): warning:  #1295-D: Deprecated declaration boot_message - give arg types
+.\include\sci_print.h(22): warning:  #1-D: last line of file ends without a newline
+compiling gio.c...
+compiling het.c...
+compiling i2c.c...
+compiling lin.c...
+compiling mac.c...
+.\include\mac.h(5): warning:  #1295-D: Deprecated declaration macInit - give arg types
+.\include\mac.h(10): warning:  #1295-D: Deprecated declaration eth_dummy_send - give arg types
+.\include\mac.h(12): warning:  #1295-D: Deprecated declaration dump_mac_state - give arg types
+.\include\mac.h(20): warning:  #1-D: last line of file ends without a newline
+.\include\sci_print.h(19): warning:  #1295-D: Deprecated declaration boot_message - give arg types
+.\include\sci_print.h(22): warning:  #1-D: last line of file ends without a newline
+.\include\sci_receive.h(6): warning:  #1295-D: Deprecated declaration sci_receive_rotine - give arg types
+.\include\sci_receive.h(8): warning:  #1295-D: Deprecated declaration sci_receive_byte - give arg types
+.\include\sci_receive.h(15): warning:  #1-D: last line of file ends without a newline
+.\include\debug.h(16): warning:  #1-D: last line of file ends without a newline
+source\mac.c(319): warning:  #1-D: last line of file ends without a newline
+compiling mdio.c...
+compiling mibspi.c...
+compiling parity_functions.c...
+.\include\debug.h(16): warning:  #1-D: last line of file ends without a newline
+.\include\parity_functions.h(4): warning:  #1295-D: Deprecated declaration DCAN1_Parity - give arg types
+.\include\parity_functions.h(6): warning:  #1295-D: Deprecated declaration DCAN2_Parity - give arg types
+.\include\parity_functions.h(8): warning:  #1295-D: Deprecated declaration DCAN3_Parity - give arg types
+.\include\parity_functions.h(10): warning:  #1295-D: Deprecated declaration MIBADC2_Parity - give arg types
+.\include\parity_functions.h(12): warning:  #1295-D: Deprecated declaration MIBADC2_Parity - give arg types
+.\include\parity_functions.h(13): warning:  #1-D: last line of file ends without a newline
+compiling phy_dp83640.c...
+compiling pinmux.c...
+source\pinmux.c(109): warning:  #61-D: integer operation result is out of range
+compiling pom.c...
+compiling rti.c...
+compiling rtp.c...
+compiling sci.c...
+compiling sci_print.c...
+.\include\sci_print.h(19): warning:  #1295-D: Deprecated declaration boot_message - give arg types
+.\include\sci_print.h(22): warning:  #1-D: last line of file ends without a newline
+source\sci_print.c(60): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+source\sci_print.c(61): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+source\sci_print.c(80): warning:  #1-D: last line of file ends without a newline
+source\sci_print.c(35): warning: C3488E: write to variable 'text' with offset out of bounds
+compiling sci_receive.c...
+.\include\sci_receive.h(6): warning:  #1295-D: Deprecated declaration sci_receive_rotine - give arg types
+.\include\sci_receive.h(8): warning:  #1295-D: Deprecated declaration sci_receive_byte - give arg types
+.\include\sci_receive.h(15): warning:  #1-D: last line of file ends without a newline
+.\include\sci_print.h(19): warning:  #1295-D: Deprecated declaration boot_message - give arg types
+.\include\sci_print.h(22): warning:  #1-D: last line of file ends without a newline
+.\include\mac.h(5): warning:  #1295-D: Deprecated declaration macInit - give arg types
+.\include\mac.h(10): warning:  #1295-D: Deprecated declaration eth_dummy_send - give arg types
+.\include\mac.h(12): warning:  #1295-D: Deprecated declaration dump_mac_state - give arg types
+.\include\mac.h(20): warning:  #1-D: last line of file ends without a newline
+.\include\parity_functions.h(4): warning:  #1295-D: Deprecated declaration DCAN1_Parity - give arg types
+.\include\parity_functions.h(6): warning:  #1295-D: Deprecated declaration DCAN2_Parity - give arg types
+.\include\parity_functions.h(8): warning:  #1295-D: Deprecated declaration DCAN3_Parity - give arg types
+.\include\parity_functions.h(10): warning:  #1295-D: Deprecated declaration MIBADC2_Parity - give arg types
+.\include\parity_functions.h(12): warning:  #1295-D: Deprecated declaration MIBADC2_Parity - give arg types
+.\include\parity_functions.h(13): warning:  #1-D: last line of file ends without a newline
+.\include\can_protocol.h(9): warning:  #1-D: last line of file ends without a newline
+.\include\ccm.h(22): warning:  #1295-D: Deprecated declaration ccm_set_lockstep_mode - give arg types
+.\include\ccm.h(23): warning:  #1295-D: Deprecated declaration ccm_self_test - give arg types
+.\include\ccm.h(24): warning:  #1295-D: Deprecated declaration ccm_enable_selftest_error - give arg types
+.\include\ccm.h(25): warning:  #1295-D: Deprecated declaration ccm_enable_error - give arg types
+.\include\ccm.h(26): warning:  #1295-D: Deprecated declaration ccmErrorNotification - give arg types
+.\include\ccm.h(27): warning:  #1-D: last line of file ends without a newline
+source\sci_receive.c(186): warning:  #1-D: last line of file ends without a newline
+compiling self_test.c...
+.\include\self_test.h(6): warning:  #1-D: last line of file ends without a newline
+.\include\sci_print.h(19): warning:  #1295-D: Deprecated declaration boot_message - give arg types
+.\include\sci_print.h(22): warning:  #1-D: last line of file ends without a newline
+source\self_test.c(30): warning:  #1-D: last line of file ends without a newline
+compiling spi.c...
+compiling stc.c...
+source\stc.c(49): warning:  #223-D: function "print_line" declared implicitly
+source\stc.c(75): warning:  #2523-D: use of inline assembler is deprecated
+source\stc.c(76): warning:  #2523-D: use of inline assembler is deprecated
+source\stc.c(77): warning:  #2523-D: use of inline assembler is deprecated
+source\stc.c(82): warning:  #2523-D: use of inline assembler is deprecated
+source\stc.c(83): warning:  #2523-D: use of inline assembler is deprecated
+source\stc.c(84): warning:  #2523-D: use of inline assembler is deprecated
+source\stc.c(85): warning:  #2523-D: use of inline assembler is deprecated
+source\stc.c(98): warning:  #223-D: function "print_line" declared implicitly
+compiling sys_main.c...
+.\include\sci_print.h(19): warning:  #1295-D: Deprecated declaration boot_message - give arg types
+.\include\sci_print.h(22): warning:  #1-D: last line of file ends without a newline
+.\include\sci_receive.h(6): warning:  #1295-D: Deprecated declaration sci_receive_rotine - give arg types
+.\include\sci_receive.h(8): warning:  #1295-D: Deprecated declaration sci_receive_byte - give arg types
+.\include\sci_receive.h(15): warning:  #1-D: last line of file ends without a newline
+.\include\mac.h(5): warning:  #1295-D: Deprecated declaration macInit - give arg types
+.\include\mac.h(10): warning:  #1295-D: Deprecated declaration eth_dummy_send - give arg types
+.\include\mac.h(12): warning:  #1295-D: Deprecated declaration dump_mac_state - give arg types
+.\include\mac.h(20): warning:  #1-D: last line of file ends without a newline
+.\include\can_protocol.h(9): warning:  #1-D: last line of file ends without a newline
+.\include\debug.h(16): warning:  #1-D: last line of file ends without a newline
+source\sys_main.c(70): warning:  #177-D: variable "ch_count" was declared but never referenced
+source\sys_main.c(71): warning:  #177-D: variable "id" was declared but never referenced
+source\sys_main.c(72): warning:  #177-D: variable "value" was declared but never referenced
+compiling sys_phantom.c...
+compiling sys_startup.c...
+source\sys_startup.c(205): warning:  #223-D: function "restoreAfterSelfTest" declared implicitly
+source\sys_startup.c(493): warning:  #223-D: function "sciInit" declared implicitly
+source\sys_startup.c(494): warning:  #223-D: function "print" declared implicitly
+source\sys_startup.c(495): warning:  #223-D: function "hprint" declared implicitly
+compiling system.c...
+source\system.c(26): warning:  #1295-D: Deprecated declaration _coreDisableFlashEcc_ - give arg types
+source\system.c(27): warning:  #1295-D: Deprecated declaration _coreEnableFlashEcc_ - give arg types
+assembling sys_core.asm...
+source\sys_core.asm(34): warning: A1786W: This instruction using SP is deprecated and may not work in future architecture revisions
+assembling sys_intvecs.asm...
+assembling sys_memory.asm...
+assembling sys_mpu.asm...
+assembling sys_pmu.asm...
+linking...
+Program Size: Code=29552 RO-data=372 RW-data=1060 ZI-data=6876  
+FromELF: creating hex file...
+"RM48x.axf" - 0 Error(s), 104 Warning(s).
+Rebuild target 'Target 1'
+assembling startup_RM48.s...
+compiling adc.c...
+compiling can.c...
+.\include\debug.h(16): warning:  #1-D: last line of file ends without a newline
+.\include\sci_print.h(19): warning:  #1295-D: Deprecated declaration boot_message - give arg types
+.\include\sci_print.h(22): warning:  #1-D: last line of file ends without a newline
+.\include\can_protocol.h(9): warning:  #1-D: last line of file ends without a newline
+compiling can_protocol.c...
+.\include\can_protocol.h(9): warning:  #1-D: last line of file ends without a newline
+.\include\debug.h(16): warning:  #1-D: last line of file ends without a newline
+.\include\sci_print.h(19): warning:  #1295-D: Deprecated declaration boot_message - give arg types
+.\include\sci_print.h(22): warning:  #1-D: last line of file ends without a newline
+compiling dcc.c...
+compiling debug.c...
+.\include\sci_print.h(19): warning:  #1295-D: Deprecated declaration boot_message - give arg types
+.\include\sci_print.h(22): warning:  #1-D: last line of file ends without a newline
+.\include\sci_receive.h(6): warning:  #1295-D: Deprecated declaration sci_receive_rotine - give arg types
+.\include\sci_receive.h(8): warning:  #1295-D: Deprecated declaration sci_receive_byte - give arg types
+.\include\sci_receive.h(15): warning:  #1-D: last line of file ends without a newline
+.\include\debug.h(16): warning:  #1-D: last line of file ends without a newline
+source\debug.c(50): warning:  #1-D: last line of file ends without a newline
+compiling dmm.c...
+compiling emac.c...
+compiling emif.c...
+compiling errors.c...
+.\include\errors.h(4): warning:  #1295-D: Deprecated declaration abortError - give arg types
+.\include\errors.h(13): warning:  #1-D: last line of file ends without a newline
+.\include\sci_print.h(19): warning:  #1295-D: Deprecated declaration boot_message - give arg types
+.\include\sci_print.h(22): warning:  #1-D: last line of file ends without a newline
+source\errors.c(60): warning:  #1-D: last line of file ends without a newline
+compiling esm.c...
+.\include\sci_print.h(19): warning:  #1295-D: Deprecated declaration boot_message - give arg types
+.\include\sci_print.h(22): warning:  #1-D: last line of file ends without a newline
+compiling gio.c...
+compiling het.c...
+compiling i2c.c...
+compiling lin.c...
+compiling mac.c...
+.\include\mac.h(5): warning:  #1295-D: Deprecated declaration macInit - give arg types
+.\include\mac.h(10): warning:  #1295-D: Deprecated declaration eth_dummy_send - give arg types
+.\include\mac.h(12): warning:  #1295-D: Deprecated declaration dump_mac_state - give arg types
+.\include\mac.h(20): warning:  #1-D: last line of file ends without a newline
+.\include\sci_print.h(19): warning:  #1295-D: Deprecated declaration boot_message - give arg types
+.\include\sci_print.h(22): warning:  #1-D: last line of file ends without a newline
+.\include\sci_receive.h(6): warning:  #1295-D: Deprecated declaration sci_receive_rotine - give arg types
+.\include\sci_receive.h(8): warning:  #1295-D: Deprecated declaration sci_receive_byte - give arg types
+.\include\sci_receive.h(15): warning:  #1-D: last line of file ends without a newline
+.\include\debug.h(16): warning:  #1-D: last line of file ends without a newline
+source\mac.c(319): warning:  #1-D: last line of file ends without a newline
+compiling mdio.c...
+compiling mibspi.c...
+compiling parity_functions.c...
+.\include\debug.h(16): warning:  #1-D: last line of file ends without a newline
+.\include\parity_functions.h(4): warning:  #1295-D: Deprecated declaration DCAN1_Parity - give arg types
+.\include\parity_functions.h(6): warning:  #1295-D: Deprecated declaration DCAN2_Parity - give arg types
+.\include\parity_functions.h(8): warning:  #1295-D: Deprecated declaration DCAN3_Parity - give arg types
+.\include\parity_functions.h(10): warning:  #1295-D: Deprecated declaration MIBADC2_Parity - give arg types
+.\include\parity_functions.h(12): warning:  #1295-D: Deprecated declaration MIBADC2_Parity - give arg types
+.\include\parity_functions.h(13): warning:  #1-D: last line of file ends without a newline
+compiling phy_dp83640.c...
+compiling pinmux.c...
+source\pinmux.c(109): warning:  #61-D: integer operation result is out of range
+compiling pom.c...
+compiling rti.c...
+compiling rtp.c...
+compiling sci.c...
+compiling sci_print.c...
+.\include\sci_print.h(19): warning:  #1295-D: Deprecated declaration boot_message - give arg types
+.\include\sci_print.h(22): warning:  #1-D: last line of file ends without a newline
+source\sci_print.c(60): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+source\sci_print.c(61): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+source\sci_print.c(80): warning:  #1-D: last line of file ends without a newline
+source\sci_print.c(35): warning: C3488E: write to variable 'text' with offset out of bounds
+compiling sci_receive.c...
+.\include\sci_receive.h(6): warning:  #1295-D: Deprecated declaration sci_receive_rotine - give arg types
+.\include\sci_receive.h(8): warning:  #1295-D: Deprecated declaration sci_receive_byte - give arg types
+.\include\sci_receive.h(15): warning:  #1-D: last line of file ends without a newline
+.\include\sci_print.h(19): warning:  #1295-D: Deprecated declaration boot_message - give arg types
+.\include\sci_print.h(22): warning:  #1-D: last line of file ends without a newline
+.\include\mac.h(5): warning:  #1295-D: Deprecated declaration macInit - give arg types
+.\include\mac.h(10): warning:  #1295-D: Deprecated declaration eth_dummy_send - give arg types
+.\include\mac.h(12): warning:  #1295-D: Deprecated declaration dump_mac_state - give arg types
+.\include\mac.h(20): warning:  #1-D: last line of file ends without a newline
+.\include\parity_functions.h(4): warning:  #1295-D: Deprecated declaration DCAN1_Parity - give arg types
+.\include\parity_functions.h(6): warning:  #1295-D: Deprecated declaration DCAN2_Parity - give arg types
+.\include\parity_functions.h(8): warning:  #1295-D: Deprecated declaration DCAN3_Parity - give arg types
+.\include\parity_functions.h(10): warning:  #1295-D: Deprecated declaration MIBADC2_Parity - give arg types
+.\include\parity_functions.h(12): warning:  #1295-D: Deprecated declaration MIBADC2_Parity - give arg types
+.\include\parity_functions.h(13): warning:  #1-D: last line of file ends without a newline
+.\include\can_protocol.h(9): warning:  #1-D: last line of file ends without a newline
+.\include\ccm.h(22): warning:  #1295-D: Deprecated declaration ccm_set_lockstep_mode - give arg types
+.\include\ccm.h(23): warning:  #1295-D: Deprecated declaration ccm_self_test - give arg types
+.\include\ccm.h(24): warning:  #1295-D: Deprecated declaration ccm_enable_selftest_error - give arg types
+.\include\ccm.h(25): warning:  #1295-D: Deprecated declaration ccm_enable_error - give arg types
+.\include\ccm.h(26): warning:  #1295-D: Deprecated declaration ccmErrorNotification - give arg types
+.\include\ccm.h(27): warning:  #1-D: last line of file ends without a newline
+source\sci_receive.c(186): warning:  #1-D: last line of file ends without a newline
+compiling self_test.c...
+.\include\self_test.h(6): warning:  #1-D: last line of file ends without a newline
+.\include\sci_print.h(19): warning:  #1295-D: Deprecated declaration boot_message - give arg types
+.\include\sci_print.h(22): warning:  #1-D: last line of file ends without a newline
+source\self_test.c(30): warning:  #1-D: last line of file ends without a newline
+compiling spi.c...
+compiling stc.c...
+source\stc.c(49): warning:  #223-D: function "print_line" declared implicitly
+source\stc.c(75): warning:  #2523-D: use of inline assembler is deprecated
+source\stc.c(76): warning:  #2523-D: use of inline assembler is deprecated
+source\stc.c(77): warning:  #2523-D: use of inline assembler is deprecated
+source\stc.c(82): warning:  #2523-D: use of inline assembler is deprecated
+source\stc.c(83): warning:  #2523-D: use of inline assembler is deprecated
+source\stc.c(84): warning:  #2523-D: use of inline assembler is deprecated
+source\stc.c(85): warning:  #2523-D: use of inline assembler is deprecated
+source\stc.c(98): warning:  #223-D: function "print_line" declared implicitly
+compiling sys_main.c...
+.\include\sci_print.h(19): warning:  #1295-D: Deprecated declaration boot_message - give arg types
+.\include\sci_print.h(22): warning:  #1-D: last line of file ends without a newline
+.\include\sci_receive.h(6): warning:  #1295-D: Deprecated declaration sci_receive_rotine - give arg types
+.\include\sci_receive.h(8): warning:  #1295-D: Deprecated declaration sci_receive_byte - give arg types
+.\include\sci_receive.h(15): warning:  #1-D: last line of file ends without a newline
+.\include\mac.h(5): warning:  #1295-D: Deprecated declaration macInit - give arg types
+.\include\mac.h(10): warning:  #1295-D: Deprecated declaration eth_dummy_send - give arg types
+.\include\mac.h(12): warning:  #1295-D: Deprecated declaration dump_mac_state - give arg types
+.\include\mac.h(20): warning:  #1-D: last line of file ends without a newline
+.\include\can_protocol.h(9): warning:  #1-D: last line of file ends without a newline
+.\include\debug.h(16): warning:  #1-D: last line of file ends without a newline
+source\sys_main.c(70): warning:  #177-D: variable "ch_count" was declared but never referenced
+source\sys_main.c(71): warning:  #177-D: variable "id" was declared but never referenced
+source\sys_main.c(72): warning:  #177-D: variable "value" was declared but never referenced
+compiling sys_phantom.c...
+compiling sys_startup.c...
+source\sys_startup.c(205): warning:  #223-D: function "restoreAfterSelfTest" declared implicitly
+source\sys_startup.c(493): warning:  #223-D: function "sciInit" declared implicitly
+source\sys_startup.c(494): warning:  #223-D: function "print" declared implicitly
+source\sys_startup.c(495): warning:  #223-D: function "hprint" declared implicitly
+compiling system.c...
+source\system.c(26): warning:  #1295-D: Deprecated declaration _coreDisableFlashEcc_ - give arg types
+source\system.c(27): warning:  #1295-D: Deprecated declaration _coreEnableFlashEcc_ - give arg types
+assembling sys_core.asm...
+source\sys_core.asm(34): warning: A1786W: This instruction using SP is deprecated and may not work in future architecture revisions
+assembling sys_intvecs.asm...
+assembling sys_memory.asm...
+assembling sys_mpu.asm...
+assembling sys_pmu.asm...
+linking...
+Program Size: Code=29552 RO-data=372 RW-data=1060 ZI-data=6876  
+FromELF: creating hex file...
+".\debug\RM48x.axf" - 0 Error(s), 104 Warning(s).
+Rebuild target 'Target 1'
+assembling startup_RM48.s...
+compiling adc.c...
+compiling can.c...
+.\include\debug.h(16): warning:  #1-D: last line of file ends without a newline
+.\include\sci_print.h(19): warning:  #1295-D: Deprecated declaration boot_message - give arg types
+.\include\sci_print.h(22): warning:  #1-D: last line of file ends without a newline
+.\include\can_protocol.h(9): warning:  #1-D: last line of file ends without a newline
+compiling can_protocol.c...
+.\include\can_protocol.h(9): warning:  #1-D: last line of file ends without a newline
+.\include\debug.h(16): warning:  #1-D: last line of file ends without a newline
+.\include\sci_print.h(19): warning:  #1295-D: Deprecated declaration boot_message - give arg types
+.\include\sci_print.h(22): warning:  #1-D: last line of file ends without a newline
+compiling dcc.c...
+compiling debug.c...
+.\include\sci_print.h(19): warning:  #1295-D: Deprecated declaration boot_message - give arg types
+.\include\sci_print.h(22): warning:  #1-D: last line of file ends without a newline
+.\include\sci_receive.h(6): warning:  #1295-D: Deprecated declaration sci_receive_rotine - give arg types
+.\include\sci_receive.h(8): warning:  #1295-D: Deprecated declaration sci_receive_byte - give arg types
+.\include\sci_receive.h(15): warning:  #1-D: last line of file ends without a newline
+.\include\debug.h(16): warning:  #1-D: last line of file ends without a newline
+source\debug.c(50): warning:  #1-D: last line of file ends without a newline
+compiling dmm.c...
+compiling emac.c...
+compiling emif.c...
+compiling errors.c...
+.\include\errors.h(4): warning:  #1295-D: Deprecated declaration abortError - give arg types
+.\include\errors.h(13): warning:  #1-D: last line of file ends without a newline
+.\include\sci_print.h(19): warning:  #1295-D: Deprecated declaration boot_message - give arg types
+.\include\sci_print.h(22): warning:  #1-D: last line of file ends without a newline
+source\errors.c(60): warning:  #1-D: last line of file ends without a newline
+compiling esm.c...
+.\include\sci_print.h(19): warning:  #1295-D: Deprecated declaration boot_message - give arg types
+.\include\sci_print.h(22): warning:  #1-D: last line of file ends without a newline
+compiling gio.c...
+compiling het.c...
+compiling i2c.c...
+compiling lin.c...
+compiling mac.c...
+.\include\mac.h(5): warning:  #1295-D: Deprecated declaration macInit - give arg types
+.\include\mac.h(10): warning:  #1295-D: Deprecated declaration eth_dummy_send - give arg types
+.\include\mac.h(12): warning:  #1295-D: Deprecated declaration dump_mac_state - give arg types
+.\include\mac.h(20): warning:  #1-D: last line of file ends without a newline
+.\include\sci_print.h(19): warning:  #1295-D: Deprecated declaration boot_message - give arg types
+.\include\sci_print.h(22): warning:  #1-D: last line of file ends without a newline
+.\include\sci_receive.h(6): warning:  #1295-D: Deprecated declaration sci_receive_rotine - give arg types
+.\include\sci_receive.h(8): warning:  #1295-D: Deprecated declaration sci_receive_byte - give arg types
+.\include\sci_receive.h(15): warning:  #1-D: last line of file ends without a newline
+.\include\debug.h(16): warning:  #1-D: last line of file ends without a newline
+source\mac.c(319): warning:  #1-D: last line of file ends without a newline
+compiling mdio.c...
+compiling mibspi.c...
+compiling parity_functions.c...
+.\include\debug.h(16): warning:  #1-D: last line of file ends without a newline
+.\include\parity_functions.h(4): warning:  #1295-D: Deprecated declaration DCAN1_Parity - give arg types
+.\include\parity_functions.h(6): warning:  #1295-D: Deprecated declaration DCAN2_Parity - give arg types
+.\include\parity_functions.h(8): warning:  #1295-D: Deprecated declaration DCAN3_Parity - give arg types
+.\include\parity_functions.h(10): warning:  #1295-D: Deprecated declaration MIBADC2_Parity - give arg types
+.\include\parity_functions.h(12): warning:  #1295-D: Deprecated declaration MIBADC2_Parity - give arg types
+.\include\parity_functions.h(13): warning:  #1-D: last line of file ends without a newline
+compiling phy_dp83640.c...
+compiling pinmux.c...
+source\pinmux.c(109): warning:  #61-D: integer operation result is out of range
+compiling pom.c...
+compiling rti.c...
+compiling rtp.c...
+compiling sci.c...
+compiling sci_print.c...
+.\include\sci_print.h(19): warning:  #1295-D: Deprecated declaration boot_message - give arg types
+.\include\sci_print.h(22): warning:  #1-D: last line of file ends without a newline
+source\sci_print.c(60): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+source\sci_print.c(61): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+source\sci_print.c(80): warning:  #1-D: last line of file ends without a newline
+source\sci_print.c(35): warning: C3488E: write to variable 'text' with offset out of bounds
+compiling sci_receive.c...
+.\include\sci_receive.h(6): warning:  #1295-D: Deprecated declaration sci_receive_rotine - give arg types
+.\include\sci_receive.h(8): warning:  #1295-D: Deprecated declaration sci_receive_byte - give arg types
+.\include\sci_receive.h(15): warning:  #1-D: last line of file ends without a newline
+.\include\sci_print.h(19): warning:  #1295-D: Deprecated declaration boot_message - give arg types
+.\include\sci_print.h(22): warning:  #1-D: last line of file ends without a newline
+.\include\mac.h(5): warning:  #1295-D: Deprecated declaration macInit - give arg types
+.\include\mac.h(10): warning:  #1295-D: Deprecated declaration eth_dummy_send - give arg types
+.\include\mac.h(12): warning:  #1295-D: Deprecated declaration dump_mac_state - give arg types
+.\include\mac.h(20): warning:  #1-D: last line of file ends without a newline
+.\include\parity_functions.h(4): warning:  #1295-D: Deprecated declaration DCAN1_Parity - give arg types
+.\include\parity_functions.h(6): warning:  #1295-D: Deprecated declaration DCAN2_Parity - give arg types
+.\include\parity_functions.h(8): warning:  #1295-D: Deprecated declaration DCAN3_Parity - give arg types
+.\include\parity_functions.h(10): warning:  #1295-D: Deprecated declaration MIBADC2_Parity - give arg types
+.\include\parity_functions.h(12): warning:  #1295-D: Deprecated declaration MIBADC2_Parity - give arg types
+.\include\parity_functions.h(13): warning:  #1-D: last line of file ends without a newline
+.\include\can_protocol.h(9): warning:  #1-D: last line of file ends without a newline
+.\include\ccm.h(22): warning:  #1295-D: Deprecated declaration ccm_set_lockstep_mode - give arg types
+.\include\ccm.h(23): warning:  #1295-D: Deprecated declaration ccm_self_test - give arg types
+.\include\ccm.h(24): warning:  #1295-D: Deprecated declaration ccm_enable_selftest_error - give arg types
+.\include\ccm.h(25): warning:  #1295-D: Deprecated declaration ccm_enable_error - give arg types
+.\include\ccm.h(26): warning:  #1295-D: Deprecated declaration ccmErrorNotification - give arg types
+.\include\ccm.h(27): warning:  #1-D: last line of file ends without a newline
+source\sci_receive.c(186): warning:  #1-D: last line of file ends without a newline
+compiling self_test.c...
+.\include\self_test.h(6): warning:  #1-D: last line of file ends without a newline
+.\include\sci_print.h(19): warning:  #1295-D: Deprecated declaration boot_message - give arg types
+.\include\sci_print.h(22): warning:  #1-D: last line of file ends without a newline
+source\self_test.c(30): warning:  #1-D: last line of file ends without a newline
+compiling spi.c...
+compiling stc.c...
+source\stc.c(49): warning:  #223-D: function "print_line" declared implicitly
+source\stc.c(75): warning:  #2523-D: use of inline assembler is deprecated
+source\stc.c(76): warning:  #2523-D: use of inline assembler is deprecated
+source\stc.c(77): warning:  #2523-D: use of inline assembler is deprecated
+source\stc.c(82): warning:  #2523-D: use of inline assembler is deprecated
+source\stc.c(83): warning:  #2523-D: use of inline assembler is deprecated
+source\stc.c(84): warning:  #2523-D: use of inline assembler is deprecated
+source\stc.c(85): warning:  #2523-D: use of inline assembler is deprecated
+source\stc.c(98): warning:  #223-D: function "print_line" declared implicitly
+compiling sys_main.c...
+.\include\sci_print.h(19): warning:  #1295-D: Deprecated declaration boot_message - give arg types
+.\include\sci_print.h(22): warning:  #1-D: last line of file ends without a newline
+.\include\sci_receive.h(6): warning:  #1295-D: Deprecated declaration sci_receive_rotine - give arg types
+.\include\sci_receive.h(8): warning:  #1295-D: Deprecated declaration sci_receive_byte - give arg types
+.\include\sci_receive.h(15): warning:  #1-D: last line of file ends without a newline
+.\include\mac.h(5): warning:  #1295-D: Deprecated declaration macInit - give arg types
+.\include\mac.h(10): warning:  #1295-D: Deprecated declaration eth_dummy_send - give arg types
+.\include\mac.h(12): warning:  #1295-D: Deprecated declaration dump_mac_state - give arg types
+.\include\mac.h(20): warning:  #1-D: last line of file ends without a newline
+.\include\can_protocol.h(9): warning:  #1-D: last line of file ends without a newline
+.\include\debug.h(16): warning:  #1-D: last line of file ends without a newline
+source\sys_main.c(70): warning:  #177-D: variable "ch_count" was declared but never referenced
+source\sys_main.c(71): warning:  #177-D: variable "id" was declared but never referenced
+source\sys_main.c(72): warning:  #177-D: variable "value" was declared but never referenced
+compiling sys_phantom.c...
+compiling sys_startup.c...
+source\sys_startup.c(205): warning:  #223-D: function "restoreAfterSelfTest" declared implicitly
+source\sys_startup.c(493): warning:  #223-D: function "sciInit" declared implicitly
+source\sys_startup.c(494): warning:  #223-D: function "print" declared implicitly
+source\sys_startup.c(495): warning:  #223-D: function "hprint" declared implicitly
+compiling system.c...
+source\system.c(26): warning:  #1295-D: Deprecated declaration _coreDisableFlashEcc_ - give arg types
+source\system.c(27): warning:  #1295-D: Deprecated declaration _coreEnableFlashEcc_ - give arg types
+assembling sys_core.asm...
+source\sys_core.asm(34): warning: A1786W: This instruction using SP is deprecated and may not work in future architecture revisions
+assembling sys_intvecs.asm...
+assembling sys_memory.asm...
+assembling sys_mpu.asm...
+assembling sys_pmu.asm...
+linking...
+Program Size: Code=29552 RO-data=372 RW-data=1060 ZI-data=6876  
+FromELF: creating hex file...
+User command #1: c:\Keil\ARM\BIN40\fromelf.exe --bin --output RM48x.bin RM48x.axf
+".\debug\RM48x.axf" - 0 Error(s), 104 Warning(s).

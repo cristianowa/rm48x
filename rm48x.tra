@@ -1,0 +1,56 @@
+*** Creating Trace Output File 'RM48x.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup_rm48.o"'
+### List of Objects: adding '"adc.o"'
+### List of Objects: adding '"can.o"'
+### List of Objects: adding '"can_protocol.o"'
+### List of Objects: adding '"dcc.o"'
+### List of Objects: adding '"debug.o"'
+### List of Objects: adding '"dmm.o"'
+### List of Objects: adding '"emac.o"'
+### List of Objects: adding '"emif.o"'
+### List of Objects: adding '"errors.o"'
+### List of Objects: adding '"esm.o"'
+### List of Objects: adding '"gio.o"'
+### List of Objects: adding '"het.o"'
+### List of Objects: adding '"i2c.o"'
+### List of Objects: adding '"lin.o"'
+### List of Objects: adding '"mac.o"'
+### List of Objects: adding '"mdio.o"'
+### List of Objects: adding '"mibspi.o"'
+### List of Objects: adding '"parity_functions.o"'
+### List of Objects: adding '"phy_dp83640.o"'
+### List of Objects: adding '"pinmux.o"'
+### List of Objects: adding '"pom.o"'
+### List of Objects: adding '"rti.o"'
+### List of Objects: adding '"rtp.o"'
+### List of Objects: adding '"sci.o"'
+### List of Objects: adding '"sci_print.o"'
+### List of Objects: adding '"sci_receive.o"'
+### List of Objects: adding '"self_test.o"'
+### List of Objects: adding '"spi.o"'
+### List of Objects: adding '"stc.o"'
+### List of Objects: adding '"sys_main.o"'
+### List of Objects: adding '"sys_phantom.o"'
+### List of Objects: adding '"sys_startup.o"'
+### List of Objects: adding '"system.o"'
+### List of Objects: adding '"sys_core.o"'
+### List of Objects: adding '"sys_intvecs.o"'
+### List of Objects: adding '"sys_memory.o"'
+### List of Objects: adding '"sys_mpu.o"'
+### List of Objects: adding '"sys_pmu.o"'
+### ADS-LD Command completed:
+--cpu Cortex-R4F "startup_rm48.o" "adc.o" "can.o" "can_protocol.o" "dcc.o" "debug.o" "dmm.o" "emac.o" "emif.o" "errors.o" "esm.o" "gio.o" "het.o" "i2c.o" "lin.o" "mac.o" "mdio.o" "mibspi.o" "parity_functions.o" "phy_dp83640.o" "pinmux.o" "pom.o" "rti.o" "rtp.o" "sci.o" "sci_print.o" "sci_receive.o" "self_test.o" "spi.o" "stc.o" "sys_main.o" "sys_phantom.o" "sys_startup.o" "system.o" "sys_core.o" "sys_intvecs.o" "sys_memory.o" "sys_mpu.o" "sys_pmu.o" --ro-base 0x00000000 --entry 0x00000000 --rw-base 0x08000000 --strict --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\RM48x.map" -o "RM48x.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'RM48x.axf'
+### ADS-LD Command File: 'RM48x.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'RM48x.lnp', Handle=0x0000063C
+### Writing '.lnp' file
+### ADS-LD Command file 'RM48x.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
