@@ -1,0 +1,14 @@
+This project is the source code used in my Graduation Thesis.
+
+It uses the RM48x Hercules Safety Critical Microcontroller with the HalCoGen Software provided by Texas Instruments.
+
+There are branchs for each IDE used ( IAR, Keil and CCS). There are also a branch for FreeRTOS and other for LWIP.
+
+The Keil and LWIP branch are not functional.
+
+Since I don't have the development board anymore, the project is stopped. Please send any patch if you find a mistake.
+
+You can also read my Thesis ( in portuguese ) in this link :
+
+http://www.lume.ufrgs.br/bitstream/handle/10183/55018/000855828.pdf?sequence=1
+
